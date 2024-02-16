@@ -1,33 +1,207 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body::-webkit-scrollbar {
+  display: none;
+}
+/* ................................................... */
+
+.linear-class{
+  transition: 0.2s ease-in !important;
+}
+/* ......................... */
+
+.slick-initialized{
+  position: relative !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.slick-dots{
+  cursor: pointer !important;
+  position: absolute !important;
+  top: 200px !important;
+  right:80px;
+
+}
+
+/* ........................................... */
+.rec.rec-arrow {
+  border-radius: 0;
+}
+
+.rec.rec-arrow:hover {
+  border-radius: 50%;
+}
+
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+
+.rec-carousel-item:focus {
+  outline: none;
+  box-shadow: inset 0 0 1px 1px red;
+}
+
+/* ........................... */
+#section1 {
+  height: 600px;
+  background-color: pink;
+}
+
+#section2 {
+  height: 600px;
+  background-color: yellow;
+}
+
+/* .................... */
+.image_change{
+  transition: 0.5s linear;
+
+}
+
+.image_change:hover{
+  background-image: url('/png/general.png'); 
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 180px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+
+/* .............................. */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-content {
+  background: black;
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 10000;
+}
+/* ............................... */
+
+
+.slick-dots {
+  width: 100% !important;
+  font-size: 33px;
+}
+
+.slider-flex-div {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.border-div {
+  border-top-right-radius: 70px;
+  border-bottom-right-radius: 70px;
+  border-top-left-radius: 20px;
+}
+.nav-fix {
+  position: fixed;
+  top: 0;
+  margin-left: 25px;
+  z-index: 10;
+}
+
+.bg-hover {
+  background: linear-gradient(270deg, #212121 0%, #ef233c 100.04%);
+}
+
+.red-border-circle {
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.div-border {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.red-div-full {
+  border-radius: 50%;
+  width: 100%;
+  height: 33px;
+}
+
+.hide-large-screen{
+  display: none;
+}
+.show-large-screen{
+display: block;
+}
+
+.hide-div-2{
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .slider-flex-div {
+    display: grid !important;
+    justify-content: space-between !important;
+  }
+  .hide-large-screen{
+    display: block;
+  }
+  .show-large-screen{
+    display: none;
+    }
+}
+
+@media (max-width: 1283px) {
+  .div-hide {
+    display: none;
+  }
+  .image-hide{
+    display: none;
+  }
+}
+@media (max-width: 1023px) {
+  .nav-fix {
+    margin-left: 24px;
+  }
+  .hide-div-2{
+    display: block;
+  }
+  .show-div-2{
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .nav-fix {
+    margin-left: 13px;
+  }
+  .div-setting-sm {
+    display: none;
+  }
+}
+@media (max-width: 515px) {
+  .nav-fix {
+    margin-left: 9px;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@media (max-width: 370px) {
+  .nav-fix {
+    margin-left: 7px;
   }
 }
