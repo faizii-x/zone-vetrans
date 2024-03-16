@@ -3,7 +3,7 @@ import React from "react";
 function HomeCard() {
   return (
     <>
-      <h2 className="text-[30px] font-bold mt-8 w-[90%] mx-auto">
+      <h2 className="text-[30px] font-bold mt-8 w-[90%] container mx-auto">
         Our Services
       </h2>
               

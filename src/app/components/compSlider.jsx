@@ -10,11 +10,11 @@ function CompSlider() {
 
   const handleChange = () => {
     if (clickCheck === 0) {
-      setCustomSlider("left-[900px] linear-class");
+      setCustomSlider("left-[1400px] linear-class");
       setClickCheck(1);
     } else if (clickCheck === 1) {
-      setSecondCall("left-[1000px] linear-class");
-      setCustomSlider("left-[900px] linear-class");
+      setSecondCall("left-[1400px] linear-class");
+      setCustomSlider("left-[1400px] linear-class");
       setClickCheck(0);
     }
   };

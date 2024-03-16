@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import Navbar from "./navbar";
 import CostModal from "./costModal";
+import Quantity10 from "../../../public/png/quantity10.png";
+import Image from "next/image";
 
 function QuantityImg() {
   const [serviceModal, setServiceModal] = useState(false);
@@ -49,6 +51,26 @@ function QuantityImg() {
         </button>
       </div>
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
+      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-6">
+        Service Area
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-[90%] mx-auto">
+        <div className="col-span-2 self-center">
+          <p className="text-[22px] font-poppins font-normal">
+            An accurate residential estimate serves as a basis for the entire
+            construction cash flows. For planning the construction of
+            residential buildings, a proper cost estimate gives the idea of the
+            potential costs that helps calculate markups, allocate budget,
+            obtain financing, quote prices to the clients, and negotiate with
+            contractors and subcontractors through our Residential estimating
+            services.
+          </p>
+        </div>
+        <div className="col-span-1 md:col-span-2 lg:col-span-1 self-center">
+          <Image className="mx-auto" src={Quantity10} />
+        </div>
+      </div>
+
     </>
   );
 }

@@ -45,7 +45,12 @@ function Banner() {
               </a>
             </p>
           </div>
-          <div>
+
+
+          <div className="col-span-1 md:col-span-2 lg:col-span-1">
+
+
+      
             <div onClick={openModal} className="w-[230px] h-[60px] bg-red rounded-xl mt-6 flex justify-center items-center mx-auto cursor-pointer">
               <button className="text-[18px] text-white font-bold">Upload Plans</button>
             </div>
@@ -55,6 +60,10 @@ function Banner() {
             </div>
           </div>
         </div>
+
+
+
+
       </div>
       {hello && <Modal closeModal={closeModal} />}
 

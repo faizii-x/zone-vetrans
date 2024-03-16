@@ -59,9 +59,13 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="md:flex grid justify-center mt-4">
+        <div className="sm:flex grid justify-center  mt-4">
+          <div>
           <p>Copyright © 2023 Veterans Estimators Designed By </p>
-          <Image className="cursor-pointer " src={Zone} />
+          </div>
+          <div>
+          <Image className="cursor-pointer sm:block mx-auto " src={Zone} />
+          </div>
         </div>
       </div>
     </>

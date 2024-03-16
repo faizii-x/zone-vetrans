@@ -41,7 +41,7 @@ function Navbar() {
   return (
     <>
       <div className="bg-[#212121] w-[96%] rounded-full mx-auto mt-6 p-2 nav-fix">
-        <div className="flex justify-center gap-12">
+        <div className="flex justify-between gap-12 ml-6 mr-6">
           <Link href="/">
             <Image
               className="cursor-pointer mx-auto w-[100%] h-[70px] "
@@ -62,7 +62,7 @@ function Navbar() {
               </Link>
 
               <Link href="/services">
-                <h2 className="text-[16px] text-white font-poppins font-normal ">
+                <h2 className="text-[16px] text-white font-poppins font-normal">
                   {pathname === "/services" ? (
                     <div className=" text-red">Services</div>
                   ) : (
@@ -104,18 +104,18 @@ function Navbar() {
 
                 {isHovered && (
                   <div className=" absolute bg-hover rounded-md shadow-lg p-8 mt-2">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 w-[880px] divide-x">
-                      <div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 w-[880px] ">
+                      
                         {filterLinks().map((x) => (
                           <>
-                            <Link href={x.link}>
-                              <h2 className="text-[16px] text-white font-normal font-poppins mt-2 cursor-pointer hover:text-black hover:font-bold">
+                            <Link href={x.link}>    
+                              <h2 className=" text-[16px] text-white font-normal font-poppins mt-2 cursor-pointer hover:text-black hover:font-bold">
                                 {x.title}
                               </h2>
                             </Link>
                           </>
                         ))}
-                      </div>
+                     
                     </div>
                   </div>
                 )}
@@ -205,11 +205,13 @@ function Navbar() {
               <div className=" absolute w-[230px] h-auto bg-hover rounded-md ml-2 p-4 ">
                 {filterLinks().map((x) => (
                   <>
+                
                     <Link href={x.link}>
-                      <h2 className=" text-[16px] text-white font-medium font-poppins  cursor-pointer  hover:font-bold">
+                      <h2 className=" text-[16px] text-white font-medium font-poppins cursor-pointer hover:font-bold">
                         {x.title}
                       </h2>
                     </Link>
+                  
                   </>
                 ))}
               </div>

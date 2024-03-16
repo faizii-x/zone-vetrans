@@ -9,14 +9,14 @@ function Contactdiv() {
     <>
       <div className="lg:w-[70%] w-full lg:p-0 p-6 mx-auto">
         <div className="lg:flex grid justify-between gap-6 mt-[160px] bg-blacks rounded-lg relative min-h-[470px]">
-          <div className="bg-white border-div mx-auto mt-12">
+          <div className="bg-white w-full text-center border-div mx-auto mt-12">
             <p className="text-[32px] font-poppins font-bold mt-6">
               Get in Touch with us{" "}
             </p>
             <p className="text-[18px] font-poppins">
               Let us know how we can help{" "}
             </p>
-
+        
             <input
               id="name"
               type="text"
@@ -46,7 +46,7 @@ function Contactdiv() {
               placeholder="Message"
             />
 
-            <div className="mb-4 w-[80%] h-[50px] text-[18px] cursor-pointer rounded-md font-medium  bg-black text-white flex justify-center items-center mt-6">
+            <div className="mb-4 w-[80%] h-[50px] text-[18px] cursor-pointer rounded-md font-medium  bg-black text-white flex justify-center mx-auto items-center mt-6">
               <button
                 // disabled={disableButton}
                 // onClick={onFormSubmit}
@@ -59,7 +59,7 @@ function Contactdiv() {
 
           <div className="self-center mr-[70px]">
             <div className="flex justify-start gap-4">
-              <div className="mx-auto">
+              {/* <div className="mx-auto">
                 <a
                   className=""
                   href="tel:+1 917 300 1079"
@@ -79,7 +79,7 @@ function Contactdiv() {
                     src={Contactmsg}
                   />
                 </a>
-              </div>
+              </div> */}
               <Image className="mx-auto" src={Big} />
             </div>
           </div>

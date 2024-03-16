@@ -15,7 +15,7 @@ function TradeMap() {
     <h1 className="text-[24px] font-bold font-poppins">Our Trades</h1>
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 container mx-auto mt-5">
       <div className="col-span-1">
-        {TRADES_MAP.slice(0, showMore ? TRADES_MAP.length : 9).map(
+        {TRADES_MAP.slice(0, showMore ? TRADES_MAP.length : 7).map(
           (item, index) => (
             <div key={index} className="mb-2">
               <h3 className="border border-black mb-2 rounded-full font-bold flex justify-center items-center w-[60%] p-2 cursor-pointer">

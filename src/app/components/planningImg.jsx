@@ -20,7 +20,7 @@ function PlanningImg() {
   return (
     <>
       <div
-        className=" max-w-full h-auto bg-cover bg-center p-4 "
+        className=" max-w-full h-auto bg-cover bg-center "
         style={{ backgroundImage: `url(${"/png/takeoffbg.png"})` }}
       >
         <Navbar />

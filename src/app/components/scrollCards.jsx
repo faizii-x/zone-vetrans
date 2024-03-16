@@ -48,8 +48,6 @@ function ScrollCards() {
   return (
     <>
       <div className="bg-[#000000] p-16 mt-8">
-       
-
         <div>
           <Slider {...settings}>
             <div className=" mt-8">

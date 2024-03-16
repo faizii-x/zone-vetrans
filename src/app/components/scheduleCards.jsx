@@ -5,10 +5,10 @@ import Image from "next/image";
 function ScheduleCards() {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-[120px] w-[60%] container mx-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-[120px] lg:w-[60%] w-[90%] container mx-auto">
         {SCHEDULE_CARDS.map((x) => (
           <>
-            <div className="bg-blacks rounded-lg p-6 relative mb-[100px]">
+            <div className="bg-blacks rounded-lg p-6 relative mb-[100px] mx-auto -z-10">
               <div className="bg-white rounded-full p-4 absolute -top-[100px] mx-auto left-[50%] -translate-x-[50%]">
                 <Image className="" src={x.img} />
               </div>

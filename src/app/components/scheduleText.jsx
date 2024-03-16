@@ -10,7 +10,7 @@ function ScheduleText() {
       <h2 className="w-[90%] mx-auto text-[30px] font-bold mt-6">
         Maintaining
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-2 w-[90%] container mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-2 w-[90%] mx-auto">
         <div className="col-span-2">
           <p className="text-[22px] font-poppins font-normal">
             While creating a project schedule, data is gathered from multiple
@@ -29,7 +29,7 @@ function ScheduleText() {
       </div>
       {/* ................................. */}
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 mt-2 w-[90%] container mx-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 mt-2 w-[90%] mx-auto">
         <div className="col-span-1">
           <h3 className="text-[30px] font-bold mt-6">Scheduling Software</h3>
           <p className="text-[22px] font-poppins font-normal">
