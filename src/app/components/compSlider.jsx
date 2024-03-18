@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import Log from "../../../public/png/log.png";
+import Log from "../../../public/png/Log.png";
 
 function CompSlider() {
   const [customSlider, setCustomSlider] = useState("left-16 linear-class");

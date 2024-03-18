@@ -15,7 +15,7 @@ function TradeMap() {
     <h1 className="text-[24px] font-bold font-poppins">Our Trades</h1>
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 container mx-auto mt-5">
       <div className="col-span-1">
-        {TRADES_MAP.slice(0, showMore ? TRADES_MAP.length : 7).map(
+        {/* {TRADES_MAP.slice(0, showMore ? TRADES_MAP.length : 7).map(
           (item, index) => (
             <div key={index} className="mb-2">
               <h3 className="border border-black mb-2 rounded-full font-bold flex justify-center items-center w-[60%] p-2 cursor-pointer">
@@ -66,7 +66,28 @@ function TradeMap() {
               </a>
             )}
           </button>
-        </div>
+        </div> */}
+
+
+<div  id="section111">
+  
+  <a href="#section222">Click Me to Smooth Scroll to Section 2 Below</a>
+  <p>Note: Remove the scroll-behavior property to remove smooth scrolling.</p>
+</div>
+
+<div  id="section222">
+  <h2>Section 2</h2>
+  <a href="#section111">Click Me to Smooth Scroll to Section 1 Above</a>
+  <p>Note: Remove the scroll-behavior property to remove smooth scrolling.</p>
+</div>
+
+
+
+
+
+
+
+
       </div>
       <div className="col-span-1">
         <TradeSlider />
