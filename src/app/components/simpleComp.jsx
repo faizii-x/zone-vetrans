@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Log from "../../../public/png/log.png";
+import Log from "../../../public/png/Log.png";
 
 function SimpleComp() {
   return (
