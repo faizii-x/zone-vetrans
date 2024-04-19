@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
+import Link from "next/link";
 
 export default function CostModal({ serviceModal, setServiceModal }) {
   return (
@@ -45,38 +46,41 @@ export default function CostModal({ serviceModal, setServiceModal }) {
                         onClick={() => setServiceModal(false)}
                       >
                         <span className="sr-only">Close panel</span>
-                       
                       </button>
                     </div>
                   </Transition.Child>
                   <div className="flex z-[1000px] h-[260px] rounded-lg flex-col mt-[125px] overflow-y-hidden mr-2 bg-black py-6 shadow-xl">
                     <div className="container grid grid-cols-1 p-3 -mt-4">
-                     
+                      <Link href="/cost">
                         <p className="hover:text-red text-[16px]  font-poppins hover:font-bold font-medium text-white ">
                           COST ESTIMATING
                         </p>
-                    
-                      
+                      </Link>
+                      <Link href="/takeoff">
                         <p className="hover:text-red text-[16px] font-poppins hover:font-bold font-medium text-white pt-4">
                           CONSTRUCTION TAKEOFF SERVICES
                         </p>
-                     
+                      </Link>
+                      <Link href="/takeoff/quantity">
                         <p className="hover:text-red text-[12px]  font-poppins hover:font-bold font-medium text-white pt-2">
                           QUANTITIES TAKEOFF
                         </p>
-                     
+                      </Link>
+                      <Link href="/takeoff/material">
                         <p className="hover:text-red text-[12px]  font-poppins hover:font-bold font-medium text-white pt-2">
                           MATERIAL TAKEOFF
                         </p>
-                   
+                      </Link>
+                      <Link href="/scheduling">
                         <p className="hover:text-red text-[16px]  font-poppins hover:font-bold font-medium text-white pt-4">
                           SCHEDULING
                         </p>
-                      
+                      </Link>
+                      <Link href="/planning">
                         <p className="hover:text-red hover:font-bold  font-poppins text-[16px] font-medium text-white pt-4">
                           PLANNING
                         </p>
-                     
+                      </Link>
                     </div>
                   </div>
                 </Dialog.Panel>

@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import Gray from "../../../public/png/gray.png";
+import X from "../../../public/png/x.png";
 
 function SecondMechanical() {
   return (
     <>
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-10">
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-10">
       Our services include:
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] container mx-auto mt-4">
@@ -31,10 +31,19 @@ function SecondMechanical() {
           <li className="text-[22px] font-poppins font-normal mt-1">
             Cold Eye Review
           </li>
+          <li className="text-[22px] font-poppins font-normal mt-1">
+            Project Scheduling
+          </li>
+          <li className="text-[22px] font-poppins font-normal mt-1">
+          Value Engineering
+          </li>
+          <li className="text-[22px] font-poppins font-normal mt-1">
+            Legal Claims
+          </li>
         
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1 self-center">
-          <Image className="mx-auto" src={Gray} />
+          <Image className="mx-auto" src={X} />
         </div>
       </div>
     </>

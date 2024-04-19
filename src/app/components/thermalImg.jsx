@@ -2,9 +2,8 @@
 import React, { useState } from "react";
 import Navbar from "./navbar";
 import CostModal from "./costModal";
-import Thermal1 from "../../../public/png/thermal1.png"
+import Thermal1 from "../../../public/png/thermal1.png";
 import Image from "next/image";
-
 
 function ThermalImg() {
   const [serviceModal, setServiceModal] = useState(false);
@@ -33,11 +32,12 @@ function ThermalImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        At Veterans Estimators Estimators, we recognize the crucial significance
-        of efficient thermal and moisture control in building ventures. Our
-        estimation solutions are crafted to assist you in strategizing and
-        allocating resources for these vital components, guaranteeing your
-        project's durability and resistance to environmental influences.
+        At <span className="text-red">Veterans Estimators</span>, we understand
+        the importance of efficient thermal and moisture management in
+        construction projects. Our calculation tools are designed to assist in
+        planning and allocating resources for these essential elements, ensuring
+        the longevity and durability of your project against environmental
+        factors
       </p>
 
       <div
@@ -52,21 +52,18 @@ function ThermalImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
 
       <h2 className="text-[20px] w-[90%] mx-auto mt-4 font-poppins font-bold">
-      Thermal Insulation Estimating
-        </h2>
+        Thermal Insulation Estimating
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-2 gap-6 w-[90%] mx-auto">
         <div className="col-span-2">
           <p className="text-[22px] font-poppins font-normal">
-            Each division is described and takeoff in detail by our project
-            estimators. Each roofing trade of work from the online roof repair
-            estimate, tin roof, steel roof, garage roof, metal roof, slate roof,
-            shingle roof, and flat roof estimates are accurately and precisely
-            digitized by takeoff software and quantified in an EXCEL sheet.<br/> A
-            large majority of homeowners reach out to us for their house roof,
-            for which drawings or specifications make up the work for us and
-            with our experience and past recent portfolio of projects, handle
-            each project with a handful of expertise and deliver the projected
-            cost to build a house roof in an hours’ time
+            Our team of estimators carefully breaks down each roofing project
+            using advanced software. Whether it's repairs or installing various
+            types of roofs like tin, steel, garage, metal, slate, shingle, or
+            flat roofs, we digitize and quantify every detail in an EXCEL
+            spreadsheet. Focusing on homeowners, we use their design specs as
+            blueprints. With our experience and recent projects, we provide
+            estimated costs for building a home roof within an hour.
           </p>
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1 self-center">

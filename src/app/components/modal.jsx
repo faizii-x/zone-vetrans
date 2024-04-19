@@ -5,12 +5,16 @@ import React, { useState } from "react";
 function Modal({ closeModal }) {
   const [selectedFileName, setSelectedFileName] = useState("");
 
-  const handleFileChange = (event) => {
-    const file = event.target.files[0];
-    if (file) {
-      setSelectedFileName(file.name);
-    }
+  // const handleFileChange = (event) => {
+  //   const file = event.target.files[0];
+  //   if (file) {
+  //     setSelectedFileName(file.name);
+  //   }
+  // };
+  const handleFileChange = (e) => {
+    setSelectedFileName(e.target.files[0]);
   };
+
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -31,12 +35,12 @@ function Modal({ closeModal }) {
     formData.append("name", name);
     formData.append("email", email);
     formData.append("Contact", Contact);
-    formData.append("attachment", attachment);
+    formData.append("attachment", selectedFileName);
     formData.append("link", filelink);
     formData.append("Requirements", Requirements);
 
     try {
-      const response = await fetch("https://api.procoreestimators.com/", {
+      const response = await fetch("http://localhost/backEnd-Vetrans-ContactUs/", {
         method: "POST",
         body: formData,
       });
@@ -94,7 +98,7 @@ function Modal({ closeModal }) {
                         type="text"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
-                        className="block w-full border-none bg-transparent text-white border-b border-white outline-none"
+                        className="block w-full border-none bg-transparent text-white border-b border-white outline"
                         placeholder="Name"
                       />
                     </div>
@@ -104,7 +108,7 @@ function Modal({ closeModal }) {
                         type="text"
                         value={Contact}
                         onChange={(e) => setContact(e.target.value)}
-                        className="block w-full border-none mt-12 bg-transparent text-white border-b border-white outline-none"
+                        className="block w-full border-none mt-12 bg-transparent text-white border-b border-white outline"
                         placeholder="Contact number"
                       />
                     </div>
@@ -114,7 +118,7 @@ function Modal({ closeModal }) {
                         type="text"
                         value={Requirements}
                         onChange={(e) => setRequirements(e.target.value)}
-                        className="block w-full border-none mt-12 bg-transparent text-white border-b border-white outline-none"
+                        className="block w-full border-none mt-12 bg-transparent text-white border-b border-white outline"
                         placeholder="Message"
                       />
                     </div>
@@ -126,7 +130,7 @@ function Modal({ closeModal }) {
                         type="email"
                         value={email}
                         onChange={Emailchangefunction}
-                        className="block w-full bg-transparent text-white "
+                        className="block w-full bg-transparent text-white outline"
                         placeholder="Email"
                       />
                     </div>
@@ -142,7 +146,7 @@ function Modal({ closeModal }) {
                     <div className="border-b border-gray-300">
                       <input
                         type="text"
-                        className="block w-full bg-transparent mt-12 text-white outline-none"
+                        className="block w-full bg-transparent mt-12 text-white outline"
                         placeholder="File link (optional)"
                       />
                     </div>

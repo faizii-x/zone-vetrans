@@ -1,6 +1,5 @@
 import React from "react";
 import ScheduleComp from "../components/scheduleComp";
-import Footer from "../components/footer";
 import ScheduleText from "../components/scheduleText";
 import CompSlider from "../components/compSlider";
 import Banner from "../components/banner";
@@ -20,7 +19,7 @@ function Page() {
       <CompSlider />
       <SimpleComp/>
       <Banner />
-      <Footer />
+      
     </>
   );
 }

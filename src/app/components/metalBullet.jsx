@@ -5,7 +5,7 @@ import Met from "../../../public/png/met.png"
 function MetalBullet() {
   return (
     <>
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto">
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto">
         Our steel estimating services include
       </h2>
 

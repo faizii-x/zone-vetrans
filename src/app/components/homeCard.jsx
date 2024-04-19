@@ -14,7 +14,7 @@ function HomeCard() {
           </div>
           <div className="bg-blacks rounded-lg p-4 mt-2 ">
             <h3 className="text-center text-[22px] font-poppins font-semibold text-white">
-              Cost Estimation
+            Cost Estimating services
             </h3>
             <p className="w-[80%] mx-auto font-poppins font-light text-[18px] text-white mt-2">
               Cost Estimation is a crucial and beneficial method to understand a
@@ -30,7 +30,7 @@ function HomeCard() {
           </div>
           <div className="bg-blacks rounded-lg p-4 mt-2 ">
             <h3 className="text-center text-[22px] font-poppins font-semibold text-white">
-              Quantities and Material Takeoff
+            Construction Takeoff Services
             </h3>
             <p className="w-[80%] mx-auto font-poppins font-light text-[18px] text-white mt-2">
               Our experts are always here to help you to fill the gaps which
@@ -48,7 +48,7 @@ function HomeCard() {
           </div>
           <div className="bg-blacks rounded-lg p-4 mt-2 ">
             <h3 className="text-center text-[22px] font-poppins font-semibold text-white">
-              Scheduling
+             CPM Scheduling
             </h3>
             <p className="w-[80%] mx-auto font-poppins font-light text-[18px] text-white mt-2">
               Scheduling transforms a project's high-level plan into a

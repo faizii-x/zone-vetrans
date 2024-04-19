@@ -18,7 +18,7 @@ function GeneralMap() {
               <p className="text-white font-poppins font-light mt-3 text-[16px] text-center">
                 {x.para}
               </p>
-            </div>
+            </div>         
           </>
         ))}
       </div>

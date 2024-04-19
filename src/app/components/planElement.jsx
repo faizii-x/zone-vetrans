@@ -117,21 +117,19 @@ function PlanElement() {
           <div className="flex justify-start gap-3 mt-5">
             <p className="text-[18px] font-poppins font-semibold">3.</p>
             <p className="text-[18px] font-poppins font-semibold">
-              Risk Assessment and Mitigation
+            Resource Allocation and Scheduling
             </p>
           </div>
           <li className="text-[18px] font-poppins font-semibold mt-2">
-            Identify Risks:{" "}
+          Allocate Resources:{" "}
             <span className="font-light">
-              Analyze potential risks and uncertainties that could impact the
-              project.
+            Determine the human, financial, and material resources required for each task.
             </span>{" "}
           </li>
           <li className="text-[18px] font-poppins font-semibold mt-2">
-            Develop Risk Response Plans:{" "}
+          Create a Timeline:{" "}
             <span className="font-light">
-              Develop strategies to mitigate, transfer, or accept identified
-              risks.
+            Develop a project schedule, including task durations, dependencies, and milestones.
             </span>{" "}
           </li>
           {/* .......................... */}
@@ -139,21 +137,19 @@ function PlanElement() {
           <div className="flex justify-start gap-3 mt-5">
             <p className="text-[18px] font-poppins font-semibold">4.</p>
             <p className="text-[18px] font-poppins font-semibold">
-              Risk Assessment and Mitigation
+            Communication Plan
             </p>
           </div>
           <li className="text-[18px] font-poppins font-semibold mt-2">
-            Identify Risks:{" "}
+          Define Communication Channels:{" "}
             <span className="font-light">
-              Analyze potential risks and uncertainties that could impact the
-              project.
+            Specify how information will be shared among team members and stakeholders.
             </span>{" "}
           </li>
           <li className="text-[18px] font-poppins font-semibold mt-2">
-            Develop Risk Response Plans:{" "}
+          Set Reporting Cadence:{" "}
             <span className="font-light">
-              Develop strategies to mitigate, transfer, or accept identified
-              risks.
+            Determine the frequency and format of project status updates.
             </span>{" "}
           </li>
         </div>

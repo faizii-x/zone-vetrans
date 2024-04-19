@@ -6,7 +6,7 @@ import Land from "../../../public/png/landscape0.png";
 function LandText() {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-2 gap-6 w-[90%] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-[90%] mx-auto">
         <div className="col-span-2 self-center">
           <p className="text-[22px] font-poppins font-normal">
             Our usage of Plan swift manages to generate exact material lists
@@ -23,12 +23,13 @@ function LandText() {
         </div>
       </div>
       {/* .............................. */}
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-10">
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-10">
         Our Range Of Landscaping Takeoff Services
       </h2>
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-3">
-        Plan hub estimating is a professional platform with the appropriate
-        tools to deliver the following range of Landscaping takeoff services.
+        Veterans Estimators estimating is a professional platform with the
+        appropriate tools to deliver the following range of Landscaping takeoff
+        services.
       </p>
       <li className="text-[22px] font-poppins font-normal mt-4 w-[90%] mx-auto">
         Landscaping estimating
@@ -56,10 +57,10 @@ function LandText() {
       </li>
       {/* ...................................... */}
 
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-5">
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-5">
         How To Perform Landscaping Estimating?
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] mx-auto mt-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] mx-auto ">
         <div className="col-span-2 mb-3">
           <li className="text-[22px] font-poppins font-normal mt-1">
             Talk to a client

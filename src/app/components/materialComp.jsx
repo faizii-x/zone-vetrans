@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Gray from "../../../public/png/gray.png"
+import Materiall from "../../../public/png/materiall.png";
 
 function MaterialComp() {
   return (
@@ -12,15 +12,16 @@ function MaterialComp() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] container mx-auto mt-4">
         <div className="col-span-2 mb-3">
           <p className="text-[22px] font-poppins font-normal">
-            We can estimate your entire project for you based on your LOCAL
-            PRICING so the numbers will be accurate. We can estimate your entire
-            project for you based on your LOCAL PRICING so the numbers will be
-            accurate. We can estimate your entire project for you based on your
-            LOCAL PRICING so the numbers will be accurate.
+            Our work would be in editable excel sheet – if required, we can use
+            your template or can put your company details on the
+            estimate/proposal. For to do quantities takeoff – we use software
+            Planswift, BlueBeam, On Screen Takeoff (OST). Mostly we use
+            Planswift. We will be very happy to provide Software files as well
+            as Markups/color drawings (if required).
           </p>
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1 self-center">
-          <Image className="mx-auto" src={Gray} />
+          <Image className="mx-auto" src={Materiall} />
         </div>
       </div>
     </>

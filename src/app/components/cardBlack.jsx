@@ -24,9 +24,16 @@ function CardBlack() {
       </div>
 
       <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-10">
-      Accurate and Transparent Estimation Process
+        Accurate and Transparent Estimation Process
       </h2>
-      <p className="text-[22px] font-poppins font-normal w-[90%] mx-auto mt-3">An essential requirement for an estimation company is to have a well-defined and transparent estimation process. Clearly communicate to your clients how you arrive at your estimates, including the methodologies, data sources, and assumptions you use. Transparency builds trust and ensures that your clients have a thorough understanding of the estimated costs and timelines associated with their projects.</p>
+      <p className="text-[22px] font-poppins font-normal w-[90%] mx-auto mt-3">
+        Our commitment to accuracy and transparency sets us apart at Veterans
+        Estimators. We employ a meticulous estimation process that ensures every
+        detail is accounted for. From thorough analysis to clear communication,
+        we provide accurate estimates that you can trust. With us, you'll have
+        full visibility into the estimation process, giving you confidence in
+        our results.
+      </p>
     </>
   );
 }

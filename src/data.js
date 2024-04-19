@@ -154,6 +154,21 @@ import Plumb5 from "../public/plumb5.svg";
 import Plumb6 from "../public/plumb6.svg";
 import Plumb7 from "../public/plumb7.svg";
 import Plumb8 from "../public/plumb8.svg";
+import Mep1 from "../public/mep1.svg";
+import Mep2 from "../public/mep2.svg";
+import Mep3 from "../public/mep3.svg";
+import Mep4 from "../public/mep4.svg";
+import Mep5 from "../public/mep5.svg";
+import Mep6 from "../public/mep6.svg";
+import Equip1 from "../public/equip1.svg";
+import Equip2 from "../public/equip2.svg";
+import Equip3 from "../public/equip3.svg";
+import Last1 from "../public/last1.svg";
+import Last2 from "../public/last2.svg";
+import Last3 from "../public/last3.svg";
+import Last4 from "../public/last4.svg";
+import Last5 from "../public/last5.svg";
+import Last6 from "../public/last6.svg";
 
 export const FILTER_ARRAY = [
   {
@@ -163,6 +178,12 @@ export const FILTER_ARRAY = [
   {
     title: "Site Works",
     link: "/trades/sitework",
+    subTrades: [
+      {
+        title: "Landscaping Estimating",
+        link: "/trades/sitework/landscape",
+      },
+    ],
   },
   {
     title: "Concrete",
@@ -174,42 +195,144 @@ export const FILTER_ARRAY = [
   },
   {
     title: "Metals",
-    link: "",
+    link: "/trades/metals",
+    subTrades: [
+      {
+        title: "Rebar Estimating Services",
+        link: "/trades/metals/rebar",
+      },
+    ],
   },
   {
     title: "Lumber Estimating",
-    link: "",
+    link: "/trades/lumber",
   },
   {
     title: "Thermal and Moisture",
-    link: "",
+    link: "/trades/thermal",
+    subTrades: [
+      {
+        title: "Roofing Estimating",
+        link: "/trades/thermal/roofing",
+      },
+      {
+        title: "Insulating Estimating",
+        link: "/trades/thermal/insulating",
+      },
+    ],
+  },
+  {
+    title: "Framing",
+    link: "/trades/framing",
+  },
+  {
+    title: "Interior & Exterior Finishes",
+    link: "/trades/interior",
+    subTrades: [
+      {
+        title: "Drywall Estimating Services",
+        link: "/trades/interior/drywall",
+      },
+      {
+        title: "Flooring Estimating Services",
+        link: "/trades/interior/flooring",
+      },
+    ],
+  },
+
+  {
+    title: "Specialties",
+    link: "/trades/specialties",
+  },
+  {
+    title: "Equipment",
+    link: "/trades/equipment",
+  },
+  {
+    title: "Furnishings",
+    link: "/trades/furnishing",
+  },
+
+  {
+    title: "Special Construction",
+    link: "/trades/specialConstruction",
+  },
+
+  {
+    title: "Conveying Systems",
+    link: "/trades/convey",
+  },
+
+  {
+    title: "MEP",
+    link: "/trades/mep",
+    subTrades: [
+      {
+        title: "Mechanical Estimating Services",
+        link: "/trades/mechanical",
+      },
+      {
+        title: "Plumbing Estimating Services",
+        link: "/trades/mep/plumbing",
+      },
+      {
+        title: "Electrical Estimating Services",
+        link: "/trades/electrical",
+      },
+      {
+        title: "Gutter Estimating Services",
+        link: "/trades/mep/gutter",
+      },
+    ],
+  },
+
+  {
+    title: "Commercial Estimating",
+    link: "/trades/commercial",
+  },
+  {
+    title: "HVAC",
+    link: "/trades/hvac",
+  },
+  {
+    title: "Industrial Estimating",
+    link: "/trades/industrial",
+  },
+
+  {
+    title: "Residential Estimating",
+    link: "/trades/residential",
   },
 ];
 
 export const SLIDER_CARDS = [
   {
-    heading: "Cost Estimation",
-    para: "Cost Estimation is a crucial and beneficial method to understand a project's requirements and duration, though it might be quite tedious and time-intensive.",
+    heading: "Construction Cost Estimating Services",
+    para: "Construction cost estimating services are essential for understanding project requirements and duration, albeit they can be laborious and time-consuming.",
     btn: "Read more",
     img: Service1,
+    link: "/cost",
   },
   {
-    heading: "Quantities and Material Takeoff",
-    para: "Our experts are always here to help you to fill the gaps which exits in the initial phases of the proposed solution especially when we talk about Quantities and Material Takeoff. ",
+    heading: "Construction Takeoff Services  ",
+    para: "Our Construction Takeoff Services offer detailed material breakdowns, aiding informed decisions from foundation to finish. With detailed Material Takeoff and Quantity Takeoff, we ensure efficient project execution and minimize waste.",
     btn: "Read more",
     img: Service2,
+    link: "/takeoff",
   },
   {
-    heading: "Scheduling",
-    para: "Scheduling transforms a project's high-level plan into a time-focused schedule, considering task durations, priorities, dependencies, resource availability, and deadlines.",
+    heading: "CPM Scheduling",
+    para: "Building a project on time and within budget requires a clear roadmap.  Our team of scheduling experts creates detailed, realistic schedules for your construction project, keeping everything on track from start to finish.",
     btn: "Read more",
     img: Service3,
+    link: "/scheduling",
   },
   {
     heading: "Planning",
-    para: "In project management, planning establishes the project's roadmap, while scheduling aligns that roadmap with a timeline for timely execution.",
+    para: "Project planning is the vital first step in project management. It's about creating a detailed strategy for success, going beyond just scheduling.",
     btn: "Read more",
     img: Service4,
+    link: "/planning",
   },
 ];
 
@@ -369,32 +492,31 @@ export const SCHEDULE_CARDS = [
   {
     img: Schedule11,
     heading: "Activities",
-    para: "Set up and broken down into smaller chunks of work to which the scheduler will assign resources lateron.We have an expert team to provide the following activities with Activity Code for your construction project.",
-  },
+    para: "Our skilled team divides work into manageable packages for future resource allocation. We provide Activity Codes for your construction project's progress, including activity specifics, usage patterns, and resource utilization spreadsheets.",
+  },         
   {
     img: Schedule12,
     heading: "Primavera Calendars",
-    para: "Calendars allow you to specify available workdays and work hours on a given day. Calendars can also be allocated to each resource and activity in order to define time limitations consistently. ",
+    para: "Calendars set workdays and hours for each day, resource, and task, ensuring consistent time limits. There are three types: Global, Project, and Resource Calendars.",
   },
   {
     img: Schedule13,
     heading: "Activity Relationships ",
-    para: "Tied to the activities, next in line come the relationships, which signify connections between the project activities, generating the order of which the activities will take place. In Primavera P6 relationships are divided into four categories:",
-  },
+    para: "Activities in a project are connected in a sequence, determining their order. Primavera P6 divides these connections into four types."},
   {
     img: Schedule14,
     heading: "Milestones",
-    para: "Milestones follow activities and have a fixed date. They represent a definite and exact time during the running of the project. Milestones are important element in a schedule because they show a snapshot of a specific time, or a major event in the project’s progress, as it unravels, and can often be used to do budget reviews and determine the project status.",
+    para: "Milestones mark specific moments or significant events in a project's progress. They help track progress and assess project status.",
   },
   {
     img: Schedule15,
     heading: "Risk",
-    para: "We evaluate risks and their impact on an entire construction project along with a risk score that generally varies or fluctuates between 0 -72, relying on the absolute value of three fields that includes probability, cost and schedule. ",
+    para: "We evaluate risks in construction projects using a hazard rating scale from 0 to 72. This rating considers probability, cost, and timeline impact.",
   },
   {
     img: Schedule16,
     heading: "Schedule Baselines",
-    para: "We evaluate risks and their impact on an entire construction project along with a risk score that generally varies or fluctuates between 0 -72, relying on the absolute value of three fields that includes probability, cost and schedule. ",
+    para: "We assess dangers and their effect on a complete building project together with a danger rating that typically oscillates between 0 - 72, depending on the total value of three factors including likelihood, expense and timeline.",
   },
 ];
 
@@ -437,22 +559,22 @@ export const GENERAL_CARDS = [
   {
     img: General1,
     heading: "Utilization of Advanced Estimation Tools",
-    para: "To deliver accurate and efficient estimations, it is vital to leverage advanced estimation tools and software. Investing in cutting-edge technology can streamline your estimation process, improve accuracy, and enhance overall productivity. Ensure that your team is trained in using these tools effectively to maximize their benefits.",
+    para: "At Veterans Estimators, we use state-of-the-art tools for precise estimations. Our advanced technology streamlines the process, making it faster and more accurate. With our team's expertise, you can trust that your project estimates are in good hands.",
   },
   {
     img: General2,
     heading: "Continuous Learning and Professional Development",
-    para: "The estimation field is constantly evolving, with new techniques, regulations, and industry standards emerging regularly. Staying up to date with the latest trends and developments is crucial for an estimation company. Encourage your team to engage in continuous learning and professional development activities such as attending industry conferences, participating in training programs, and staying connected with industry associations.",
+    para: "At Veterans Estimators, we prioritize ongoing learning and development. Our team is committed to staying updated with the latest industry trends and techniques. By investing in continuous education, we ensure that our skills remain sharp and our services top-notch.",
   },
   {
     img: General3,
     heading: "Data Security and Confidentiality ",
-    para: "As an estimation company, you will handle sensitive project data and client information. Protecting the confidentiality and security of this data is of utmost importance. Implement robust data security measures, including secure storage systems, data encryption, and strict access controls. Adhere to relevant data protection regulations and clearly communicate your commitment to data security and confidentiality to your clients.",
+    para: "At Veterans Estimators, we prioritize the security and confidentiality of your data. We understand the importance of keeping your information safe and secure. Rest assured, we have robust measures in place to safeguard your data and ensure confidentiality at every step of the process.",
   },
   {
     img: General4,
     heading: "Strong Client Communication and Relationship Management",
-    para: "Effective communication and relationship management are key requirements for any successful estimation company. Establish clear channels of communication with your clients, and ensure that you are responsive to their inquiries and concerns. Actively listen to your clients' needs, provide regular project updates, and maintain open lines of communication throughout the estimation process. Building strong client relationships will lead to repeat business and positive referrals.",
+    para: "At Veterans Estimators, we emphasize clear communication and effective relationship management with our clients. We believe in fostering strong and transparent relationships to better understand your needs and ensure your satisfaction throughout the estimation process.",
   },
 ];
 
@@ -485,19 +607,19 @@ export const SITE_CARDS = [
 export const SITE_CARDSs = [
   {
     img: Icon1,
-    heading: "Cost-effective Solutions (check prices)",
+    heading: "Site excavation report",
   },
   {
     img: Icon3,
-    heading: "Confidentiality",
+    heading: "Cut/Fill Quantities",
   },
   {
     img: Icon2,
-    heading: "Efficiency & Accuracy",
+    heading: "Export or Import Quantities",
   },
   {
     img: Icon4,
-    heading: "Fast Turnaround Times",
+    heading: "Volume Reports",
   },
 ];
 
@@ -566,17 +688,17 @@ export const METAL_CARDS = [
   {
     img: Metal1,
     heading: "Initial Consultation",
-    para: "We begin by discussing your project objectives, design tastes, and financial limitations. This allows us to comprehend the extent and vision of your construction undertaking. ",
+    para: "We start by understanding your project goals, design preferences, and budget constraints. This helps us grasp the scope and vision of your construction project. ",
   },
   {
     img: Metal2,
     heading: "Site Assessment",
-    para: "If needed, we carry out a meticulous site examination to account for particular factors influencing metal choice, such as environmental conditions or weight-bearing demands. ",
+    para: "If necessary, we conduct a thorough site inspection to consider specific factors affecting metal selection, such as environmental conditions or structural requirements. ",
   },
   {
     img: Metal3,
     heading: "Material Selection",
-    para: " According to your project's specifications, we suggest the most appropriate metals and alloys, taking into account aspects like strength, corrosion resistance, and visual appeal. ",
+    para: "We recommend the best metals and alloys based on your project's needs, considering factors like strength, corrosion resistance, and aesthetics. ",
   },
   {
     img: Metal4,
@@ -664,65 +786,65 @@ export const LUMBER_CARDS = [
 export const FRAMING_CARDS = [
   {
     img: Metal1,
-    heading: "Wood framing Estimating Services",
-    para: "Wood framing estimating services involve the process in which the accurate amount of wood its type and cost are calculated through a process. The process involves various software for wood framing estimating services. ",
+    heading: "Wood frame Construction",
+    para: "Wood frame construction is gaining popularity globally for being eco-friendly and renewable. Countries like the USA are adopting it swiftly for its advantages. When planning wood framing for a project, consider various factors carefully.",
   },
   {
     img: Metal2,
     heading: "Metal frame construction",
-    para: "Metal frame construction also known as steel frame construction involves the process of building frames with vertical columns and horizontal beams as the main components of the load bearing. The frames used in the metal frame construction are usually made of mild steel which is known for its strength.",
+    para: "Metal frame construction uses steel pillars and beams to create strong structures resistant to earthquakes and tsunamis. Estimating services ensure accurate planning for robust buildings.",
   },
   {
     img: Metal3,
-    heading: "Metal Framing Estimating Services",
-    para: " Metal Framing Estimating Services includes the process through which the accurate amount of steel, price, and its type is estimated for the successful completion of a project. Several factors have to be considered while choosing metal for your steel frame ranging ",
+    heading: "Wood framing Estimating Services",
+    para: " Wood framing estimating services accurately calculate the required amount and cost of wood for projects, preventing overordering and financial losses.",
   },
   {
     img: Metal4,
-    heading: "Our Services",
-    para: "Our Company Quick Bid Estimating has been in the market for years providing our clients with satisfactory services. For the wood and metal estimating services, our company uses the following up-to-date and accurate software to determine the actual cost.",
+    heading: "Metal Framing Estimating Services",
+    para: "we offer Metal Framing Estimating Services for precise assessments of metal quantity, type, and cost. Trust us to avoid financial setbacks.",
   },
 ];
 export const INTERIOR_CARDS = [
   {
     img: Interior1,
-    heading: "Lumber Takeoffs",
+    heading: "Material Takeoffs",
   },
   {
     img: Interior2,
-    heading: "Framing Takeoffs",
+    heading: "Flooring Estimates",
   },
   {
     img: Interior3,
-    heading: "Lumber Cut Lists",
+    heading: "Painting Estimates",
   },
   {
     img: Interior4,
-    heading: "Bid Estimates",
+    heading: "Ceiling Estimates",
   },
   {
     img: Interior5,
-    heading: "Budget Estimates",
+    heading: "Drywall Estimates",
   },
   {
     img: Interior6,
-    heading: "Project Lead Generation",
+    heading: "Stucco Estimates",
   },
   {
     img: Interior7,
-    heading: "Preliminary Estimates",
+    heading: "Bid Estimate",
   },
   {
     img: Interior8,
-    heading: "Bidding Assistance",
+    heading: "Bid Reviews",
   },
 ];
 
 export const SPECIAL_CARDS = [
   {
     img: Special1,
-    heading: "Initial Consultation",
-    para: "We start by discussing your project goals, design preferences, and budget constraints. This allows us to understand the unique needs and vision of your specialized construction project. ",
+    heading: "Extensive range",
+    para: "We do everything for construction estimates: bidding, cost predictions, material checks, software advice, frame costs, takeoff assessments, and more.",
   },
   {
     img: Special2,
@@ -731,7 +853,7 @@ export const SPECIAL_CARDS = [
   },
   {
     img: Special3,
-    heading: "Specialized Material and Equipment Suggestions",
+    heading: "Construction Scheduling",
     para: " Based on your project's details, we recommend a variety of materials, machines, and equipment tailored to your specific needs, whether it be for an industrial facility, a healthcare center.",
   },
   {
@@ -743,23 +865,23 @@ export const SPECIAL_CARDS = [
 export const SPECIAL_CARDSs = [
   {
     img: Metal1,
-    heading: "Initial Consultation",
-    para: "We start by discussing your project goals, design preferences, and budget constraints. This allows us to understand the unique needs and vision of your specialized construction project. ",
+    heading: "Specialized Materials",
+    para: "Specialized materials are custom-designed substances that cater to specific construction requirements, ensuring improved durability and performance.",
   },
   {
     img: Special5,
     heading: "Site Evaluation",
-    para: "If necessary, we conduct a thorough site analysis to determine any specific factors that may influence construction methods, material choices, or project timelines.",
+    para: "Safety measures and compliance ensure adherence to regulatory standards and protocols, prioritizing the well-being of workers and the surrounding environment.",
   },
   {
     img: Special6,
-    heading: "Specialized Material and Equipment Suggestions",
-    para: " Based on your project's details, we recommend a variety of materials, machines, and equipment tailored to your specific needs, whether it be for an industrial facility, a healthcare center.",
+    heading: "Specialized Equipment",
+    para: " We provide specialized equipment tailored to unique construction needs, ensuring efficient project execution and superior results.",
   },
   {
     img: Special7,
-    heading: "Comprehensive Estimate",
-    para: "Our team provides an in-depth evaluation of the estimated costs for each type of material, equipment, and labor involved. This includes quantities.",
+    heading: "Technology Integration",
+    para: "Experience seamless project management with our technology integration services, streamlining processes for enhanced efficiency and productivity.",
   },
 ];
 
@@ -767,12 +889,12 @@ export const CONVEY_CARDS = [
   {
     img: Convey1,
     heading: "Initial Consultation",
-    para: "We begin by exploring your project objectives, particular material handling requirements, and budget limitations. This enables us to comprehend the scope and vision of your operations.  ",
+    para: "The Initial Consultation involves an in-depth discussion to understand your needs and project requirements thoroughly",
   },
   {
     img: Convey2,
     heading: "Site Assessment",
-    para: "If needed, we carry out an in-depth site evaluation to account for any specific factors that may influence conveyor system selection, such as layout, material kind, and flow necessities. ",
+    para: "Site Assessment entails a comprehensive analysis to evaluate the conditions and factors influencing the construction site.",
   },
   {
     img: Convey3,
@@ -851,145 +973,147 @@ export const ELECTRICAL_CARDS = [
 export const LAND_CARDS = [
   {
     img: Land1,
-    para: "Efficiently measure square footage, volumes and linear dimensions. We deal with everything, and either “linear” is curved",
+    para: "Efficiently measure square footage, volumes and linear dimensions. We deal with everything, and either “linear” is curved.",
   },
   {
     img: Land2,
-    para: "Our strategy is to acquire instant, accurate area dimensions for sod, gravel, mulch and other products, particularly with a single click",
+    para: "Create professional estimates effortlessly: Simply point, click, and drag-and-drop to impress clients with polished estimates.",
   },
   {
     img: Land3,
-    para: "Have an accurate professional estimate through point, click drag and drop",
+    para: "Have an accurate professional estimate through point, click drag and drop.",
   },
   {
     img: Land4,
-    para: "Quick and precise estimate to save your time and elevate your bottom line",
+    para: "Quick and precise estimate to save your time and elevate your bottom line.",
   },
 ];
 
 export const QUANTITY_CARDS = [
   {
     img: Quantity11,
-    heading:"Sitework Takeoff",
-    para:"Sitework Takeoff",
+    heading: "Sitework Takeoff",
+    para: "Sitework Takeoff",
   },
   {
     img: Quantity12,
-    heading:"Masonry Takeoff",
-    para:"Sitework Takeoff",
+    heading: "Masonry Takeoff",
+    para: "Sitework Takeoff",
   },
   {
     img: Quantity13,
-    heading:"Concrete Takeoff",
-    para:"Sitework Takeoff",
+    heading: "Concrete Takeoff",
+    para: "Sitework Takeoff",
   },
   {
     img: Quantity14,
-    heading:"Drywall Takeoff",
-    para:"Sitework Takeoff",
+    heading: "Drywall Takeoff",
+    para: "Sitework Takeoff",
   },
   {
     img: Quantity15,
-    heading:"Painting Takeoff",
-    para:"Sitework Takeoff",
+    heading: "Painting Takeoff",
+    para: "Sitework Takeoff",
   },
   {
     img: Quantity16,
-    heading:"Insulation Takeoff",
-    para:"Sitework Takeoff",
+    heading: "Insulation Takeoff",
+    para: "Sitework Takeoff",
   },
   {
     img: Quantity17,
-    heading:"Roofing Takeoff",
-    para:"Sitework Takeoff",
+    heading: "Roofing Takeoff",
+    para: "Sitework Takeoff",
   },
   {
     img: Quantity22,
-    heading:"Lumber Takeoff",
-    para:"Sitework Takeoff",
+    heading: "Lumber Takeoff",
+    para: "Sitework Takeoff",
   },
   {
     img: Quantity18,
-    heading:"Millwork Takeoff",
-    para:"Sitework Takeoff",
-  }, {
+    heading: "Millwork Takeoff",
+    para: "Sitework Takeoff",
+  },
+  {
     img: Quantity19,
-    heading:"Cabinet Takeoff",
-    para:"Sitework Takeoff",
+    heading: "Cabinet Takeoff",
+    para: "Sitework Takeoff",
   },
   {
     img: Quantity20,
-    heading:"Mechanical Takeoff",
-    para:"Sitework Takeoff",
+    heading: "Mechanical Takeoff",
+    para: "Sitework Takeoff",
   },
   {
     img: Quantity21,
-    heading:"HVAC Takeoff",
-    para:"Sitework Takeoff",
+    heading: "HVAC Takeoff",
+    para: "Sitework Takeoff",
   },
 ];
 export const MATERIAL_CARDS = [
   {
     img: Material11,
-    heading:"General Requirement",
-    para:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    heading: "General Requirement",
+    para: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
     img: Material12,
-    heading:" Site Works",
-    para:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    heading: " Site Works",
+    para: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
     img: Material13,
-    heading:"Concrete",
-    para:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    heading: "Concrete",
+    para: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
     img: Material14,
-    heading:"Masonry",
-    para:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    heading: "Masonry",
+    para: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
     img: Material15,
-    heading:"Finishes",
-    para:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    heading: "Finishes",
+    para: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
     img: Material16,
-    heading:"Specialties",
-    para:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    heading: "Specialties",
+    para: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
     img: Material17,
-    heading:"Equipment",
-    para:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    heading: "Equipment",
+    para: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
     img: Material18,
-    heading:"Furnishings",
-    para:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    heading: "Furnishings",
+    para: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
     img: Material19,
-    heading:"Metals",
-    para:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-  }, {
+    heading: "Metals",
+    para: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+  },
+  {
     img: Material20,
-    heading:"Wood and Plastics",
-    para:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    heading: "Wood and Plastics",
+    para: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
     img: Material21,
-    heading:"Thermal and Moisture Protection",
-    para:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    heading: "Thermal and Moisture Protection",
+    para: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
     img: Material22,
-    heading:"Doors and Windows",
-    para:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    heading: "Doors and Windows",
+    para: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
-]
-       
+];
+
 export const REBAR_CARDS = [
   {
     img: Rebar1,
@@ -1012,27 +1136,27 @@ export const REBAR_CARDS = [
 export const ROOF_CARDS = [
   {
     img: Roof1,
-    heading: "Accessories",
+    heading: "Green Roofs and Green Walls",
   },
   {
     img: Roof2,
-    heading: "Materials",
+    heading: "Flashing and Sheet Metals",
   },
   {
     img: Roof3,
-    heading: "Materials",
+    heading: "Membrane Roofing",
   },
   {
     img: Roof4,
-    heading: "Erection costs",
+    heading: "Damp Roofing and Waterproofing",
   },
   {
     img: Roof5,
-    heading: "Erection costs",
+    heading: "Steep Roofing",
   },
   {
     img: Roof6,
-    heading: "Erection costs",
+    heading: "Shingles",
   },
 ];
 
@@ -1069,4 +1193,121 @@ export const Plumb_CARDS = [
     img: Plumb8,
     heading: "Unbiased Third Party Estimate",
   },
+];
+export const MEP_CARDS = [
+  {
+    img: Mep1,
+    heading: "Material takeoffs",
+  },
+  {
+    img: Mep2,
+    heading: "Bid estimates & bidding assistance",
+  },
+  {
+    img: Mep3,
+    heading: "Budget & design estimates",
+  },
+  {
+    img: Mep4,
+    heading: "Change order estimates",
+  },
+  {
+    img: Mep5,
+    heading: "Project Cost Management",
+  },
+  {
+    img: Mep6,
+    heading: "MEP drafting",
+  },
+];
+
+export const EQUIP_CARDS = [
+  {
+    img: Equip1,
+    heading: "Earthmoving Machinery",
+    para: "Rent or buy costs, energy use, and maintenance for diggers, dozers, loaders, and levelers.",
+  },
+  {
+    img: Equip2,
+    heading: "Concrete and Paving Equipment",
+    para: "Costs for using cement mixers, paving machines, and concrete pumps. Includes equipment rental, tools, and labor hours.",
+  },
+  {
+    img: Equip3,
+    heading: "Cranes and Lifting Equipment",
+    para: "Types of cranes: tower, mobile, overhead. Costs depend on load capacity, installation needs, and safety measures.",
+  },
+  
+];
+
+export const LAST_CARD = [
+  {
+    img: Last1,
+    heading: "Initial Consultation",
+    para: "We discuss your project goals, design preferences, and budget to understand your needs.",
+  },
+  {
+    img: Last2,
+    heading: "Site Evaluation",
+    para: "We conduct detailed site assessments to identify construction factors and optimize project planning.",
+  },
+  {
+    img: Last3,
+    heading: "Material and Equipment Suggestions",
+    para: "Our tailored recommendations ensure optimal material and equipment selection for your project's unique requirements.",
+  },
+  {
+    img: Last4,
+    heading: "Comprehensive Estimate",
+    para: "We offer comprehensive cost evaluations covering materials, equipment, and labor for your project.",
+  },
+  {
+    img: Last5,
+    heading: "Presentation and Approval",
+    para: "We present the estimate, clarify any queries, and proceed upon mutual agreement.",
+  },
+  {
+    img: Last6,
+    heading: "Procurement and Construction Oversight",
+    para: "We expertly handle procurement and supervise construction activities to maintain high-quality standards throughout the project.",
+  },
+];
+
+export const GUTTER_CARDS = [
+  {
+    img: Mep1,
+    heading: "Copper Gutter",
+  },
+  {
+    img: Mep2,
+    heading: "Vinyl Gutter",
+  },
+  {
+    img: Mep3,
+    heading: "Zinc Gutter",
+  },
+  {
+    img: Mep4,
+    heading: "Aluminium Gutter",
+  },
+ 
+];
+export const GUTTER_CARDSs = [
+  {
+    img: Mep1,
+    heading: "Copper Gutter",
+  },
+  {
+    img: Mep2,
+    heading: "Vinyl Gutter",
+  },
+  {
+    img: Mep3,
+    heading: "Zinc Gutter",
+  },
+  {
+    img: Mep4,
+    heading: "Aluminium Gutter",
+  },
+ 
 ];

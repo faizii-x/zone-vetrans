@@ -56,10 +56,10 @@ function ScrollCards() {
                 Developers
               </h4>
               <p className="text-[18px] text-white font-poppins font-light text-center p-4">
-                At the early stages of planning of the construction project,
-                developers and investors require quantity takeoffs and accurate
-                material costs to analyze that if the project is worth investing
-                time and money.
+                During the initial planning of construction projects, developers
+                and investors need quantity estimates and precise material costs
+                to assess the project's feasibility before investing time and
+                money.
               </p>
             </div>
 
@@ -69,10 +69,9 @@ function ScrollCards() {
                 General Contractors
               </h4>
               <p className="text-[18px] text-white font-poppins font-light text-center p-4">
-                General Contractors usually reach out to us for verifying their
-                bids submitted by their subcontractors before undertaking any
-                project in any construction configuration and project delivery
-                methods.
+                General Contractors often rely on us to validate bids from
+                subcontractors before proceeding with any construction project,
+                regardless of its configuration or delivery method.
               </p>
             </div>
             <div className=" mt-8">
@@ -81,9 +80,9 @@ function ScrollCards() {
                 Homeowners & Builders
               </h4>
               <p className="text-[18px] text-white font-poppins font-light text-center p-4">
-                Homebuilders and owners want to know if their investment is
-                worth starting. Our estimator’s takeoff the project and give the
-                estimated pricing of a project for material
+                Homebuilders and homeowners want to make sure their investment
+                is worthwhile. Our estimators check the project and give a price
+                estimate for materials to help them decide.
               </p>
             </div>
             <div className=" mt-8">
@@ -92,9 +91,8 @@ function ScrollCards() {
                 Architects & Designers
               </h4>
               <p className="text-[18px] text-white font-poppins font-light text-center p-4">
-                Architects have to strictly remain within the budget limit of
-                their clients while preparing the drawing plans. Therefore, we
-                supply accurate takeoffs
+                Architects must stay within their clients' budget when creating
+                drawings. That's why we provide precise takeoffs.
               </p>
             </div>
             <div className=" mt-8">
@@ -103,10 +101,10 @@ function ScrollCards() {
                 Subcontractors
               </h4>
               <p className="text-[18px] text-white font-poppins font-light text-center p-4">
-                Being a contractor, performing takeoffs and estimates is always
-                time-consuming and disrupt productivity. Therefore, many
-                subcontractors approach us for precise and detailed quantity
-                takeoffs
+                As a contractor, doing takeoffs and estimates can be
+                time-consuming and disrupt productivity. That's why
+                subcontractors often come to us for precise and detailed
+                quantity takeoffs.
               </p>
             </div>
             <div className=" mt-8">
@@ -115,9 +113,8 @@ function ScrollCards() {
                 Vendors
               </h4>
               <p className="text-[18px] text-white font-poppins font-light text-center p-4">
-                Our precise material takeoffs help vendors and retailers to
-                recommend the right material quantities to meet their client’s
-                needs which promote sales and long-term business relations.
+                Our precise material takeoffs assist vendors in recommending the
+                right quantities, promoting sales and long-term relationships.
               </p>
             </div>
           </Slider>

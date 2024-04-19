@@ -1,18 +1,14 @@
-import React from 'react'
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
-import TradeMap from '../components/tradeMap'
-// import TradeSeond from '../components/tradeSeond'
+import React from "react";
+import TradeMap from "../components/tradeMap";
+import Banner from "../components/banner";
 
 function Page() {
   return (
     <>
-    <Navbar/>
-    <TradeMap/>
-    {/* <TradeSeond/> */}
-    <Footer/>
+      <TradeMap />
+      <Banner />
     </>
-  )
+  );
 }
 
-export default Page
+export default Page;

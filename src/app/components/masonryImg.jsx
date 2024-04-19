@@ -30,14 +30,13 @@ function MasonryImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        For top-tier masonry estimating services, look no further than Procore
-        Estimators. With extensive experience spanning America we excel in
-        providing precise and punctual estimates. Our adept masonry cost
-        estimator is well-versed in Division 4, comprehensively covering
-        brickwork, CMU walls, masonry types, and more. Using advanced software
-        like AccuBid, Planswift, and Bluebeam, and adhering to esteemed
-        organizations like AACE and AIQS, our dedicated team ensures quality and
-        accuracy in every estimation.
+        At <span className="text-red">Veterans Estimators</span>, we specialize
+        in top-notch masonry estimates, offering accurate and timely solutions
+        nationwide. Our skilled team excels in Division 4, covering brickwork,
+        CMU walls, and more. With advanced tools like OST, Planswift, and
+        Bluebeam, we ensure precision in every evaluation. Contact us at{" "}
+        <span className="text-red">+1 917 300 1079</span> or via email{" "}
+        <span className="text-red">af@veteransestimators.com</span>.
       </p>
 
       <div
@@ -52,17 +51,14 @@ function MasonryImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
       {/* ...................................................... */}
 
-      <h2 className="text-[22px] font-bold w-[90%] mx-auto mt-6">
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-6">
         The Range Of Masonry Estimating Services
       </h2>
 
       <p className="text-[22px] font-poppins font-normal  w-[90%] mx-auto">
-        With practical knowledge and years of experience in the AEC industry, we
-        have aced in preparing timely and accurate estimates for masonry works
-        to the respective clients i.e. general contractors, masonry contractors,
-        masonry repair contractors, vendors, masons, developers, architects,
-        designers, home builders. Our services are designed relative to the
-        specific needs of our clients.
+        At Veterans Estimators, we specialize in delivering precise masonry
+        estimates tailored to your needs. With extensive experience in the AEC
+        industry, our team ensures accuracy and client satisfaction.
       </p>
     </>
   );

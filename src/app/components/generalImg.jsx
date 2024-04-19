@@ -32,12 +32,11 @@ function GeneralImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        As an estimation company, Veterans Estimators understands the importance
-        of accurate and reliable project estimation services. To ensure the
-        success of your estimation company, it is crucial to meet certain
-        general requirements that establish your professionalism and expertise.
-        In this guide, we will outline the key general requirements that every
-        estimation company, including Veterans Estimators, should consider.
+        <span className="text-red">Veterans Estimators</span> provides a
+        thorough understanding of the client's project expectations and
+        requirements, ensuring clarity in the project's vision. The General
+        Conditions section in the Contract Document outlines the rights,
+        responsibilities, and relationships between all parties involved.
       </p>
 
       <div
@@ -58,20 +57,18 @@ function GeneralImg() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-3 gap-6 w-[90%] mx-auto">
         <div className="col-span-2">
           <p className="text-[22px] font-poppins font-normal">
-            One of the foremost requirements for any estimation company is a
-            team of experts with extensive knowledge and experience in the
-            field. Your team should possess a deep understanding of various
-            industries, project types, and estimation techniques. Demonstrating
-            expertise and a track record of successful projects will instill
-            confidence in your clients and set you apart from the competition.
+            Having a skilled and experienced team is crucial for any estimation
+            company. At Veterans Estimators, we pride ourselves on our
+            knowledgeable team members who understand various industries,
+            project types, and estimation techniques. Our expertise and
+            successful track record give our clients confidence and distinguish
+            us from the competition.
           </p>
         </div>
         <div className="col-span-1 self-center">
           <Image className="mx-auto" src={General10} />
         </div>
       </div>
-      
-
     </>
   );
 }

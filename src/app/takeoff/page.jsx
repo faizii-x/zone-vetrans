@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../components/footer'
 import ConstructionImg from '../components/constructionImg'
 import Bullets from '../components/bullets'
 import CompSlider from '../components/compSlider'
@@ -14,7 +13,7 @@ function Page() {
     <CompSlider/>
     <SimpleComp/>
     <Banner/>
-    <Footer/>
+ 
     </>
   )
 }

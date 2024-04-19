@@ -3,17 +3,16 @@ import React from "react";
 function SimpleTextt() {
   return (
     <>
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-10">
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-10">
         Our Approach To Dry wall Estimating
       </h2>
       <p className="text-[22px] font-poppins font-normal w-[90%] mx-auto mt-3">
-        When preparing the drywall estimate, complete knowledge of the drywall
-        installation process is required. Our drywall estimators start with the
-        review of drawing plans and systematic bid documents to identify the
-        scope of the projects. Then, using the latest takeoff software like
-        Planswift, we measure the walls, partitions, and ceilings by the point
-        and click methods. The use of digital software mitigates the chances of
-        errors and the exact square footage are measured.
+        Veterans Estimators simplifies drywall estimating with precision and
+        expertise. Our team meticulously analyzes your plans using cutting-edge
+        software to ensure accuracy. We consider all aspects including
+        materials, labor rates, transportation, and even painting requirements.
+        With our value engineering approach, we optimize your profit potential.
+        Contact us today for a free quote! Reach us at <span className="text-red">+1 917 300 1079</span>.
       </p>
     </>
   );

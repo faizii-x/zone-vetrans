@@ -51,7 +51,7 @@ function QuantityImg() {
         </button>
       </div>
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-6">
+      <h2 className="text-[22px] font-bold w-[90%] mx-auto mt-6 ">
         Service Area
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-[90%] mx-auto">

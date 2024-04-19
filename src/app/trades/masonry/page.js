@@ -4,7 +4,6 @@ import BlackFour from "@/app/components/blackFour";
 import CallNow from "@/app/components/callNow";
 import CompMasonry from "@/app/components/compMasonry";
 import CompSlider from "@/app/components/compSlider";
-import Footer from "@/app/components/footer";
 import MasonryImg from "@/app/components/masonryImg";
 import SimpleComp from "@/app/components/simpleComp";
 import React from "react";
@@ -20,7 +19,7 @@ function Page() {
       <CompSlider/>
       <SimpleComp/>
       <Banner/>
-      <Footer/>
+     
     </>
   );
 }

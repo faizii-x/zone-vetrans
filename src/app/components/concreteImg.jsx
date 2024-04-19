@@ -34,13 +34,7 @@ function ConcreteImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        To assist builders, contractors, and homeowners in evaluating the cost
-        of their concrete projects, we offer concrete estimating services. All
-        labor and material costs associated with finishing the construction are
-        taken into account in our full concrete estimate process. Our team of
-        concrete cost estimators is up to date on current market prices and
-        trends. They offer precise and trustworthy concrete cost estimates using
-        cutting-edge technologies and techniques.
+      At <span className="text-red">Veterans Estimators</span>, we offer essential concrete estimating services for builders, contractors, and homeowners. Our detailed pricing analysis covers all aspects of your concrete project, ensuring transparency in costs. With our experienced team of concrete cost estimators, we provide precise forecasts based on current market trends and advanced technology.
       </p>
 
       <div
@@ -58,15 +52,10 @@ function ConcreteImg() {
       <h2 className="text-[22px] font-bold w-[90%] mx-auto mt-6">
         Our Estimation Process
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-3 gap-6 w-[90%] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-1 gap-6 w-[90%] mx-auto">
         <div className="col-span-2">
           <p className="text-[22px] font-poppins font-normal">
-            The concrete estimation process starts with a thorough study of
-            drawing plans submitted by the client to identify the scope of work.
-            After that, an on-screen takeoff is performed using digital software
-            like Bluebeam, Planswift, Accubid, etc. The quantities are imported
-            to EXCEL spreadsheets mentioned with detailed line item
-            descriptions.
+          At Concrete Estimating Services, we analyze design plans, perform digital takeoffs, and transfer data to EXCEL spreadsheets with detailed descriptions. Our services include breakdowns of quantities and costs for various concrete components and reinforcements.
           </p>
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1 self-center">

@@ -30,11 +30,11 @@ function MechanicalImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        At Veterans Estimators, our primary aim is to deliver precise and
-        exhaustive assessments for transporting systems across diverse sectors.
-        Our panel of specialists is dedicated to assisting you in choosing and
-        establishing the ideal transport solutions to boost the effectiveness
-        and output of your functions.
+       <span className="text-red">Veterans Estimators</span> offers MEP estimating services for mechanical
+        contractors. Our expert team provides precise estimates tailored to your
+        project, covering HVAC, plumbing, refrigeration, and piping. With
+        up-to-date data on costs, we ensure accuracy from small jobs to
+        large-scale projects. Contact us for a free consultation at <span className="text-red">+1 917 3001079</span>.
       </p>
 
       <div

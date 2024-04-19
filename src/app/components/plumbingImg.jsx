@@ -32,8 +32,7 @@ function PlumbingImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-      Precise and super-fast plumbing estimating services for General Contractors, Piping, Plumbing, Mechanical and Insulation Contractors and Designers throughout North America, Australia, Africa and the Caribbean.
-<br/>For 15 years, Planhub Estimators has earned a reputation for understanding the unique challenges of our clients and providing prompt estimating solutions to fulfill their project goals. We are committed to providing accurate and quick estimates to ensure that our clients succeed by submitting competitive bids. With the proper knowledge of plumbing systems, materials, labor rates, specifications, and various factors, our estimating professionals are experts with the latest takeoff software to perform on-screen takeoff and apply up to date zip code based pricing using RSMeans and our developed cost database for material and labor costs.
+      At Veterans Estimating, we simplify plumbing estimates Services worldwide. With 10+ years of experience, we provide fast, accurate estimates using advanced software. From residential to commercial projects, count on us for precision and efficiency.
       </p>
 
       <div

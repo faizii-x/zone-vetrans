@@ -32,12 +32,13 @@ function GutterImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        Are you exploring a reliable platform to have gutter estimating services
-        for your construction project? If yes, you are on the right platform.
-        Veterans Estimators is a professional platform with a wide range of
-        estimating services, including gutter estimating services. We deal with
-        our clients throughout the World in delivering reliable gutter estimates
-        for their construction projects.
+        Looking for reliable gutter estimating services for your construction
+        project? Look no further! Veterans Estimators offers professional gutter
+        estimating services worldwide. Our expert team uses modern software to
+        deliver accurate gutter estimates efficiently, complete with layouts and
+        annotations. With just one click, we can generate detailed bills of
+        materials or takeoffs, providing precise estimates to our clients
+        instantly.
       </p>
 
       <div
@@ -52,7 +53,7 @@ function GutterImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
       {/* ...................................................... */}
 
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-6">
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-6">
         Gutter Material
       </h2>
 
@@ -60,7 +61,7 @@ function GutterImg() {
         We efficiently try to imagine a certain type of new gutter that is quite
         right for you and include all the required material for a gutter
         installation. There are comprehensive varieties of gutter that vary
-        according to their durability thresholds and appearances. Our expert
+        according to their durability thresholds and appearances.<br/> Our expert
         Gutter cost estimators deal with a wide range of following gutters.
       </p>
     </>

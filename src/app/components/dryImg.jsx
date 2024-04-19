@@ -32,12 +32,15 @@ function DryImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        As an estimation company, Veterans Estimators understands the importance
-        of accurate and reliable project estimation services. To ensure the
-        success of your estimation company, it is crucial to meet certain
-        general requirements that establish your professionalism and expertise.
-        In this guide, we will outline the key general requirements that every
-        estimation company, including Veterans Estimators, should consider.
+        If you're seeking precise drywall takeoff services to avoid bid
+        discrepancies, rely on{" "}
+        <span className="text-red">Veterans Estimators</span>. With extensive
+        experience in the AEC industry, we specialize in accurate estimates for
+        residential, commercial, and retail projects. Our meticulous approach
+        ensures accuracy, using current pricing data and following industry
+        guidelines from organizations like AACE and AIQS. Trust{" "}
+        <span className="text-red">Veterans Estimators</span> for reliable and
+        detailed estimates.
       </p>
 
       <div
@@ -52,7 +55,7 @@ function DryImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
       {/* ...................................................... */}
 
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-10">
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-10">
         Dry Wall Estimating Service
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] mx-auto mt-2">
@@ -100,7 +103,7 @@ function DryImg() {
         Among our clients are general contractors, drywall contractors, drywall
         installation service providers, homeowners, and designers involved in
         the construction of single and multi-family residential, commercial, and
-        retail projects. With the special focus on bid deadlines, budget
+        retail projects.<br/> With the special focus on bid deadlines, budget
         constraints, and scope of the project, we provide ready to be submitted
         complete bids containing accurate cost estimates and material takeoff
         sheets to drywall contractors that help them in winning their bids with

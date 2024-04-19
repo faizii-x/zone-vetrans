@@ -3,12 +3,12 @@ import React, { useEffect, useRef, useState } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
 import { SLIDER_CARDS } from "@/data";
-
+import Link from "next/link";
 
 function SliderService() {
   const [sliderRef, setSliderRef] = useState(null);
   const ref = useRef();
-
+    
   const settings = {
     dots: false,
     infinite: true,
@@ -53,10 +53,11 @@ function SliderService() {
           {x.para}
         </p>
         
-     
+        <Link href={x.link}>
       <div className=" w-[140px] h-[60px] border border-red rounded-md mt-3 flex justify-center cursor-pointer text-red  hover:text-white hover:bg-red">
         <button className="">{x.btn}</button>
       </div>
+      </Link>
       <div className="lg:flex grid justify-start gap-8">
       <Image className="mt-3 w-[80%] h-auto" src={x.img} />
       <div className="self-center ">

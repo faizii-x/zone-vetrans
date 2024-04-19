@@ -5,10 +5,20 @@ import { Dialog, Transition } from "@headlessui/react";
 import Logo from "../../../public/logo.svg";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import Modal from "./modal";
 
 export default function Drawer({ open, setOpen }) {
   const pathname = usePathname();
   const [isHovered, setIsHovered] = useState(false);
+  const [hello, setHello] = useState(false);
+
+  const openModal = () => {
+    setHello(true);
+  };
+
+  const closeModal = () => {
+    setHello(false);
+  };
 
   const handleMouseEnter = () => {
     setIsHovered(true);
@@ -32,7 +42,7 @@ export default function Drawer({ open, setOpen }) {
         >
           <div className="fixed inset-0 bg-gray-400 bg-opacity-35 transition-opacity" />
         </Transition.Child>
-        <div className="fixed inset-0 overflow-hidden">
+        <div className="fixed inset-0 overflow-hidden z-50">
           <div className="absolute inset-0 overflow-hidden">
             <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-xs pl-10">
               <Transition.Child
@@ -54,23 +64,20 @@ export default function Drawer({ open, setOpen }) {
                     leaveFrom="opacity-100"
                     leaveTo="opacity-0"
                   >
-                    <div className="absolute top-0 left-0 z-9999 -ml-8 flex pt-4 pr-2 sm:-ml-10 sm:pr-4">
+                    <div className="absolute z-50 top-0 left-0 -ml-8 flex pt-4 pr-2 sm:-ml-10 sm:pr-4">
                       <button
                         type="button"
-                        className="rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-[#212121]"
+                        className="rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-red"
                         onClick={() => setOpen(false)}
                       >
                         <span className="sr-only">Close panel</span>
-                        <div
-                          className="h-6 w-6 text-[#212121]"
-                          aria-hidden="true"
-                        >
+                        <div className="h-6 w-6 text-red" aria-hidden="true">
                           X
                         </div>
                       </button>
                     </div>
                   </Transition.Child>
-                  <div className="flex h-full flex-col overflow-y-scroll bg-[#212121] py-3 shadow-xl">
+                  <div className="flex h-full z-50 flex-col overflow-y-scroll bg-[#212121] py-3 shadow-xl">
                     <div className="p-5">
                       <Link href="/">
                         <Image
@@ -343,32 +350,18 @@ export default function Drawer({ open, setOpen }) {
                           </Link>
                         </div>
                       </div>
-
-                      <div className="mt-6 cursor-pointer">
-                        <div className="relative">
-                          <input
-                            type="text"
-                            placeholder="Search Trades..."
-                            className="w-full h-[45px] rounded-full pl-4"
-                          />
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke-width="1.5"
-                            stroke="currentColor"
-                            class="w-6 h-6 text-red absolute top-[10px] right-5"
-                          >
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-                            />
-                          </svg>
-                        </div>
-                      </div>
+                    </div>
+                    <div
+                      onClick={openModal}
+                      className="bg-red rounded-lg w-[160px] h-[60px] flex justify-center items-center cursor-pointer mt-8 mx-auto"
+                    >
+                      <button className="text-white text-[17px] font-bold ">
+                        Upload plans
+                      </button>
                     </div>
                   </div>
+
+                  {hello && <Modal closeModal={closeModal} />}
                 </Dialog.Panel>
               </Transition.Child>
             </div>

@@ -4,7 +4,6 @@ import CallNow from "@/app/components/callNow";
 import CompSlider from "@/app/components/compSlider";
 import ConveyImg from "@/app/components/conveyImg";
 import ConveySimple from "@/app/components/conveySimple";
-import Footer from "@/app/components/footer";
 import SimpleComp from "@/app/components/simpleComp";
 import React from "react";
 
@@ -18,7 +17,7 @@ function Page() {
       <CompSlider/>
       <SimpleComp/>
       <Banner/>
-      <Footer/>
+     
     </>
   );
 }

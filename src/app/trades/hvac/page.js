@@ -1,9 +1,8 @@
 import Banner from "@/app/components/banner";
+import BlackElectrical from "@/app/components/blackElectrical";
 import CallNow from "@/app/components/callNow";
 import CompSlider from "@/app/components/compSlider";
-import Footer from "@/app/components/footer";
 import HvacImg from "@/app/components/hvacImg";
-import HvacText from "@/app/components/hvacText";
 import SimpleComp from "@/app/components/simpleComp";
 import React from "react";
 
@@ -12,11 +11,11 @@ function Page() {
     <>
       <HvacImg />
       <CallNow />
-      <HvacText/>
+      <BlackElectrical/>
       <CompSlider />
       <SimpleComp />
       <Banner />
-      <Footer />
+      
     </>
   );
 }

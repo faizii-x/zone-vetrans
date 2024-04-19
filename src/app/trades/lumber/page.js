@@ -2,7 +2,6 @@ import Banner from "@/app/components/banner";
 import BlackLumber from "@/app/components/blackLumber";
 import CallNow from "@/app/components/callNow";
 import CompSlider from "@/app/components/compSlider";
-import Footer from "@/app/components/footer";
 import LumberImg from "@/app/components/lumberImg";
 import LumberText from "@/app/components/lumberText";
 import SimpleComp from "@/app/components/simpleComp";
@@ -18,7 +17,7 @@ function Page() {
       <CompSlider/>
       <SimpleComp/>
       <Banner/>
-      <Footer/>
+  
     </>
   );
 }

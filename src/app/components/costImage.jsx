@@ -30,17 +30,8 @@ function CostImage() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        An exhaustive appraisal of construction Estimation is crucial for
-        projecting the cost of any under construction facility or structure.
-        It's a significant component of the complete cost control for the
-        constructor, equally necessary for adhering to the budget.
-        <br />
-      </p>
-      <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        We recognize the unique requirements of our clients and our construction
-        cost estimating services are tailored to their particular needs. Among
-        our clients are:
-      </p>
+      <span className="text-red">Veterans Estimators</span>, a trusted name in the construction industry, specializes in providing accurate and reliable cost estimating services. With our experienced team of estimators, we deliver precise estimates for projects of all sizes and complexities. From detailed blueprint analysis to timely delivery, we ensure client satisfaction every step of the way. Choose Veterans Estimators for your project and experience excellence in cost estimating. <br/> <br/>
+      We recognize the unique requirements of our clients and our construction cost estimating services are tailored to their particular needs. Among our clients are:      </p>
 
       <div
         onClick={openModal}

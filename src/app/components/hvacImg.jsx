@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import Gray from "../../../public/png/gray.png";
+import Gray from "../../../public/png/hvacc.png";
 import Navbar from "./navbar";
 import CostModal from "./costModal";
 
@@ -24,7 +24,7 @@ function HvacImg() {
         <Navbar />
         <div className="self-center">
           <p className="w-[100%]  text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
-            HVAC Estimating
+            HVAC Estimating Services
           </p>
         </div>
       </div>
@@ -43,29 +43,17 @@ function HvacImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
       {/* ...................................................... */}
 
-      <p className="text-[22px] font-poppins font-normal w-[90%] mx-auto mt-6">
-        Heating Ventilation and Air-Conditioning contractors reach out to us for
-        HVAC estimating services. The MEP estimators specialized in HVAC
-        estimating quantifying ducts, hangers, elbows, and fixtures along with
-        the condensing evaporating units. The specialized estimators prepare to
-        mark up plans along with detailed line item descriptions.
-      </p>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-6 gap-6 w-[90%] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-6 w-[90%] mx-auto">
         <div className="col-span-2 self-center">
           <p className="text-[22px] font-poppins font-normal">
-            Interior and exterior finishes estimations are very important for
-            the construction of buildings. Painting, stucco, plaster,
-            specialized coatings estimates are necessary for winning bids and
-            quoting a price to the client for contractors. They normally demand
-            for bid and material takeoffs for ordering and procuring material.
-            <br />
-            Accuracy matters a lot when contractors are held responsible for any
-            shortcoming in the estimate, therefore experience, professionalism
-            and ability along with ensured practices are maintained by the
-            estimation company. Hence, relying on outsourcing the estimates and
-            cutting down your in-house costs always save expenditure if and only
-            if accuracy is established and promised.
+            Contractors in HVAC rely on <span className="text-red">Veterans Estimators</span> for precise HVAC
+            estimation. Our MEP estimators specialize in quantifying HVAC
+            components like ducts, hangers, fixtures, and units. With detailed
+            plans and descriptions, our estimators ensure clarity for
+            fabricators and contractors. At Veterans Estimators, our experienced
+            team focuses on enhancing comprehension for contractors, design
+            engineers, and fabricators, providing clear cost projections for
+            bidding and planning.
           </p>
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1 mx-auto">

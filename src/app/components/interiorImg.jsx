@@ -33,7 +33,7 @@ function InteriorImg() {
 
       <div
         onClick={openModal}
-        className="fixed right-0 top-[390px] z-[1000px] shadow-lg bg-red rounded-lg overflow-hidden cursor-pointer w-[120px] h-[50px] flex justify-center items-center"
+        className="fixed right-0 top-[390px] z-10 shadow-lg bg-red rounded-lg overflow-hidden cursor-pointer w-[120px] h-[50px] flex justify-center items-center"
       >
         <button className="text-white text-[18px] font-semibold blink-text">
           Services
@@ -46,17 +46,7 @@ function InteriorImg() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-6 gap-6 w-[90%] mx-auto">
         <div className="col-span-2 self-center">
           <p className="text-[22px] font-poppins font-normal">
-            Interior and exterior finishes estimations are very important for
-            the construction of buildings. Painting, stucco, plaster,
-            specialized coatings estimates are necessary for winning bids and
-            quoting a price to the client for contractors. They normally demand
-            for bid and material takeoffs for ordering and procuring material.<br/>
-            Accuracy matters a lot when contractors are held responsible for any
-            shortcoming in the estimate, therefore experience, professionalism
-            and ability along with ensured practices are maintained by the
-            estimation company. Hence, relying on outsourcing the estimates and
-            cutting down your in-house costs always save expenditure if and only
-            if accuracy is established and promised.
+          Estimating both internal and external finishes is vital in construction. It involves forecasting costs for tasks like painting, stucco, plaster, and specialty coatings. Contractors need accurate estimates to order materials and provide quotes. Precision is crucial to avoid extra costs and waste. Outsourcing estimates can save money if accuracy is guaranteed. Over-ordering can lead to waste and extra expenses. Precise estimates help prevent wastage and ensure cost-effectiveness.
           </p>
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1 self-center">

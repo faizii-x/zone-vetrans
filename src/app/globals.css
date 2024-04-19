@@ -35,6 +35,17 @@ html {
 }
 /* ......................... */
 
+.styleClass{
+  margin-top: -260px;
+  transition: 0.5s linear;
+
+}
+
+.styleClass2{
+ margin-top: 0px;
+  transition: 0.5s linear;
+}
+/* ........................ */
 .slick-initialized{
   position: relative !important;
 }
@@ -166,6 +177,12 @@ html {
 .show-large-screen{
 display: block;
 }
+.hide-large-screens{
+  display: none;
+}
+.show-large-screens{
+display: block;
+}
 
 .hide-div-2{
   display: none;
@@ -180,6 +197,16 @@ display: block;
     display: block;
   }
   .show-large-screen{
+    display: none;
+    }
+}
+
+@media (max-width: 1263px) {
+  
+  .hide-large-screens{
+    display: block;
+  }
+  .show-large-screens{
     display: none;
     }
 }

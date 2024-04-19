@@ -18,7 +18,7 @@ function BlackOne() {
             </div>    
           </>
         ))}
-      </div>
+      </div>      
     </>
   );
 }

@@ -1,7 +1,6 @@
 import Banner from "@/app/components/banner";
 import CallNow from "@/app/components/callNow";
 import CompSlider from "@/app/components/compSlider";
-import Footer from "@/app/components/footer";
 import IndustrialImg from "@/app/components/industrialImg";
 import SecondCommercial from "@/app/components/secondCommercial";
 import SimpleComp from "@/app/components/simpleComp";
@@ -16,7 +15,7 @@ function Page() {
       <CompSlider />
       <SimpleComp />
       <Banner />
-      <Footer />
+    
     </>
   );
 }

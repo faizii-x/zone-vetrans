@@ -15,7 +15,7 @@ function SpecialImg() {
   return (
     <>
       <div
-        className=" max-w-full h-auto bg-cover bg-center p-4 "
+        className=" max-w-full h-auto bg-cover bg-center "
         style={{ backgroundImage: `url(${"/png/takeoffbg.png"})` }}
       >
         <Navbar />
@@ -29,10 +29,7 @@ function SpecialImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        Our appraisal company focuses on delivering precise and comprehensive
-        predictions for tailor-made building endeavors. Our team of specialists
-        is committed to assisting you in strategizing and distributing resources
-        for the distinctive aspects that make your project stand out.
+      There are many construction estimating services in the market, but they provide a limited number of options for the constructors. <span className="text-red">Veterans Estimators</span> services are special when compared to the rest of the companies due to the following specialties.
       </p>
 
       <div

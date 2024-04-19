@@ -1,11 +1,8 @@
 "use client";
 import { useEffect, useState, useRef } from "react";
 import Banner from "./components/banner";
-import Footer from "./components/footer";
 import Hero from "./components/hero";
 import HomeCard from "./components/homeCard";
-import Logos from "./components/logos";
-import Navbar from "./components/navbar";
 import ParaSection from "./components/paraSection";
 import ScrollCards from "./components/scrollCards";
 import Start from "./components/start";
@@ -19,6 +16,7 @@ import Buttonfix from "../../public/buttonfix.svg";
 import Link from "../../public/link.svg";
 import Homebig from "./components/homebig";
 import Chatbot from "./components/chatbot";
+import AccuracyComp from "./components/accuracyComp";
 
 export default function Home() {
   const [showPopup, setShowPopup] = useState(false);
@@ -105,11 +103,11 @@ export default function Home() {
               <Image className="" src={Link} />
             </div>
 
-            <p className="text-[28px] text-center text-white font-bold p-3">
+            <p className="text-[23px] text-center text-white font-bold p-3">
               AFFORDABLE ESTIMATES
             </p>
             <p className="text-[18px] text-white font-semibold p-6 text-center -mt-10">
-              <span className="text-[28px] font-bold">(30% OFF)</span>{" "}
+              <span className="text-[23px] font-bold mt-1">(30% OFF)</span>{" "}
             </p>
 
             <div onClick={openModal} className="flex justify-center mb-4">
@@ -117,7 +115,7 @@ export default function Home() {
                 Upload plans
               </button>
             </div>
-            <p className="text-[20px] text-white text-center font-normal mt-2 mb-3">
+            <p className="text-[18px] text-white text-center font-normal mt-2 mb-3">
               TURNAROUND TIME 2-3 Days!
             </p>
           </div>
@@ -131,16 +129,16 @@ export default function Home() {
 
       {bot && <Chatbot closeChat={closeChat} />}
 
-      <Navbar />
+     
       <Hero />
-      <Logos />
       <ParaSection />
       <HomeCard />
       <ScrollCards />
       <Homebig />
+      <AccuracyComp/>
       <Start />
       <Banner />
-      <Footer />
+    
     </>
   );
 }

@@ -21,9 +21,8 @@ function BlackRebar() {
       </div>
 
       <p className="text-black text-[22px] font-poppins font-normal w-[90%] mx-auto mt-3">
-        We will effectively assess your project, point out the schedules that
-        can reliably work best for the different construction project, and have
-        a quick turnaround time.
+        We'll evaluate your project, identify optimal schedules, and ensure fast
+        turnaround times.
       </p>
 
       <li className="text-[18px] font-medium font-poppins w-[90%] mx-auto mt-3">
@@ -33,8 +32,8 @@ function BlackRebar() {
         We insight on how to optimize your schedules
       </li>
       <li className="text-[18px] font-medium font-poppins w-[90%] mx-auto">
-        Our weekly, quarterly progress and assessment of projects can get you
-        updated about your construction project.
+        We provide regular updates on your construction project's progress
+        through weekly and quarterly assessments.
       </li>
     </>
   );

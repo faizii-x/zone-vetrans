@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Navbar from "./navbar";
 import CostModal from "./costModal";
 import Image from "next/image";
-import PlanImg from "../../../public/png/planimg.png";
+import PlanImgg from "../../../public/png/planimgg.png";
 import CallNow from "./callNow";
 import PlanStyle from "./planStyle";
 
@@ -34,13 +34,11 @@ function PlanningImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        In the world of project management, the first and crucial step is
-        planning. This involves creating a detailed blueprint for the project's
-        journey. Now, planning isn't the same as scheduling. Planning is like
-        making a big map with the project managers and construction folks, while
-        scheduling is like putting that map into a timeline with the help of
-        scheduling experts. So, planning sets the direction, and scheduling
-        makes sure everything happens at the right time.
+        In project management, planning is the first crucial step. It's like
+        creating a big map with project managers and construction teams to set
+        the direction. Scheduling, on the other hand, is about putting that map
+        into a timeline with scheduling experts. So, planning sets the path, and
+        scheduling ensures things happen on time.
       </p>
 
       <div
@@ -58,34 +56,23 @@ function PlanningImg() {
       <h2 className="text-[22px] font-bold w-[90%] mx-auto mt-6">
         What is Construction Master Plan?
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-3 gap-6 w-[90%] container mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-1 gap-6 w-[90%] container mx-auto">
         <div className="col-span-2">
           <p className="text-[22px] font-poppins font-normal">
-            A construction master plan addresses how will the project be
-            planned, organized, and major work activities be controlled to meet
-            the goals of finishing the work on time, within budget and as
-            specified. A construction master plan addresses how will the project
-            be planned, organized, and major work activities be controlled to
-            meet the goals of finishing the work on time, within budget and as
-            specified. A construction master plan addresses how will the project
-            be planned, organized, and major work activities be controlled to
-            meet the goals of finishing the work on time, within budget and as
-            specified.
-            <br /> Contracting plan is the major consideration in formulating
-            the master construction plan, which answers a lot of questions.
-            Questions related to government and social restraint, resources for
-            construction, owner’s policies or legal requirements, contractual
-            requirement affecting master plan are not answered by contracting
-            plan.
-            <br /> Answers to these questions must be found during the
-            development of the project execution plan. Project execution plan
-            shall be reviewed and evaluation shall be done as the work
-            progresses. Minor variations are common but major changes shall be
-            considered with extreme caution.
+            A construction blueprint, guided by Veterans Estimators, outlines
+            how a project should be organized, planned, and directed to achieve
+            its goals on time and within budget. It serves as a roadmap,
+            ensuring tasks are coordinated and managed efficiently to meet
+            deadlines, stay within financial limits, and adhere to
+            specifications. While the contracting scheme offers various
+            solutions, it doesn't address governmental or societal constraints,
+            construction resources, or legal requirements. These issues are
+            resolved during the project execution scheme, which must be reviewed
+            and adjusted as needed throughout the project lifecycle.
           </p>
         </div>
         <div className="col-span-1 self-center">
-          <Image className="mx-auto" src={PlanImg} />
+          <Image className="mx-auto" src={PlanImgg} />
         </div>
       </div>
       <PlanStyle />

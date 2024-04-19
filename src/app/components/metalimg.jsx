@@ -30,12 +30,7 @@ function MetalImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        <span className="text-black font-bold">Veterans Estimators</span> is your dependable ally for precise and trustworthy
-        metal projections for construction endeavors. We recognize the vital
-        importance of metals in establishing stability, visual appeal, and
-        practicality in construction. Our proficiency and dedication to
-        excellence guarantee that you get accurate metal estimates customized to
-        meet your unique project needs.
+        <span className="text-red ">Veterans Estimators</span> is your reliable partner for accurate and dependable metal estimates tailored to your construction projects. We understand the critical role of metals in ensuring structural integrity and aesthetic appeal. Count on our expertise and commitment to deliver precise projections that meet your specific requirements.
       </p>
 
       <div

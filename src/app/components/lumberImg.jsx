@@ -13,10 +13,6 @@ function LumberImg() {
     setServiceModal(false);
   };
 
-  <li className="text-[18px] font-medium font-poppins">
-  Roofing Takeoff
-</li>
-
   return (
     <>
       <div
@@ -34,11 +30,11 @@ function LumberImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        Welcome to Veterans Estimators, where our expertise lies in delivering
-        top-notch wooden and plastic materials tailored for construction
-        endeavors. Our comprehensive selection of products, coupled with
-        proficient consultation, guarantees that your ventures reap the
-        advantages of both natural and man-made materials.
+        <span className="text-red">Veterans Estimators</span> specializes in
+        providing high-quality wooden and plastic materials tailored for
+        construction projects. With our wide range of products and expert
+        guidance, we ensure that your projects benefit from the best of natural
+        and man-made materials.
       </p>
 
       <div
@@ -53,20 +49,16 @@ function LumberImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
       {/* ...................................................... */}
 
-      <h2 className="text-[22px] font-bold w-[90%] mx-auto mt-6">
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-6">
         What Do We Deliver In Our Lumber Takeoffs?
       </h2>
 
       <p className="text-[22px] font-poppins font-normal  w-[90%] mx-auto">
-        Our lumber takeoffs include all the details like timber or lumber, labor
-        cost, labor-hours, and transportation cost. Through these details, we
-        have helped them in winning the bids and in getting good markups.
-        Furthermore, our estimates have also helped General contractors and
-        builders to negotiate with their suppliers. Moving forward, we also
-        include an accurate lumber cut list. It eases the woodworkers with the
-        lineal foot to board foot conversions. This ensures that the most of the
-        timber is used with minimum wastage. Our Deliverables for The Lumber
-        Takeoff Comprises
+        Our lumber takeoffs cover timber/lumber, labor costs, labor-hours, and
+        transportation costs. Our detailed estimates help clients win bids and
+        negotiate with suppliers. We provide accurate lumber cut lists, making
+        it easier for woodworkers to minimize wastage and maximize timber usage.<br/>
+        Our Deliverables for The Lumber Takeoff Comprises
       </p>
       <li className="text-[22px] font-poppins font-normal mt-3 w-[90%] mx-auto">
         Lumber takeoff EXCEL sheets
@@ -79,6 +71,14 @@ function LumberImg() {
       </li>
       <li className="text-[22px] font-poppins font-normal mt-2 w-[90%] mx-auto">
         Lumber cut list
+      </li>
+
+      <li className="text-[22px] font-poppins font-normal mt-2 w-[90%] mx-auto">
+      Bid Summary comprising total material. labor & equipment costs, profit percentage, overheads, insurance, logistics, permits, taxes, and various other costs.
+      </li>
+
+      <li className="text-[22px] font-poppins font-normal mt-2 w-[90%] mx-auto">
+      Complete review of inclusions and exclusions
       </li>
     </>
   );

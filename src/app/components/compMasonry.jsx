@@ -79,18 +79,14 @@ function CompMasonry() {
             <Image className="mx-auto" src={Mason} />
           </div>
         </div>
-        <h2 className="text-[30px] font-bold mt-6">
+        <h2 className="text-[24px] font-bold mt-6">
           Why should you outsource your masonry estimate?
         </h2>
         <p className=" text-[22px] font-poppins font-normal mt-4">
-          In today's fiercely competitive construction landscape, where narrow
-          profit margins prevail, the key to gaining a competitive edge lies in
-          precise and comprehensive estimates. Crafting a masonry estimate on
-          your own presents challenges of accuracy, complexity, and time
-          constraints. Achieving accurate masonry estimates necessitates
-          in-depth knowledge of materials, labor, transportation, and software
-          proficiency. Opting to outsource your estimates to a seasoned firm
-          like Plan hub estimating offers distinct advantages:
+          At Veterans Estimators, we specialize in detailed masonry estimates,
+          saving you time and improving accuracy. With our outsourcing services,
+          you can win more bids, increase profitability, and focus on what
+          matters most. Contact us today for a free quote!
         </p>
       </div>
     </>

@@ -6,7 +6,7 @@ function BlackPlumb() {
   return (
     <>
 
-<h2 className="text-[30px] font-bold w-[90%] mx-auto mt-10">
+<h2 className="text-[24px] font-bold w-[90%] mx-auto mt-10">
         Range Of Plumbing Estimating Services
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 mt-[120px] lg:w-[60%] w-[90%] container mx-auto">

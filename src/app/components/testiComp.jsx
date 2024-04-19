@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Man from "../../../public/png/man.png";
+import Man1 from "../../../public/png/man1.png";
+import Man2 from "../../../public/png/man2.png";
+import Man3 from "../../../public/png/man3.png";
 
 function TestiComp() {
   return (
@@ -17,9 +20,9 @@ function TestiComp() {
                 <h3 className="text-white text-[17px] font-poppins font-semibold mt-10">
                   Harmony Holloway
                 </h3>
-                <h3 className="text-white text-[13px] font-poppins font-normal mt-2">
-                  Owner of Bennie Daye Services
-                </h3>
+                {/* <h3 className="text-white text-[13px] font-poppins font-normal mt-2">
+                    Owner of Bennie Daye Services
+                  </h3> */}
                 <div className="flex justify-start gap-2 mt-3 mb-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -100,10 +103,14 @@ function TestiComp() {
         </div>
         <div className="col-span-2 self-center p-2 lg:mt-0 mt-12">
           <p className="text-[22px] font-poppins font-normal">
-            My name is Harmony Holloway, I am the owner of Bennie Daye Services
-            Inc DBA Bennie Daye Construction based in Brooklyn New York. I have
-            been working with PROCORE Estimators since February 2015. PROCORE
-            Estimators have done several estimates for my company.{" "}
+            We recently partnered with{" "}
+            <span className="text-red">Veterans Estimators</span> for a complex
+            commercial development project. Their meticulous approach to
+            construction estimating and fast turnaround times were invaluable.
+            The accurate estimates they provided helped us secure funding and
+            stay within budget throughout the project. We highly recommend
+            Veterans Estimators for any construction project requiring precision
+            and efficiency.
           </p>
         </div>
       </div>
@@ -112,10 +119,14 @@ function TestiComp() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-[90%] container mx-auto mt-10">
         <div className="col-span-2 self-center">
           <p className="text-[22px] font-poppins font-normal">
-            My name is Harmony Holloway, I am the owner of Bennie Daye Services
-            Inc DBA Bennie Daye Construction based in Brooklyn New York. I have
-            been working with PROCORE Estimators since February 2015. PROCORE
-            Estimators have done several estimates for my company.{" "}
+            As a general contractor, I rely on accurate estimates to win bids
+            and manage projects successfully.{" "}
+            <span className="text-red">Veterans Estimators</span> has become my
+            go-to partner for construction estimating. Their team's deep
+            industry knowledge and proficiency with advanced software ensure
+            detailed and reliable estimates. Their clear communication
+            throughout the process allows me to make informed decisions with
+            confidence.
           </p>
         </div>
 
@@ -124,11 +135,9 @@ function TestiComp() {
             <div className="xl:flex grid xl:justify-start justify-center">
               <div className="">
                 <h3 className="text-white text-[17px] font-poppins font-semibold mt-10">
-                  Harmony Holloway
+                  Julianne Blackwell
                 </h3>
-                <h3 className="text-white text-[13px] font-poppins font-normal mt-2">
-                  Owner of Bennie Daye Services
-                </h3>
+
                 <div className="flex justify-start gap-2 mt-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -203,7 +212,7 @@ function TestiComp() {
                 </div>
               </div>
 
-              <Image className="self-center" src={Man} />
+              <Image className="self-center" src={Man1} />
             </div>
           </div>
         </div>
@@ -216,11 +225,11 @@ function TestiComp() {
             <div className="xl:flex grid xl:justify-start justify-center">
               <div className="">
                 <h3 className="text-white text-[17px] font-poppins font-semibold mt-10">
-                  Harmony Holloway
+                  Katelyn Conner
                 </h3>
-                <h3 className="text-white text-[13px] font-poppins font-normal mt-2">
+                {/* <h3 className="text-white text-[13px] font-poppins font-normal mt-2">
                   Owner of Bennie Daye Services
-                </h3>
+                </h3> */}
                 <div className="flex justify-start gap-2 mt-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -295,16 +304,18 @@ function TestiComp() {
                 </div>
               </div>
 
-              <Image className="self-center" src={Man} />
+              <Image className="self-center" src={Man2} />
             </div>
           </div>
         </div>
         <div className="col-span-2 self-center lg:mt-0 mt-16">
           <p className="text-[22px] font-poppins font-normal">
-            My name is Harmony Holloway, I am the owner of Bennie Daye Services
-            Inc DBA Bennie Daye Construction based in Brooklyn New York. I have
-            been working with PROCORE Estimators since February 2015. PROCORE
-            Estimators have done several estimates for my company.{" "}
+            We were facing a tight budget for our new office buildout and needed
+            accurate estimates to stay on track.{" "}
+            <span className="text-red">Veterans Estimators</span> sharp
+            estimates saved us over $300. We're extremely satisfied with the
+            services provided by Veterans Estimators and would definitely
+            recommend them to others.
           </p>
         </div>
       </div>
@@ -314,10 +325,11 @@ function TestiComp() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-[90%] container mx-auto mt-10">
         <div className="col-span-2 self-center">
           <p className="text-[22px] font-poppins font-normal">
-            My name is Harmony Holloway, I am the owner of Bennie Daye Services
-            Inc DBA Bennie Daye Construction based in Brooklyn New York. I have
-            been working with PROCORE Estimators since February 2015. PROCORE
-            Estimators have done several estimates for my company.{" "}
+            Before <span className="text-red">Veterans Estimators</span>, our
+            estimating process was slow and cumbersome. Now, with their
+            streamlined approach, we get fast and accurate estimates, allowing
+            us to bid on more projects and win more contracts. We highly
+            recommend them!
           </p>
         </div>
 
@@ -405,7 +417,7 @@ function TestiComp() {
                 </div>
               </div>
 
-              <Image className="self-center" src={Man} />
+              <Image className="self-center" src={Man3} />
             </div>
           </div>
         </div>

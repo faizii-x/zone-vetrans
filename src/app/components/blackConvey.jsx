@@ -5,7 +5,7 @@ import Image from "next/image";
 function BlackConvey() {
   return (
     <>
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-6">
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-6">
         Our Conveying Systems Cost Estimation Process
       </h2>
 

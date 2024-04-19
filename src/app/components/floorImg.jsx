@@ -43,11 +43,7 @@ function FloorImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6 mb-4">
-        Flooring Estimating may cause disrupt while estimating a construction
-        project. To get yourself hassle-free, better to hire a professional
-        Flooring Estimating Services from a reputable company like us. It
-        manages to help save your precious time and allow you to focus on other
-        aspects of managing bids.
+      At <span className="text-red">Veterans Estimators</span>, we make flooring estimates easy and accurate. Whether you're a contractor, manufacturer, architect, or designer, we've got you covered. Our tailored services consider all design elements to minimize waste. From access flooring to stair details, we cater to various properties such as residential, commercial, and more. Trust us for seamless flooring solutions.
       </p>
     </>
   );

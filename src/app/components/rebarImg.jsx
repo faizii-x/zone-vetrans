@@ -32,16 +32,14 @@ function RebarImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        Are you exploring a professional platform to have Rebar estimating
-        services for your construction project? If yes, then Veterans Estimating
-        has got you covered. We are here with an expert team of rebar estimators
-        who can easily deliver precise and qualitative Rebar detailing services
-        and Rebar estimating services. <br />
-        Our Rebar estimating services are quite distinctive among other
-        competitors due to our proficiency in delivering accurate and
-        comprehensive rebar estimate to our wide range of clients. We deal with
-        a wide array of clients and construction projects with efficient
-        results.
+        Looking for reliable Rebar estimating services for your construction
+        project? <span className="text-red">Veterans Estimators</span> has you covered. Our expert team
+        specializes in delivering precise and high-quality Rebar detailing and
+        estimating services.<br/> What sets our Rebar estimating services apart is
+        our commitment to accuracy and thoroughness. With years of experience,
+        we have successfully provided comprehensive estimates to a diverse range
+        of clients. No matter the project size or complexity, we ensure
+        efficient and accurate results.
       </p>
 
       <div
@@ -53,18 +51,11 @@ function RebarImg() {
         </button>
       </div>
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-6">
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-6">
         Rebar Estimating Services
       </h2>
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-2">
-        Rebar estimating services demand experience; thus, Veterans Estimators
-        estimating stood competitive among competitors due to its competitive
-        team of Rebar estimators. A steel reinforcing rod effectively
-        strengthens concrete and cast into concrete as an integral part of the
-        construction process. Concrete pricing demands an estimate in which an
-        evaluation of demanding Rebar is involved for a certain construction
-        project. We include the following things while giving our clients fast,
-        accurate quotes.
+      Rebar estimating services require expertise. Veterans Estimators stands out with our skilled team. Rebar reinforces concrete. To price concrete jobs, we evaluate Rebar needs. Our quotes are quick and precise.
       </p>
     </>
   );

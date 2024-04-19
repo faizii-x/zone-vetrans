@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Conc from "../../../public/png/conc.png";
 
-
 function ConcreteText() {
   return (
     <>
@@ -34,10 +33,17 @@ function ConcreteText() {
           <li className="text-[22px] font-poppins font-normal mt-1">Fences</li>
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1 self-center">
-        <Image className="mx-auto" src={Conc} />
-
+          <Image className="mx-auto" src={Conc} />
         </div>
       </div>
+
+      <p className="text-[22px] font-poppins font-normal w-[90%] mx-auto">
+        From big construction companies to small businesses, we have served many
+        general contractors, concrete contractors, asphalt contractors,
+        foundation contractors, vendors, and pavers with the most accurate and
+        highly detailed concrete estimating services and material takeoffs
+        services.
+      </p>
     </>
   );
 }

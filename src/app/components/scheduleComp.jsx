@@ -22,7 +22,7 @@ function ScheduleComp() {
         <Navbar />
         <div className="self-center">
           <p className="w-[100%]  text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
-            Scheduling
+            CPM Scheduling
           </p>
         </div>
       </div>
@@ -30,11 +30,10 @@ function ScheduleComp() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        A schedule is the process by which a general or outline project plan is
-        transformed into a time-based schedule based on the duration,
-        significance, external order relationships, resource availability, and
-        target dates of the project. It may influence the execution of the plan
-        to recognize realistic time and resource constraints.
+        At <span className="text-red">Veterans Estimators</span>, we provide Critical Path Method (CPM) Scheduling
+        services to streamline construction projects, ensuring timely completion
+        and effective risk management. Trust us to simplify complex projects and
+        help you achieve your goals efficiently.
       </p>
 
       <div

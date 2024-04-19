@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Gray from "../../../public/png/gray.png";
+import Crow from "../../../public/png/crow.png";
 
 function SecondCommercial() {
   return (
@@ -48,27 +48,22 @@ function SecondCommercial() {
           </li>
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1 self-center">
-          <Image className="mx-auto" src={Gray} />
+          <Image className="mx-auto" src={Crow} />
         </div>
       </div>
 
       {/* ........................... */}
 
       <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-10">
-      Industrial Structural Steal Estimating
+        Industrial Structural Steal Estimating
       </h2>
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        With the team of estimators and engineers skilled in steel estimation,
-        we have successfully catered many structural steel contractors and
-        design firms involved in the steel erection for multi-story buildings
-        and industrial facilities. By employing the best estimating practices,
-        our estimators prepare the accurate structural steel estimates that not
-        only help in planning, bidding, procurement, but also minimize wastages
-        that contribute to the green environment. Our takeoffs contain the
-        detailed breakdown of all the structural steel design components such as
-        channels, beams, angles, plates, connectors and other accessories to
-        give you a clear picture of costs involved in your project.
-        <br /> We generally quantify the following components:
+        Our <span className="text-red">Veteran estimators</span> specialize in
+        steel estimation for structural projects. We've served numerous
+        contractors and design firms with accurate estimates, aiding in
+        planning, bidding, and procurement while minimizing waste. Our detailed
+        takeoffs cover all structural components, ensuring clarity in project
+        costs.<br/> We generally quantify the following components:
       </p>
       <li className="text-[22px] font-poppins font-normal mt-4 w-[90%] mx-auto">
         Rebar

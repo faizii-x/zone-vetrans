@@ -32,11 +32,12 @@ function SiteImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        Site work contractors, landscaping contractors, land developers, general
-        contractors, and site contractors rely on our site work estimating
-        services for accurate and detailed site work estimate, cut and fill
-        takeoff delivered to them within 24 to 48 hours. With accurate figures,
-        they win more bids and cut their overhead costs.
+        At <span className="text-red">Veterans Estimators</span>, we specialize
+        in sitework estimating for contractors and developers. Using advanced
+        software, we deliver precise material and labor estimates within 24-48
+        hours. Our Division 2 experts provide accurate estimates for all project
+        types, with flexible pricing options and 24/7 support available. Contact
+        us at af@veteransestimators.com or +1 917 300 1079
       </p>
 
       <div
@@ -51,37 +52,45 @@ function SiteImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
       {/* ...................................................... */}
 
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-6">
-      Our site work estimating services Portfolio
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-6">
+        Our site work estimating services Portfolio
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-3 gap-6 w-[90%] container mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-1 gap-6 w-[90%] container mx-auto">
         <div className="col-span-2">
           <p className="text-[22px] font-poppins font-normal">
-            Residential Site work
-            <br />
-            Commercial Site work
-            <br />
-            Industrial Site work
-            <br />
-            We understand every sitework project is different and requires a
-            unique approach. With the use of the latest software technologies in
-            sitework estimation, our expert estimators carefully go through the
-            drawing and plans and prepare accurate sitework takeoffs of material
-            and labor along with manhours. All other factors like construction
-            equipment, insurance, logistics, safety, permits, contingencies,
-            etc. are also taken into account during our site work estimating
-            services. If you can’t afford the expense of a full-time estimator
-            and expensive software or need an estimator to supplement your
-            existing estimating department, we are at your service! Offering
-            you:
+            At <span className="text-red">Veterans Estimators</span>, we
+            recognize the uniqueness of every sitework project. Using
+            cutting-edge technology and seasoned professionals, we meticulously
+            analyze your blueprints to deliver accurate estimates for materials,
+            labor, and more. Our comprehensive sitework estimating services go
+            beyond the basics, considering equipment, insurance, permits, and
+            other factors to give you a complete cost breakdown. Need
+            cost-effective solutions? We offer flexible options tailored to your
+            budget:
+            <li className="text-[22px] font-poppins font-medium mt-2">
+              Cost-effective Solutions (check prices)
+            </li>
+            <li className="text-[22px] font-poppins font-medium ">
+              Efficiency & Accuracy
+            </li>
+            <li className="text-[22px] font-poppins font-medium ">
+              Fast Turnaround Times
+            </li>
+            <li className="text-[22px] font-poppins font-medium ">
+              Confidentiality
+            </li>
+            <li className="text-[22px] font-poppins font-medium ">
+              Certified Estimators
+            </li>
+            <li className="text-[22px] font-poppins font-medium ">
+              24/7 Support on Chat & Email
+            </li>
           </p>
         </div>
         <div className="md:col-span-2 lg:col-span-1 cols-span-1 mx-auto self-center">
           <Image className="mx-auto" src={Site} />
         </div>
       </div>
-     
-
     </>
   );
 }

@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Navbar from "./navbar";
 import CostModal from "./costModal";
-import Gray from "../../../public/png/gray.png";
+import Indi from "../../../public/png/indi.png";
 import Image from "next/image";
 
 function IndustrialImg() {
@@ -24,7 +24,7 @@ function IndustrialImg() {
         <Navbar />
         <div className="self-center">
           <p className="w-[100%]  text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
-            Industrial Estimating
+            Industrial Estimating Services
           </p>
         </div>
       </div>
@@ -32,10 +32,10 @@ function IndustrialImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        Get our Industrial estimating services to save estimating costs and
-        improve accuracy and have your estimates and takeoffs audited and
-        analyzed by professional construction estimators within the fastest
-        turnaround times.
+        Use our specialized Industrial estimating services to decrease
+        estimating expenses and improve precision, while also benefiting from
+        audits and analysis of your estimates and takeoffs by experienced
+        construction estimators, provided in the shortest possible timeframe.
       </p>
 
       <div
@@ -54,16 +54,16 @@ function IndustrialImg() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-6 gap-6 w-[90%] mx-auto">
         <div className="col-span-2 self-center">
           <p className="text-[22px] font-poppins font-normal">
-            Veterans Estimating has used in rendering total estimating solutions
-            to EPC contractors, owners, engineering firms, financial investors,
-            and joint venture partners in the North American industrial sector.
-            Our wide range of industrial estimating services is tailored to the
-            specific needs of the respective clients starting from project
-            planning, through conception and construction. Our profound approach
-            to precise estimating procedures gained from experience and
-            proficiency in the latest technology, helps them anticipate, plan,
-            and effectively control cost throughout the entire lifecycle of the
-            project.
+           <span className="text-red">Veterans Estimators</span> is well-known for offering complete estimating
+            services to EPC contractors, owners, engineering firms, financial
+            backers, and collaborators in the North American industrial sector.
+            Our estimating services are particularly tailored to our clients'
+            specific needs, and range from project conceptualization and A to
+            construction. Our extensive methodology for accurate estimates,
+            supported by knowledge and the use of cutting-edge technology,
+            allows them to predict, orchestrate, and efficiently manage costs
+            over the project's entire lifecycle. Contact us via <span className="text-red">af@veteransestimators.com</span>
+             or <span className="text-red">+1 917 300 1079</span>
           </p>
           <li className="text-[22px] font-poppins font-normal mt-1">
             Do you need consultancy with the estimation and scheduling of
@@ -75,7 +75,7 @@ function IndustrialImg() {
           </li>
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1 self-center">
-          <Image className="mx-auto" src={Gray} />
+          <Image className="mx-auto" src={Indi} />
         </div>
       </div>
     </>

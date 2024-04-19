@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../components/footer";
 import CostImage from "../components/costImage";
 import CostStyle from "../components/costStyle";
 import CallNow from "../components/callNow";
@@ -21,7 +20,7 @@ function Page() {
       <CompSlider/>
       <SimpleComp/>
       <Banner/>
-      <Footer />
+     
     </>
   );
 }

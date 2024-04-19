@@ -25,29 +25,29 @@ function Homebig() {
 
   return (
     <>
-      <div className="image-hide relative">
+      <div className="show-large-screens relative">
         <Image className="mx-auto mt-[300px] w-[40%] h-[auto]" src={Group} />
 
-        {scrollValue > 1600 && (
+        {scrollValue > 1900 && (
           <div className="absolute -top-[240px] left-[300px]">
             <Image className="w-full h-[220px]" src={Accuracy} />
             <h6 className="text-[33px] text-white absolute">Head</h6>
           </div>
         )}
 
-        {scrollValue > 1800 && (
+        {scrollValue > 2100 && (
           <div className="absolute -top-[240px] right-[300px]">
             <Image className="w-full h-[220px]" src={Dedication} />
           </div>
         )}
 
-        {scrollValue > 2000 && (
+        {scrollValue > 2300 && (
           <div className="absolute -bottom-[240px] left-[300px]">
             <Image className="w-full h-[220px]" src={Reliability} />
           </div>
         )}
 
-        {scrollValue > 2100 && (
+        {scrollValue > 2600 && (
           <div className="absolute -bottom-[240px] right-[300px]">
             <Image className="w-full h-[220px]" src={Efficiency} />
           </div>
@@ -58,3 +58,4 @@ function Homebig() {
 }
 
 export default Homebig;
+            

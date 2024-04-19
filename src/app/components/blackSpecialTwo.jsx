@@ -5,7 +5,7 @@ import Image from "next/image";
 function BlackSpecialTwo() {
   return (
     <>
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-6">
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-6">
         What We Estimate
       </h2>
 

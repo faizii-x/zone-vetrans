@@ -30,11 +30,11 @@ function ConveyImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        At Veterans Estimators, our primary aim is to deliver precise and
-        exhaustive assessments for transporting systems across diverse sectors.
-        Our panel of specialists is dedicated to assisting you in choosing and
-        establishing the ideal transport solutions to boost the effectiveness
-        and output of your functions.
+        At <span className="text-red">Veterans Estimators</span>, our main goal is to provide accurate and
+        comprehensive evaluations for transportation systems in various
+        industries. Our team of experts is committed to helping you select and
+        implement the perfect transport solutions to enhance the efficiency and
+        productivity of your operations.
       </p>
 
       <div

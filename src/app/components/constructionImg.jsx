@@ -33,13 +33,13 @@ function ConstructionImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        <span className="text-red font-semibold">Veterans Estimators</span> have
-        experience takeoff estimators who has the skills and knowledge to
-        provide you services from beginning to end. More profit margin dollars
-        can be lost by mistakes in the framing materials order than in any other
-        part of the process. That is why, after evaluating many software
-        packages, we purchased a full-featured system that allows us to tailor
-        our Material Estimates to local practices.
+        <span className="text-red  ">Veterans Estimators</span> offers reliable
+        Construction Takeoff Services, including Quantity Takeoff Services and
+        Material Takeoff Services, to ensure the success of your project right
+        from the start. With our extensive experience spanning over the past 10
+        years, we understand the ever-changing market conditions and can handle
+        projects of any complexity, serving contractors, owners, vendors, and
+        developers.
       </p>
 
       <div
@@ -57,16 +57,19 @@ function ConstructionImg() {
       <h2 className="text-[22px] font-bold w-[90%] mx-auto mt-6">
         Service Area
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-6 gap-6 w-[90%] container mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-1 gap-6 w-[90%] container mx-auto">
         <div className="col-span-2">
           <p className="text-[22px] font-poppins font-normal">
-            We have clients that have construction projects being built in many
-            parts of the country. So no matter where you are located or the
-            project you are bidding, we provide Estimating services all over the
-            United States. <br />
-            <br />
-            We specialize in material takeoffs and quantity surveys for both
-            labor and materials and for most construction trades.
+            We help clients all over the United States with our Estimating
+            services. Whether you're in any part of the country or bidding on
+            any project, we've got you covered. We specialize in figuring out
+            how much material and labor you'll need for your construction
+            project. Our team will go through the blueprints and list all the
+            materials you need in a format you can easily use, like Microsoft
+            Excel or Adobe. We're fast and accurate, making sure you have
+            everything you need to build. Plus, we organize the materials by
+            location, making it simple for your team to know where everything
+            goes.
           </p>
         </div>
         <div className="col-span-1 self-center">

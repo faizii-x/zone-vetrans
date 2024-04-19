@@ -41,7 +41,7 @@ function CallNow() {
           </div>
         </div>
         <div className="lg:col-span-1 md:col-span-2 col-span-1 mx-auto">
-          <div className="bg-blacks w-full rounded-3xl lg:p-3 p-2">
+          <div className="bg-blacks w-full rounded-3xl p-1 ">
             <Image className="w-[90%] h-[300px] mx-auto" src={Callcost} />
           </div>
         </div>

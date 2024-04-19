@@ -32,18 +32,7 @@ function LandscapeImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        <span className="font-bold">Veterans Estimators</span> is here to assist
-        you by providing their expert landscaping estimating services. Our
-        landscape estimator is well equipped and expert enough to run a
-        profitable business. Different statistics display that the contractors
-        generate profit on every job. It is essential to learn an accurate bid
-        on Landscaping to ensure either you’re generating a profit on every
-        other job or not. We are here with an expert team of landscape
-        estimators to manage Landscaping takeoff smartly and quickly through
-        professional estimating software. Plan hub estimating is a professional
-        platform that is quite efficient to make your landscape bidding and
-        estimating process by including simple features like auto count, arc
-        functionality and different items and assemblies.
+       At <span className=" text-red">Veterans Estimators</span>, we specialize in providing expert landscaping estimating services. Our team of landscape estimators is equipped to ensure profitability on every job. With accurate bids and efficient takeoff processes using professional estimating software, we streamline your landscaping projects. Our platform offers simple features like auto count, arc functionality, and diverse item and assembly options.
       </p>
 
       <div
@@ -58,15 +47,12 @@ function LandscapeImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
       {/* ..................................... */}
 
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-10">
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-5">
         How Do We Deliver Accurate Landscaping Estimating Services With
         Landscaping Estimating Software?
       </h2>
-      <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        We are using cloud-based estimating software for our diverse range of
-        Landscaping estimating through Plan swift estimating software. Following
-        are the few ways to manage Landscaping takeoff services through Plan
-        swift.
+      <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-2">
+      We are using cloud-based estimating software for our diverse range of Landscaping estimating through Plan swift estimating software. Following are the few ways to manage Landscaping takeoff services through Plan swift.
       </p>
     </>
   );

@@ -43,21 +43,20 @@ function FramingImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
       {/* ...................................................... */}
 
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-6">
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-6">
         Expertise and Experience
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-3 gap-6 w-[90%] mx-auto">
         <div className="col-span-2">
           <p className="text-[22px] font-poppins font-normal">
-            Framing estimating services play a crucial role in the completion of
-            any project by providing comprehensive and authentic estimates in
-            the construction world. Accurate framing estimating services can be
-            done through construction estimating services and act as a
-            foundation for the successful completion of any project. Through
-            framing estimating services all sorts of contractors ranging from
-            big to small can get detailed and accurate cost estimating to make
-            well-informed decisions, avoid any sort of budget overruns, and
-            finally complete the work in the given time frame period.
+            <span className="text-red">Veterans Estimators</span> offers framing
+            estimating services to contractors, delivering detailed cost
+            breakdowns for informed decision-making. Our services help avoid
+            budget overruns and ensure timely project completion, fostering
+            client satisfaction and industry reputation. Accurate framing
+            estimates empower sound financial decisions, preventing project
+            delays and budgetary issues. Invest in our framing estimating
+            services for a successful construction experience
           </p>
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1 self-center">
@@ -65,22 +64,17 @@ function FramingImg() {
         </div>
       </div>
 
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-6">
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-6">
         Wood frame construction
       </h2>
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-2">
-        Considering the current scenario of the world regarding global warming,
-        wood frame construction is becoming popular due to being eco-friendly
-        and a renewable source of energy. First-world countries like the USA are
-        adopting it at a higher pace due to different qualities. When it comes
-        to the structural framing of wood for any project you must consider
-        several factors. For instance, the wood frame's durability, flexibility,
-        and ease of handling. Wood is a complex material, and you must choose
-        the right type of wood according to your budget, the weather of the
-        area, etc. The right choice can only be made when consulting with the
-        right construction estimating services. By consulting with a company
-        that is known for its framing estimating services in the market one can
-        easily complete its wood frame construction.
+        Wood frame construction utilizes wood as the primary material for
+        building structures. It's commonly used in residential and low-rise
+        commercial buildings due to its affordability, ease of construction, and
+        design flexibility. This method involves assembling wood components like
+        studs and joists to form the building's framework, providing support for
+        walls, floors, and roofs. It's popular for its cost-effectiveness and
+        sustainability.
       </p>
     </>
   );

@@ -32,11 +32,13 @@ function RoofingImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        At Veterans Estimators Estimators, we recognize the crucial significance
-        of efficient thermal and moisture control in building ventures. Our
-        estimation solutions are crafted to assist you in strategizing and
-        allocating resources for these vital components, guaranteeing your
-        project's durability and resistance to environmental influences.
+        At <span className="text-red">Veterans Estimators</span>, we offer
+        efficient and affordable commercial roofing estimating services. Our
+        experienced roofing estimator ensures swift and accurate estimates for
+        your roofing projects, facilitating a seamless process from start to
+        finish. Contact us anytime for support via chat, email{" "}
+        <span className="text-red">af@veteransestimators.com</span> , or phone
+        at <span className="text-red">+1 917 300 1079</span> +1 917 300 1079.
       </p>
 
       <div
@@ -51,7 +53,7 @@ function RoofingImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
 
       <h2 className="text-[20px] w-[90%] mx-auto mt-4 font-poppins font-bold">
-        Thermal Insulation Estimating
+        Our Roofing Estimates
       </h2>
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-1">
         Our expert Roofing estimators generally work with their expertise

@@ -5,7 +5,7 @@ import Image from "next/image";
 function BlackLumber() {     
   return (
     <>
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-10">
+      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-10">
       OUR RANGE OF LUMBER ESTIMATING
       </h2>
 

@@ -2,7 +2,6 @@ import Banner from "@/app/components/banner";
 import BlackPlumb from "@/app/components/blackPlumb";
 import CallNow from "@/app/components/callNow";
 import CompSlider from "@/app/components/compSlider";
-import Footer from "@/app/components/footer";
 import PlumPara from "@/app/components/plumPara";
 import PlumbSecond from "@/app/components/plumbSecond";
 import PlumbingImg from "@/app/components/plumbingImg";
@@ -20,7 +19,7 @@ function Page() {
       <CompSlider/>
       <SimpleComp/>
       <Banner/>
-      <Footer/>
+      
     </>
   );
 }

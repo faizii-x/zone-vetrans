@@ -31,17 +31,24 @@ function Navbar() {
     setIsShow(false);
   };
 
+  // const filterLinks = () => {
+  //   const filterArray = FILTER_ARRAY.filter((x) =>
+  //     x.title.toLowerCase().includes(input.toLowerCase())
+  //   );
+  //   return filterArray;
+  // };
+
   const filterLinks = () => {
     const filterArray = FILTER_ARRAY.filter((x) =>
       x.title.toLowerCase().includes(input.toLowerCase())
     );
-    return filterArray;
-  };            
+    return filterArray.flatMap((x) => [...(x.subTrades || []), x]);
+  };
 
   return (
     <>
       <div className="bg-[#212121] w-[96%] rounded-full mx-auto mt-6 p-2 nav-fix">
-        <div className="flex justify-between gap-12 ml-6 mr-6">
+        <div className="flex justify-between gap-12 ml-4 mr-4">
           <Link href="/">
             <Image
               className="cursor-pointer mx-auto w-[100%] h-[70px] "
@@ -103,24 +110,28 @@ function Navbar() {
                 </div>
 
                 {isHovered && (
-                  <div className=" absolute bg-hover rounded-md shadow-lg p-8 mt-2">
+                  <div className=" absolute bg-gray-200 rounded-md shadow-lg p-6 mt-2">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 w-[880px] ">
-                      
-                        {filterLinks().map((x) => (
-                          <>
-                            <Link href={x.link}>    
-                              <h2 className=" text-[16px] text-white font-normal font-poppins mt-2 cursor-pointer hover:text-black hover:font-bold">
-                                {x.title}
-                              </h2>
-                            </Link>
-                          </>
-                        ))}
-                     
+                      {filterLinks().map((x) => (
+                        <>
+                          <Link href={x.link}>
+                            <h2 className=" text-[14px] ml-3 text-black font-normal font-poppins mt-2 cursor-pointer hover:text-red hover:font-bold">
+                              {x.title}
+                            </h2>
+                            {x?.subTrades?.map((subX) => (
+                              <Link href={subX.link}>
+                                <h2 className=" text-[12px] ml-3 text-black font-light font-poppins  cursor-pointer hover:text-red hover:font-bold">
+                                  {subX.title}
+                                </h2>
+                              </Link>
+                            ))}
+                          </Link>
+                        </>
+                      ))}
                     </div>
                   </div>
                 )}
               </div>
-
               <Link href="/about">
                 <div className="flex justify-start gap-1">
                   <h2 className="text-[16px] text-white font-poppins font-normal ">
@@ -202,16 +213,14 @@ function Navbar() {
               </div>
             </div>
             {input.length > 0 && (
-              <div className=" absolute w-[230px] h-auto bg-hover rounded-md ml-2 p-4 ">
+              <div className="absolute w-[230px] h-auto bg-hover rounded-md ml-2 p-4">
                 {filterLinks().map((x) => (
                   <>
-                
                     <Link href={x.link}>
                       <h2 className=" text-[16px] text-white font-medium font-poppins cursor-pointer hover:font-bold">
                         {x.title}
                       </h2>
                     </Link>
-                  
                   </>
                 ))}
               </div>

@@ -15,8 +15,6 @@ function CompPayment() {
     setHello(false);
   };
 
-
-
   return (
     <>
       <div className="w-[90%] mx-auto mt-[160px]">

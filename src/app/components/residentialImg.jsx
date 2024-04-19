@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Navbar from "./navbar";
 import CostModal from "./costModal";
-import Gray from "../../../public/png/gray.png";
+import Hom from "../../../public/png/hom.png";
 import Image from "next/image";
 
 function ResidentialImg() {
@@ -23,7 +23,7 @@ function ResidentialImg() {
       >
         <Navbar />
         <div className="self-center">
-          <p className="w-[100%]  text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
+          <p className="w-[100%] text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
             Residential Estimating
           </p>
         </div>
@@ -32,10 +32,9 @@ function ResidentialImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        Offering quick turnarounds and reliable solutions in residential
-        estimating services tailored to the specific needs of Residential
-        Contractors, Subcontractors, Homebuilders, Home Owners, Developers,
-        Investors, Lenders, and Architects.
+        Providing fast and reliable residential estimating services tailored to
+        the needs of Residential Contractors, Subcontractors, Homebuilders,
+        Homeowners, Developers, Investors, Lenders, and Architects.
       </p>
 
       <div
@@ -54,17 +53,18 @@ function ResidentialImg() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-6 gap-6 w-[90%] mx-auto">
         <div className="col-span-2 self-center">
           <p className="text-[22px] font-poppins font-normal">
-            An accurate residential estimate serves as a basis for the entire
-            construction cash flows. For planning the construction of
-            residential buildings, a proper cost estimate gives the idea of the
-            potential costs that helps calculate markups, allocate budget,
-            obtain financing, quote prices to the clients, and negotiate with
-            contractors and subcontractors through our Residential estimating
-            services.
+            Accurate residential appraisals are essential for all construction
+            financial dealings. Our Domestic Estimating services provide precise
+            cost estimates for residential projects, aiding in budget
+            allocation, financial planning, customer quoting, and contractor
+            negotiations. With experienced professionals and cutting-edge
+            software, we ensure detailed analysis and regional pricing accuracy
+            for labor and materials. Our streamlined process adheres to industry
+            standards, facilitating easy review and submission to vendors.
           </p>
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1 self-center">
-          <Image className="mx-auto" src={Gray} />
+          <Image className="mx-auto" src={Hom} />
         </div>
       </div>
     </>

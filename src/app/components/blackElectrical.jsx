@@ -5,7 +5,13 @@ import Image from "next/image";
 function BlackElectrical() {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-[120px] lg:w-[60%] w-[90%] container mx-auto">
+
+
+<h2 className="text-[24px] font-bold w-[90%] mx-auto mt-10">
+The Items We Quantify In HVAC Estimating And Takeoffs
+      </h2>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-[160px] lg:w-[60%] w-[90%] container mx-auto">
         {ELECTRICAL_CARDS.map((x) => (
           <>
             <div className="bg-blacks w-full rounded-lg p-6 relative mb-[100px] mx-auto -z-10">

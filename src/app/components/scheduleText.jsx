@@ -7,20 +7,17 @@ import Image2 from "../../../public/png/image2.png";
 function ScheduleText() {
   return (
     <>
-      <h2 className="w-[90%] mx-auto text-[30px] font-bold mt-6">
+      <h2 className="w-[90%] mx-auto text-[22px] font-bold mt-6">
         Maintaining
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-2 w-[90%] mx-auto">
         <div className="col-span-2">
           <p className="text-[22px] font-poppins font-normal">
-            While creating a project schedule, data is gathered from multiple
-            sources. Submission guidelines stem from the specifications and
-            additional contractual materials. Installation processes and
-            interactions are ascertained from the estimate and contract papers.
-            Workforce allocation, timeframes, and cost-related details for the
-            schedule are extracted from the estimation. Furthermore, the
-            project's management and supervisory staff contribute to the
-            schedule development process.
+            When creating a project timeline, we gather information from
+            multiple sources, including contract documents and quotations. We
+            determine installation procedures, labor assignments, durations, and
+            financial details based on this data. Our management team oversees
+            the entire process to ensure accuracy and efficiency.
           </p>
         </div>
         <div className="col-span-1">
@@ -31,7 +28,7 @@ function ScheduleText() {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 mt-2 w-[90%] mx-auto">
         <div className="col-span-1">
-          <h3 className="text-[30px] font-bold mt-6">Scheduling Software</h3>
+          <h3 className="text-[22px] font-bold mt-6">Scheduling Software</h3>
           <p className="text-[22px] font-poppins font-normal">
             Our expert team is proficient in developing and monitoring schedules
             with the following construction consulting software:
