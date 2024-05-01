@@ -111,23 +111,27 @@ function Navbar() {
 
                 {isHovered && (
                   <div className=" absolute bg-gray-200 rounded-md shadow-lg p-6 mt-2">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 w-[880px] ">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[690px] ">
                       {filterLinks().map((x) => (
                         <>
                           <Link href={x.link}>
                             <h2 className=" text-[14px] ml-3 text-black font-normal font-poppins mt-2 cursor-pointer hover:text-red hover:font-bold">
                               {x.title}
                             </h2>
-                            {/* {x?.subTrades?.map((subX) => (
+                            {x?.subTrades?.map((subX) => (
                               <Link href={subX.link}>
                                 <h2 className=" text-[12px] ml-3 text-black font-light font-poppins  cursor-pointer hover:text-red hover:font-bold">
-                                  {subX.title}
+                                  {subX.para}
                                 </h2>
                               </Link>
-                            ))} */}
+                            ))}
                           </Link>
                         </>
                       ))}
+
+                 
+
+
                     </div>
                   </div>
                 )}
@@ -167,9 +171,9 @@ function Navbar() {
               <Link href="/estimation">
                 <h2 className="text-[16px] text-white font-poppins font-normal ">
                   {pathname === "/estimation" ? (
-                    <div className=" text-red"> Estimation fee</div>
+                    <div className=" text-red"> Estimating fee</div>
                   ) : (
-                    " Estimation fee"
+                    " Estimating fee"
                   )}
                 </h2>
               </Link>

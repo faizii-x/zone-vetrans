@@ -9,10 +9,10 @@ function AboutTwo() {
         style={{
           backgroundImage: `url(${Aboutbg.src})`,
           marginTop: "40px",
-          padding: "90px",
+          padding: "50px",
         }}
       >
-        <h3 className="text-[26px] font-bold font-poppins text-white">Our Valuable clints</h3>
+        <h3 className="text-[26px] font-bold font-poppins text-white">Our Valuable clients</h3>
         <p className="text-[22px] font-light text-white mt-3">
           Through our experience in a diverse range of projects, from
           small-scale construction to multi-million dollar evaluations, we have

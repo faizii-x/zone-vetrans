@@ -92,7 +92,7 @@ function TradeMap() {
               </Link>
               <Link href="/trades/convey">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
-                  Conveying Systems Estimating
+                  Conveying System Estimating
                 </p>
               </Link>
               <Link href="/trades/mep">

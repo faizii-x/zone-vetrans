@@ -175,13 +175,39 @@ export const FILTER_ARRAY = [
     title: "General Requirements",
     link: "/trades/general",
   },
+  
+  
   {
     title: "Site Works",
     link: "/trades/sitework",
     subTrades: [
       {
-        title: "Landscaping Estimating",
+        para: "Landscaping Estimating",
         link: "/trades/sitework/landscape",
+      },
+    ],
+  },
+  {
+    title: "Metals",
+    link: "/trades/metals",
+    subTrades: [
+      {
+        para: "Rebar Estimating Services",
+        link: "/trades/metals/rebar",
+      },
+    ],
+  },
+  {
+    title: "Thermal and Moisture",
+    link: "/trades/thermal",
+    subTrades: [
+      {
+        para: "Roofing Estimating",
+        link: "/trades/thermal/roofing",
+      },
+      {
+        para: "Insulating Estimating",
+        link: "/trades/thermal/insulating",
       },
     ],
   },
@@ -194,51 +220,15 @@ export const FILTER_ARRAY = [
     link: "/trades/masonry",
   },
   {
-    title: "Metals",
-    link: "/trades/metals",
-    subTrades: [
-      {
-        title: "Rebar Estimating Services",
-        link: "/trades/metals/rebar",
-      },
-    ],
-  },
-  {
     title: "Lumber Estimating",
     link: "/trades/lumber",
   },
-  {
-    title: "Thermal and Moisture",
-    link: "/trades/thermal",
-    subTrades: [
-      {
-        title: "Roofing Estimating",
-        link: "/trades/thermal/roofing",
-      },
-      {
-        title: "Insulating Estimating",
-        link: "/trades/thermal/insulating",
-      },
-    ],
-  },
+  
   {
     title: "Framing",
     link: "/trades/framing",
   },
-  {
-    title: "Interior & Exterior Finishes",
-    link: "/trades/interior",
-    subTrades: [
-      {
-        title: "Drywall Estimating Services",
-        link: "/trades/interior/drywall",
-      },
-      {
-        title: "Flooring Estimating Services",
-        link: "/trades/interior/flooring",
-      },
-    ],
-  },
+  
 
   {
     title: "Specialties",
@@ -262,34 +252,48 @@ export const FILTER_ARRAY = [
     title: "Conveying Systems",
     link: "/trades/convey",
   },
-
+  
   {
     title: "MEP",
     link: "/trades/mep",
     subTrades: [
       {
-        title: "Mechanical Estimating Services",
+        para: "Mechanical Estimating Services",
         link: "/trades/mechanical",
       },
       {
-        title: "Plumbing Estimating Services",
+        para: "Plumbing Estimating Services",
         link: "/trades/mep/plumbing",
       },
       {
-        title: "Electrical Estimating Services",
+        para: "Electrical Estimating Services",
         link: "/trades/electrical",
       },
       {
-        title: "Gutter Estimating Services",
+        para: "Gutter Estimating Services",
         link: "/trades/mep/gutter",
       },
     ],
   },
-
+  {
+    title: "Interior & Exterior Finishes",
+    link: "/trades/interior",
+    subTrades: [
+      {
+        para: "Drywall Estimating Services",
+        link: "/trades/interior/drywall",
+      },
+      {
+        para: "Flooring Estimating Services",
+        link: "/trades/interior/flooring",
+      },
+    ],
+  },
   {
     title: "Commercial Estimating",
     link: "/trades/commercial",
   },
+  
   {
     title: "HVAC",
     link: "/trades/hvac",
@@ -303,6 +307,7 @@ export const FILTER_ARRAY = [
     title: "Residential Estimating",
     link: "/trades/residential",
   },
+  
 ];
 
 export const SLIDER_CARDS = [

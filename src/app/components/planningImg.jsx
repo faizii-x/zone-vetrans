@@ -59,7 +59,7 @@ function PlanningImg() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-1 gap-6 w-[90%] container mx-auto">
         <div className="col-span-2">
           <p className="text-[22px] font-poppins font-normal">
-            A construction blueprint, guided by Veterans Estimators, outlines
+            A construction blueprint, guided by <span className="text-red">Veterans Estimators</span>, outlines
             how a project should be organized, planned, and directed to achieve
             its goals on time and within budget. It serves as a roadmap,
             ensuring tasks are coordinated and managed efficiently to meet

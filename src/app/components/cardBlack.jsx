@@ -4,7 +4,7 @@ import React from "react";
 function CardBlack() {
   return (
     <>
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-10">
+      <h2 className="text-[26px] font-bold w-[90%] mx-auto mt-10">
         Key Components of General Requirements
       </h2>
 
@@ -23,12 +23,11 @@ function CardBlack() {
         ))}
       </div>
 
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-10">
-        Accurate and Transparent Estimation Process
+      <h2 className="text-[26px] font-bold w-[90%] mx-auto mt-10">
+        Accurate and Transparent Estimating Process
       </h2>
       <p className="text-[22px] font-poppins font-normal w-[90%] mx-auto mt-3">
-        Our commitment to accuracy and transparency sets us apart at Veterans
-        Estimators. We employ a meticulous estimation process that ensures every
+        Our commitment to accuracy and transparency sets us apart at <span className="text-red font-semibold">Veterans Estimators</span>. We employ a meticulous estimation process that ensures every
         detail is accounted for. From thorough analysis to clear communication,
         we provide accurate estimates that you can trust. With us, you'll have
         full visibility into the estimation process, giving you confidence in

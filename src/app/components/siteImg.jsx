@@ -24,7 +24,7 @@ function SiteImg() {
         <Navbar />
         <div className="self-center">
           <p className="w-[100%]  text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
-            Sitework Estimating
+            Sitework Estimating Services
           </p>
         </div>
       </div>
@@ -33,11 +33,23 @@ function SiteImg() {
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
         At <span className="text-red">Veterans Estimators</span>, we specialize
-        in sitework estimating for contractors and developers. Using advanced
-        software, we deliver precise material and labor estimates within 24-48
-        hours. Our Division 2 experts provide accurate estimates for all project
-        types, with flexible pricing options and 24/7 support available. Contact
-        us at af@veteransestimators.com or +1 917 300 1079
+        in sitework estimating services for contractors and developers. Using
+        advanced software, we deliver precise material and labor estimates
+        within 24-48 hours. Our Division 2 experts provide accurate estimates
+        for all project types, with flexible pricing options and 24/7 support
+        available. Contact us at{" "}
+        <a
+          className="underline hover:text-red"
+          href="mailto:someone670@gmail.com"
+        >
+          {" "}
+          af@veteransestimators.com{" "}
+        </a>{" "}
+        or{" "}
+        <a className="underline hover:text-red" href="tel:+1 917 300 1079">
+          {" "}
+          +1 917 300 1079
+        </a>
       </p>
 
       <div
@@ -52,8 +64,8 @@ function SiteImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
       {/* ...................................................... */}
 
-      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-6">
-        Our site work estimating services Portfolio
+      <h2 className="text-[26px] font-bold w-[90%] mx-auto mt-6">
+        Our Sitework Estimating Services Portfolio
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-1 gap-6 w-[90%] container mx-auto">
         <div className="col-span-2">

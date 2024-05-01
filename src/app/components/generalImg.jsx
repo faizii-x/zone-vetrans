@@ -51,14 +51,14 @@ function GeneralImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
       {/* ...................................................... */}
 
-      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-6">
+      <h2 className="text-[26px] font-bold w-[90%] mx-auto mt-6">
         Expertise and Experience
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-3 gap-6 w-[90%] mx-auto">
         <div className="col-span-2">
           <p className="text-[22px] font-poppins font-normal">
             Having a skilled and experienced team is crucial for any estimation
-            company. At Veterans Estimators, we pride ourselves on our
+            company. At <span className="text-red font-semibold">Veterans Estimators</span>, we pride ourselves on our
             knowledgeable team members who understand various industries,
             project types, and estimation techniques. Our expertise and
             successful track record give our clients confidence and distinguish

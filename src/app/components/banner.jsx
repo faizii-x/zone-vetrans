@@ -41,7 +41,7 @@ function Banner() {
                 className="underline text-red"
                 href="mailto:someone670@gmail.com"
               >
-                Rao@quickbidestimating.com
+                af@veteransestimators.com
               </a>
             </p>
           </div>

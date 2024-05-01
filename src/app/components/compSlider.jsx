@@ -41,7 +41,7 @@ function CompSlider() {
           <div className="col-span-1">
             <p className="text-[18px] text-white mt-5 font-poppins font-normal">
               We are experts in assisting construction companies in implementing
-              software like Planswift and BlueBeam and tell the employees on how
+              software like Planswift, BlueBeam and OST and tell the employees on how
               to use these programs{" "}
             </p>
           </div>

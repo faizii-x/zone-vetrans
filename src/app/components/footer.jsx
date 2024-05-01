@@ -53,14 +53,14 @@ function Footer() {
               <Image className=" w-[15px] h-[15px] mt-[2px]" src={Message} />
               <a
                 className="underline hover:text-red"
-                href="mailto:someone670@gmail.com"
-              >  <p className="text-[14px]">BiddingHelp@planhubestimating.com</p></a>
+                href="mailto:af@veteransestimators.com"
+              >  <p className="text-[14px]">af@veteransestimators.com</p></a>
             </div>
           </div>
         </div>
         <div className="sm:flex grid justify-center  mt-4">
           <div>
-          <p>Copyright © 2024 <span className="text-red font-semibold">Veterans Estimators</span> Designed By -</p>
+          <p>Copyright© 2024 <span className="text-red font-semibold">Veterans Estimators</span> Designed By </p>
           </div>
           <div>
           <Image className="cursor-pointer sm:block mx-auto " src={Zone} />

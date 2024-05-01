@@ -94,7 +94,7 @@ export default function Home() {
                 <Image className="hover:border-y border-red" src={Num} />
               </a>
               <a className="" href="mailto:someone670@gmail.com">
-                <Image className="hover:border-y border-red" src={Msg} />
+                <p className="text-white font-medium text-[20px] hover:border-y border-red">af@veteransestimators.com</p>
               </a>
             </div>
 
