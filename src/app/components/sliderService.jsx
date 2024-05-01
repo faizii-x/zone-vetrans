@@ -63,7 +63,7 @@ function SliderService() {
       <div className="self-center ">
           <div className="lg:grid flex justify-start gap-4">
             <div
-              onClick={sliderRef?.slickNext}
+              onClick={sliderRef?.slickPrev}
               className="border border-red rounded-full p-3 cursor-pointer text-red hover:bg-red hover:text-white"
             >
               <svg
@@ -82,7 +82,7 @@ function SliderService() {
               </svg>
             </div>
             <div
-              onClick={sliderRef?.slickPrev}
+              onClick={sliderRef?.slickNext}
               className="border border-red rounded-full p-3 cursor-pointer text-red hover:bg-red hover:text-white"
             >
               <svg

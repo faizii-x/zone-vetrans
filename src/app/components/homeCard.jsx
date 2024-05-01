@@ -12,12 +12,12 @@ function HomeCard() {
           <div className="bg-red w-[90px] h-[40px] flex justify-center items-center rounded-lg">
             <p className="text-white text-[18px]">1</p>
           </div>
-          <div className="bg-blacks rounded-lg p-4 mt-2 ">
+          <div className="bg-blacks rounded-lg p-4 mt-2 lg:h-[200px] h-auto">
             <h3 className="text-center text-[22px] font-poppins font-semibold text-white">
-            Cost Estimating services
+            Construction Cost Estimating services
             </h3>
             <p className="w-[80%] mx-auto font-poppins font-light text-[18px] text-white mt-2">
-              Cost Estimation is a crucial and beneficial method to understand a
+              Cost Estimating is a crucial and beneficial method to understand a
               project's requirements and duration, though it might be quite
               tedious and time-intensive.
             </p>
@@ -28,7 +28,7 @@ function HomeCard() {
           <div className="bg-red w-[90px] h-[40px] flex justify-center items-center rounded-lg">
             <p className="text-white text-[18px]">2</p>
           </div>
-          <div className="bg-blacks rounded-lg p-4 mt-2 ">
+          <div className="bg-blacks rounded-lg p-4 mt-2 lg:h-[200px] h-auto">
             <h3 className="text-center text-[22px] font-poppins font-semibold text-white">
             Construction Takeoff Services
             </h3>
@@ -46,12 +46,12 @@ function HomeCard() {
           <div className="bg-red w-[90px] h-[40px] flex justify-center items-center rounded-lg mt-6">
             <p className="text-white text-[18px]">3</p>
           </div>
-          <div className="bg-blacks rounded-lg p-4 mt-2 ">
+          <div className="bg-blacks rounded-lg p-4 mt-2 lg:h-[200px] h-auto">
             <h3 className="text-center text-[22px] font-poppins font-semibold text-white">
              CPM Scheduling
             </h3>
             <p className="w-[80%] mx-auto font-poppins font-light text-[18px] text-white mt-2">
-              Scheduling transforms a project's high-level plan into a
+              CPM Scheduling transforms a project's high-level plan into a
               time-focused schedule, considering task durations, priorities,
               dependencies and deadlines.
             </p>
@@ -62,7 +62,7 @@ function HomeCard() {
           <div className="bg-red w-[90px] h-[40px] flex justify-center items-center rounded-lg mt-6">
             <p className="text-white text-[18px]">4</p>
           </div>
-          <div className="bg-blacks rounded-lg p-4 mt-2 ">
+          <div className="bg-blacks rounded-lg p-4 mt-2 lg:h-[200px] h-auto">
             <h3 className="text-center text-[22px] font-poppins font-semibold text-white">
               Planning
             </h3>

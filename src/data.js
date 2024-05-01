@@ -473,7 +473,7 @@ export const COST_CARDS = [
   },
   {
     img: Card2,
-    heading: "Analogous Estimating",
+    heading: "Parametric Estimating",
     para: " It involves using statistical relationships between historical data and project parameters.",
   },
   {

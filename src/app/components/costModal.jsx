@@ -53,7 +53,7 @@ export default function CostModal({ serviceModal, setServiceModal }) {
                     <div className="container grid grid-cols-1 p-3 -mt-4">
                       <Link href="/cost">
                         <p className="hover:text-red text-[16px]  font-poppins hover:font-bold font-medium text-white ">
-                          COST ESTIMATING
+                          COST ESTIMATING Services
                         </p>
                       </Link>
                       <Link href="/takeoff">
@@ -63,7 +63,7 @@ export default function CostModal({ serviceModal, setServiceModal }) {
                       </Link>
                       <Link href="/takeoff/quantity">
                         <p className="hover:text-red text-[12px]  font-poppins hover:font-bold font-medium text-white pt-2">
-                          QUANTITIES TAKEOFF
+                          QUANTITY TAKEOFF
                         </p>
                       </Link>
                       <Link href="/takeoff/material">
@@ -73,7 +73,7 @@ export default function CostModal({ serviceModal, setServiceModal }) {
                       </Link>
                       <Link href="/scheduling">
                         <p className="hover:text-red text-[16px]  font-poppins hover:font-bold font-medium text-white pt-4">
-                          SCHEDULING
+                          CPM SCHEDULING
                         </p>
                       </Link>
                       <Link href="/planning">

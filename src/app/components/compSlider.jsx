@@ -1,7 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import Log from "../../../public/png/Log.png";
+import Log from "../../../public/png/plann.png";
+import On from "../../../public/png/on.png";
+import Bluee from "../../../public/png/bluee.png";
 
 function CompSlider() {
   const [customSlider, setCustomSlider] = useState("left-16 linear-class");
@@ -46,8 +48,8 @@ function CompSlider() {
           <div className="col-span-2 w-[90%] relative">
             <div className=" lg:flex grid justify-between gap-4">
               <div className="w-[70%]">
-                <div className="bg-white boxShadow rounded-lg p-2 h-[150px]">
-                  <div className="flex justify-start gap-2">
+                <div className="bg-white boxShadow rounded-lg p-2 h-auto">
+                  <div className="">
                     <div>
                       <h4 className=" text-[18px] font-poppins font-bold  mt-3">
                         PLANSWIFT
@@ -57,41 +59,50 @@ function CompSlider() {
                         construction industry, but it is not limited to it.
                       </p>
                     </div>
-                    <Image className="mx-auto w-[100px] h-[100px] self-center" src={Log} />
+                    <Image
+                      className="mx-auto w-[100px] h-[100px] self-center"
+                      src={Log}
+                    />
                   </div>
                 </div>
                 {/* ............... */}
                 <div
-                  className={`bg-white shadow-lg rounded-lg p-2 h-[170px] w-[80%] absolute -top-3 ${secondCall}`}
+                  className={`bg-white shadow-lg rounded-lg p-2 h-auto w-[80%] absolute -top-2 ${secondCall}`}
                 >
-                  <div className="flex justify-start gap-2">
+                  <div className="">
                     <div>
                       <h4 className=" text-[18px] font-poppins font-bold  mt-3">
-                        PLANSWIFT
+                        BLUEBEAM
                       </h4>
                       <p className=" text-[14px] font-poppins font-normal mt-4 ">
-                        The PlanSwift software was specifically designed for the
-                        construction industry, but it is not limited to it.
+                        A lot of our clients depend on Bluebeam for desktop,
+                        mobile, and server solutions
                       </p>
                     </div>
-                    <Image className="mx-auto w-[100px] h-[100px] self-center" src={Log} />
+                    <Image
+                      className="mx-auto w-[100px] h-[100px] self-center"
+                      src={Bluee}
+                    />
                   </div>
                 </div>
                 {/* ........... */}
                 <div
-                  className={`bg-white shadow-lg rounded-lg p-2 h-[190px] w-[80%] linear-class absolute -top-5 ${customSlider}`}
+                  className={`bg-white shadow-lg rounded-lg p-2 h-auto w-[80%] linear-class absolute -top-5 ${customSlider}`}
                 >
-                  <div className="flex justify-start gap-2">
+                  <div className="">
                     <div>
                       <h4 className=" text-[18px] font-poppins font-bold  mt-3">
-                        PLANSWIFT
+                        ONE SCREEN TAKEOFF
                       </h4>
                       <p className=" text-[14px] font-poppins font-normal mt-4 ">
-                        The PlanSwift software was specifically designed for the
-                        construction industry, but it is not limited to it.
+                        OST includes powerful takeoff tools such as Typical
+                        Areas, Typical Groups
                       </p>
                     </div>
-                    <Image className="mx-auto w-[100px] h-[100px] self-center" src={Log} />
+                    <Image
+                      className="mx-auto w-[100px] h-[100px] self-center"
+                      src={On}
+                    />
                   </div>
                 </div>
               </div>

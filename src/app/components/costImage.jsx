@@ -22,7 +22,7 @@ function CostImage() {
         <Navbar />
         <div className="self-center">
           <p className="w-[100%]  text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
-            Construction Cost Estimation
+            Construction Cost Estimating Services
           </p>
         </div>
       </div>
@@ -30,7 +30,7 @@ function CostImage() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-      <span className="text-red">Veterans Estimators</span>, a trusted name in the construction industry, specializes in providing accurate and reliable cost estimating services. With our experienced team of estimators, we deliver precise estimates for projects of all sizes and complexities. From detailed blueprint analysis to timely delivery, we ensure client satisfaction every step of the way. Choose Veterans Estimators for your project and experience excellence in cost estimating. <br/> <br/>
+      <span className="text-red">Veterans Estimators</span>, a trusted name in the construction industry, specializes in providing accurate and reliable construction cost estimating services. With our experienced team of estimators, we deliver precise estimates for projects of all sizes and complexities. From detailed blueprint analysis to timely delivery, we ensure client satisfaction every step of the way. Choose <span className="text-red ">Veterans Estimators</span> for your project and experience excellence in cost estimating services. <br/> <br/>
       We recognize the unique requirements of our clients and our construction cost estimating services are tailored to their particular needs. Among our clients are:      </p>
 
       <div

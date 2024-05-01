@@ -10,7 +10,7 @@ function NewComp() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto ">
           <div className="col-span-2">
             <h2 className="text-[28px] font-poppins text-white font-bold w-[90%] mx-auto">
-              NEW YORK CONSTRUCTION ESTIMATING SERVICES
+              CONSTRUCTION ESTIMATING SERVICES NYC
             </h2>
             <div className="w-[90%] mx-auto mb-4">
               <p className=" text-white font-medium text-[20px] font-poppins">

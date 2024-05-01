@@ -24,7 +24,7 @@ function Hero() {
           Expert Construction Estimating Services for Your Projects
           </h1>
           <p className="text-[26px] font-poppins font-medium leading-[38px] mt-3">
-          Get accurate estimates for your projects with Veterans Estimators.
+          Get accurate estimates for your projects with <span className="text-red font-semibold">Veterans Estimators</span>.
           </p>
           <div
             onClick={openModal}

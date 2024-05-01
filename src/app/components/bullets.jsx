@@ -7,14 +7,14 @@ function Bullets() {
   return (
     <>
       <h2 className="text-[22px] font-bold text-center w-[90%] mx-auto mt-6">
-        We Provide Quantity Takeoff Services To Our Clients In All CSI
+        We Provide Construction Takeoff Services To Our Clients In All CSI
         Divisions:
       </h2>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] container mx-auto">
         <div className="mx-auto mt-6">
           <li className="text-[18px] font-medium font-poppins">
-            Site Work Takeoff
+            Sitework Takeoff
           </li>
           <li className="text-[18px] font-medium font-poppins">
             Masonry Takeoff

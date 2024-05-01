@@ -24,8 +24,7 @@ function Footer() {
                 Veterans Estimators
               </span>{" "}
               are an industry leader in providing accurate and reliable
-              construction cost estimation services. We specialize in Quantity
-              and Material Takeoff, Scheduling, and Planning for your project
+              construction cost estimating services. We specialize in Construction Takeoff services,CPM Scheduling, and Planning for your project
               management needs. Our experts use advanced softwares and we pay
               close attention to detail to ensure accurate estimates. We provide
               you with accurate information in a timely manner, enabling you to
@@ -33,7 +32,7 @@ function Footer() {
               <span className="text-red font-semibold">
                 Veterans Estimators
               </span>{" "}
-              for precise and prompt cost estimation in construction.
+              for precise and prompt cost estimating in construction.
             </p>
           </div>
           <div className="mx-auto">
@@ -61,7 +60,7 @@ function Footer() {
         </div>
         <div className="sm:flex grid justify-center  mt-4">
           <div>
-          <p>Copyright © 2023 Veterans Estimators Designed By </p>
+          <p>Copyright © 2024 <span className="text-red font-semibold">Veterans Estimators</span> Designed By -</p>
           </div>
           <div>
           <Image className="cursor-pointer sm:block mx-auto " src={Zone} />

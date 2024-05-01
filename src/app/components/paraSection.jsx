@@ -9,18 +9,18 @@ function ParaSection() {
         </h1>
         <p className="text-[22px] font-poppins font-normal">
           Many contractors miss out on lucrative opportunities due to limited
-          construction estimation resources and time constraints, resulting in
+          construction estimating resources and time constraints, resulting in
           significant financial losses. We specialize in providing accurate
           estimates to contractors, enabling them to bid confidently and save on
-          estimating expenses. Our expert estimating services cater to the
+          estimating expenses. Our expert construction estimating services cater to the
           diverse needs of busy contractors, helping them secure successful
           project bids And Thus, pave their way toward winning jobs
           successfully. Many contractors lose their money on an average of more
           than $250,000 per month because they don’t bid due to a lack of
-          construction estimation resources and time. We are is a renowned
+          construction estimating resources and time. We are is a renowned
           construction estimating firm that provides estimates to contractors so
           that they can bid more. While at the same time, this saves their
-          estimating expenses through our expert estimating services. We assist
+          estimating expenses through our expert construction estimating services. We assist
           busy contractors with a diverse range of estimating and takeoff
           services. And Thus, pave their way toward winning jobs successfully.
         </p>

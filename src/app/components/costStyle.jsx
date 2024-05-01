@@ -12,7 +12,7 @@ import Slider from "react-slick";
 function CostStyle() {
   const settings = {
     dots: false,
-    arrows:false,
+    arrows: false,
     infinite: true,
     autoplay: 1000,
     slidesPerRow: 1,
@@ -33,10 +33,9 @@ function CostStyle() {
                 General Contractors
               </p>
               <p className="w-[40%] mt-[20px] ml-6 text-white text-[20px] font-poppins font-light">
-                General Contractors usually reach out to us for verifying their
-                bids submitted by their subcontractors before undertaking any
-                project in any construction configuration and project delivery
-                methods.{" "}
+                Ensure accuracy and speed with our efficient takeoff services!
+                We assist in verifying subcontractor bids, providing reliable
+                project cost estimates well before construction commences.
               </p>
             </div>
 
@@ -46,10 +45,9 @@ function CostStyle() {
                 Developers
               </p>
               <p className="absolute right-16 w-[40%] -mt-[270px] ml-6 text-white text-[20px] font-poppins font-light">
-                General Contractors usually reach out to us for verifying their
-                bids submitted by their subcontractors before undertaking any
-                project in any construction configuration and project delivery
-                methods.{" "}
+                Make smart decisions right from the beginning of your project.
+                Trust our accurate material takeoffs to provide reliable cost
+                estimates, ensuring you stay within budget and on track.
               </p>
             </div>
           </div>
@@ -62,10 +60,8 @@ function CostStyle() {
                 Architects & Designers
               </p>
               <p className="w-[40%] mt-[20px] ml-6 text-white text-[20px] font-poppins font-light">
-                General Contractors usually reach out to us for verifying their
-                bids submitted by their subcontractors before undertaking any
-                project in any construction configuration and project delivery
-                methods.{" "}
+                We offer precise quantity takeoff services, ensuring budget
+                adherence throughout blueprint development.
               </p>
             </div>
 
@@ -75,10 +71,8 @@ function CostStyle() {
                 Homeowners & Builders
               </p>
               <p className="absolute right-16 w-[40%] -mt-[270px] ml-6 text-white text-[20px] font-poppins font-light">
-                General Contractors usually reach out to us for verifying their
-                bids submitted by their subcontractors before undertaking any
-                project in any construction configuration and project delivery
-                methods.{" "}
+                Empowering you with detailed cost estimates for materials and
+                labor, enabling informed decisions prior to project initiation.
               </p>
             </div>
           </div>
@@ -91,10 +85,9 @@ function CostStyle() {
                 Vendors
               </p>
               <p className="w-[40%] mt-[20px] ml-12 text-white text-[20px] font-poppins font-light">
-                General Contractors usually reach out to us for verifying their
-                bids submitted by their subcontractors before undertaking any
-                project in any construction configuration and project delivery
-                methods.{" "}
+                Increase sales and foster trust with precise material estimates.
+                Guide clients to avoid costly errors and minimize waste.
+                Champion sustainability!
               </p>
             </div>
 
@@ -104,10 +97,8 @@ function CostStyle() {
                 Subcontractors
               </p>
               <p className="absolute right-16 w-[40%] -mt-[270px] ml-6 text-white text-[20px] font-poppins font-light">
-                General Contractors usually reach out to us for verifying their
-                bids submitted by their subcontractors before undertaking any
-                project in any construction configuration and project delivery
-                methods.{" "}
+                Subcontractors, save time! Receive quick, precise quotes in 1-2
+                days and cut estimating costs by 60%.
               </p>
             </div>
           </div>

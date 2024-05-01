@@ -32,7 +32,7 @@ function QuantityImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        Our team provides high Quality Takeoff Services to many construction
+        Our team provides high <span className="text-black font-bold">Quality Takeoff Services</span> to many construction
         companies. Our experienced team, equipped with the latest technologies
         and tools, provides fast and accurate quantity takeoff numbers for labor
         and material. Even on short notice, we can provide many takeoff services

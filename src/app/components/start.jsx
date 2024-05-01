@@ -83,7 +83,7 @@ function Start() {
 
       <p className="w-[90%] mx-auto mt-12 text-[22px] font-poppins font-semibold text-center">
         Proudly providing a variety of estimating services for any size
-        construction company involved withResidential and Commercial projects .
+        construction company involved with Residential and Commercial projects .
         Veterans Estimators® Provides Professional Cost Opinions for Conceptual,
         Design, Construction, Hard Bids , Takeoffs and Estimating Assistance.
       </p>

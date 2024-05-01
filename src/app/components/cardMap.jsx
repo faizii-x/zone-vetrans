@@ -7,7 +7,7 @@ function CardMap() {
   return (
     <>
       <h2 className="text-[20px] w-[90%] mx-auto font-poppins font-bold mt-16">
-        Methods of Cost Estimation
+        Methods of Cost Estimating Services
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-24  w-[90%] container mx-auto">
         {COST_CARDS.map((x) => (
@@ -27,7 +27,7 @@ function CardMap() {
       {/* ............................... */}
 
       <h2 className="text-[20px] w-[90%] mx-auto font-poppins font-bold mt-3">
-        Our Approach to Construction Cost Estimation Service
+        Our Approach to Construction Cost Estimating Services
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 w-[90%] mx-auto">
         <div className="col-span-2">
@@ -35,7 +35,7 @@ function CardMap() {
             We firmly maintain that a precise forecast serves as a key
             instrument in establishing the budget and managing expenses
             throughout a project's lifespan. Our company initiates the
-            estimation procedure with a comprehensive examination of design
+            estimating procedure with a comprehensive examination of design
             plans, alongside scrutinizing building methods, materials, location,
             permits, logistics, and other elements that expose concealed
             expenses impacting the project's cost prediction. Once our
