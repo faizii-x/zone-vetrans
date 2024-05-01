@@ -6,7 +6,7 @@ function CompMasonry() {
   return (
     <>
       <div className="w-[90%] mx-auto">
-        <h2 className="text-[30px] font-bold mt-6">
+        <h2 className="text-[26px] font-bold mt-6">
           What Do We Take In The Division 4 Masonry Trade?
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mx-auto">
@@ -80,10 +80,10 @@ function CompMasonry() {
           </div>
         </div>
         <h2 className="text-[24px] font-bold mt-6">
-          Why should you outsource your masonry estimate?
+          Why Should You Outsource Your Masonry Estimate?
         </h2>
-        <p className=" text-[22px] font-poppins font-normal mt-4">
-          At Veterans Estimators, we specialize in detailed masonry estimates,
+        <p className=" text-[22px] font-poppins font-normal mt-2">
+          At <span className="text-red">Veterans Estimators</span>, we specialize in detailed masonry estimating services,
           saving you time and improving accuracy. With our outsourcing services,
           you can win more bids, increase profitability, and focus on what
           matters most. Contact us today for a free quote!

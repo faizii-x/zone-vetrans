@@ -6,7 +6,7 @@ function ConcreteText() {
   return (
     <>
       <h2 className="text-[30px] font-bold mt-6 w-[90%] mx-auto">
-        OUR PORTFOLIO IN CONCRETE TAKEOFF SERVICES
+        Our Portfolio In Concrete Takeoff Services
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mx-auto w-[90%] ">
         <div className="col-span-2 mb-3">

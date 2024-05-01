@@ -22,7 +22,7 @@ function MasonryImg() {
         <Navbar />
         <div className="self-center">
           <p className="w-[100%]  text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
-            Masonry Estimating
+            Masonry Estimating Services
           </p>
         </div>
       </div>
@@ -31,7 +31,7 @@ function MasonryImg() {
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
         At <span className="text-red">Veterans Estimators</span>, we specialize
-        in top-notch masonry estimates, offering accurate and timely solutions
+        in top-notch masonry estimating services, offering accurate and timely solutions
         nationwide. Our skilled team excels in Division 4, covering brickwork,
         CMU walls, and more. With advanced tools like OST, Planswift, and
         Bluebeam, we ensure precision in every evaluation. Contact us at{" "}
@@ -56,7 +56,7 @@ function MasonryImg() {
       </h2>
 
       <p className="text-[22px] font-poppins font-normal  w-[90%] mx-auto">
-        At Veterans Estimators, we specialize in delivering precise masonry
+        At <span className="text-red">Veterans Estimators</span>, we specialize in delivering precise masonry
         estimates tailored to your needs. With extensive experience in the AEC
         industry, our team ensures accuracy and client satisfaction.
       </p>

@@ -9,7 +9,7 @@ function LandText() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-[90%] mx-auto">
         <div className="col-span-2 self-center">
           <p className="text-[22px] font-poppins font-normal">
-            Our usage of Plan swift manages to generate exact material lists
+            Our usage of Planswift manages to generate exact material lists
             that enclose the number of yards anyone acquires for a city park and
             several feet edging for any residential area. Plan Swift can
             effectively assist through its different tools to measure areas,
@@ -27,7 +27,7 @@ function LandText() {
         Our Range Of Landscaping Takeoff Services
       </h2>
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-3">
-        Veterans Estimators estimating is a professional platform with the
+      <span className=" text-red">Veterans Estimators</span> estimating is a professional platform with the
         appropriate tools to deliver the following range of Landscaping takeoff
         services.
       </p>
@@ -58,7 +58,7 @@ function LandText() {
       {/* ...................................... */}
 
       <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-5">
-        How To Perform Landscaping Estimating?
+        How To Perform Landscaping Estimating Services?
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] mx-auto ">
         <div className="col-span-2 mb-3">

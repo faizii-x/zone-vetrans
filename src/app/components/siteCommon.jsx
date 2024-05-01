@@ -104,7 +104,7 @@ function SiteCommon() {
         </div>
 
         <h2 className="text-[26px] font-bold mt-6">
-          Earth Work Estimating Services
+          Earthwork Estimating Services
         </h2>
         <p className=" text-[22px] font-poppins font-normal mt-2">
           For excavators, site engineers, and specialized contractors,

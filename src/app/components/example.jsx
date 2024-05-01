@@ -9,8 +9,13 @@ import Modal from "./modal";
 
 export default function Drawer({ open, setOpen }) {
   const pathname = usePathname();
-  const [isHovered, setIsHovered] = useState(false);
   const [hello, setHello] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
+  const [isHoverTwo, setIsHoverTwo] = useState(false);
+  const [isHoverThree, setIsHoverThree] = useState(false);
+  const [isHoverFour, setIsHoverFour] = useState(false);
+  const [isHoverFive, setIsHoverFive] = useState(false);
+  const [isHoverSix, setIsHoverSix] = useState(false);
 
   const openModal = () => {
     setHello(true);
@@ -26,6 +31,37 @@ export default function Drawer({ open, setOpen }) {
 
   const handleMouseLeave = () => {
     setIsHovered(false);
+  };
+  const handleMouseEnterTwo = () => {
+    setIsHoverTwo(true);
+  };
+  const handleMouseLeaveTwo = () => {
+    setIsHoverTwo(false);
+  };
+  const handleMouseEnterThree = () => {
+    setIsHoverThree(true);
+  };
+  const handleMouseLeaveThree = () => {
+    setIsHoverThree(false);
+  };
+  const handleMouseEnterFour = () => {
+    setIsHoverFour(true);
+  };
+  const handleMouseLeaveFour = () => {
+    setIsHoverFour(false);
+  };
+
+  const handleMouseEnterFive = () => {
+    setIsHoverFive(true);
+  };
+  const handleMouseLeaveFive = () => {
+    setIsHoverFive(false);
+  };
+  const handleMouseEnterSix = () => {
+    setIsHoverSix(true);
+  };
+  const handleMouseLeaveSix = () => {
+    setIsHoverSix(false);
   };
 
   return (
@@ -89,24 +125,14 @@ export default function Drawer({ open, setOpen }) {
                       <div className="">
                         <div className="mt-6 ">
                           <Link href="/">
-                            <h2 className="text-white font-poppins font-semibold hover:text-red">
-                              {pathname === "/" ? (
-                                <div className=" text-red font-medium">
-                                  Home
-                                </div>
-                              ) : (
-                                "Home"
-                              )}
+                            <h2 className="text-white font-poppins font-semibold">
+                              Home
                             </h2>
                           </Link>
 
-                          <Link href="/service">
-                            <h2 className="text-white font-poppins font-medium hover:text-red mt-3">
-                              {pathname === "/service" ? (
-                                <div className=" text-red">Services</div>
-                              ) : (
-                                "Services"
-                              )}
+                          <Link href="/services">
+                            <h2 className="text-white font-poppins font-medium mt-3">
+                              Services
                             </h2>
                           </Link>
 
@@ -116,14 +142,11 @@ export default function Drawer({ open, setOpen }) {
                             onChange={handleMouseLeave}
                           >
                             <div className="flex justify-start gap-1 cursor-pointer">
-                              <h2 className="text-white font-poppins font-medium hover:text-red mt-3">
-                                {pathname === "/trade" ? (
-                                  <div className=" text-red">Trades</div>
-                                ) : (
-                                  "Trades"
-                                )}
-                              </h2>
-
+                              <Link href="/trades">
+                                <h2 className="text-white font-poppins font-medium hover:text-red mt-3">
+                                  Trades
+                                </h2>
+                              </Link>
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
@@ -144,137 +167,323 @@ export default function Drawer({ open, setOpen }) {
                               <div className=" absolute bg-hover rounded-md shadow-lg p-8 mt-3">
                                 <div className="grid grid-cols-1 w-[190px]">
                                   <div className="border-b">
-                                    <Link href="/services">
+                                    <Link href="/">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-2 cursor-pointer hover:text-black hover:font-bold">
-                                        Services
+                                        General Requirements
                                       </h2>
                                     </Link>
-                                    <Link href="/supply">
+                                    <div
+                                      className="relative"
+                                      onMouseEnter={handleMouseEnterTwo}
+                                      onMouseLeave={handleMouseLeaveTwo}
+                                    >
+                                      <div className="flex justify-start gap-1 cursor-pointer">
+                                        <Link
+                                          href=""
+                                          className="fonty text-white hover:text-[15px] hover:font-semibold font-inter text-[14px] font-normal mt-4 hover:text-[#15A7AD] cursor-pointer"
+                                        >
+                                          <div className="text-white text-[16px] font-poppins font-medium">
+                                            Sitework
+                                          </div>
+                                        </Link>
+
+                                        <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          fill="none"
+                                          viewBox="0 0 24 24"
+                                          strokeWidth="1.5"
+                                          stroke="currentColor"
+                                          class="w-4 h-4 text-white mt-[20px]"
+                                        >
+                                          <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                                          />
+                                        </svg>
+                                      </div>
+
+                                      {isHoverTwo && (
+                                        <>
+                                          <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[45px] z-[999px]">
+                                            <Link href="">
+                                              <li className="text-[14px] hover:font-bold font-normal hover:text-red">
+                                                Landscaping Estimating
+                                              </li>
+                                            </Link>
+                                          </div>
+                                        </>
+                                      )}
+                                    </div>
+                                    <Link href="/">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Electricity Supply
+                                        Concrete
                                       </h2>
                                     </Link>
-                                    <Link href="/energy">
-                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Energy Efficiency
+                                    <Link href="/">
+                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-2 cursor-pointer hover:text-black hover:font-bold">
+                                        Masonry
                                       </h2>
                                     </Link>
-                                    <Link href="/gas">
+
+                                    <div
+                                      className="relative"
+                                      onMouseEnter={handleMouseEnterThree}
+                                      onMouseLeave={handleMouseLeaveThree}
+                                    >
+                                      <div className="flex justify-start gap-1 cursor-pointer">
+                                        <Link
+                                          href=""
+                                          className="fonty text-white hover:text-[15px] hover:font-semibold font-inter text-[14px] font-normal mt-4 hover:text-[#15A7AD] cursor-pointer"
+                                        >
+                                          <div className="text-white text-[16px] font-poppins font-medium">
+                                            Metals
+                                          </div>
+                                        </Link>
+
+                                        <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          fill="none"
+                                          viewBox="0 0 24 24"
+                                          strokeWidth="1.5"
+                                          stroke="currentColor"
+                                          class="w-4 h-4 text-white mt-[20px]"
+                                        >
+                                          <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                                          />
+                                        </svg>
+                                      </div>
+
+                                      {isHoverThree && (
+                                        <>
+                                          <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[45px] z-[999px]">
+                                            <Link href="">
+                                              <li className="text-[14px] hover:font-bold font-normal hover:text-red">
+                                                Rebar Estimating
+                                              </li>
+                                            </Link>
+                                          </div>
+                                        </>
+                                      )}
+                                    </div>
+                                  </div>
+                                  <div className="lg:pl-0 pl-6 border-b">
+                                    <Link href="/">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Natural Gas Supplier
+                                        Lumber Estimating
                                       </h2>
                                     </Link>
-                                    <Link href="/solar">
+                                    <Link href="/">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Solar
+                                        Framing
+                                      </h2>
+                                    </Link>
+                                    <Link href="/">
+                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
+                                        Specialties
+                                      </h2>
+                                    </Link>
+                                    <Link href="/">
+                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
+                                        Equipment
                                       </h2>
                                     </Link>
                                   </div>
                                   <div className="lg:pl-0 pl-6 border-b">
-                                    <Link href="/services">
+                                    <Link href="/">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-2 cursor-pointer hover:text-black hover:font-bold">
-                                        Services
+                                        Furnishings
                                       </h2>
                                     </Link>
-                                    <Link href="/supply">
+                                    <Link href="/">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Electricity Supply
+                                        Special Construction
                                       </h2>
                                     </Link>
-                                    <Link href="/energy">
+                                    <Link href="/">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Energy Efficiency
+                                        Conveying Systems
                                       </h2>
                                     </Link>
-                                    <Link href="/gas">
-                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Natural Gas Supplier
-                                      </h2>
-                                    </Link>
-                                    <Link href="/solar">
-                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Solar
-                                      </h2>
-                                    </Link>
+                                    <div
+                                      className="relative"
+                                      onMouseEnter={handleMouseEnterFour}
+                                      onMouseLeave={handleMouseLeaveFour}
+                                    >
+                                      <div className="flex justify-start gap-1 cursor-pointer">
+                                        <Link
+                                          href=""
+                                          className="fonty text-white hover:text-[15px] hover:font-semibold font-inter text-[14px] font-normal mt-4 hover:text-[#15A7AD] cursor-pointer"
+                                        >
+                                          <div className="text-white text-[16px] font-poppins font-medium">
+                                            Thermal & Moisture Protection
+                                          </div>
+                                        </Link>
+
+                                        <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          fill="none"
+                                          viewBox="0 0 24 24"
+                                          strokeWidth="1.5"
+                                          stroke="currentColor"
+                                          class="w-4 h-4 text-white mt-[20px]"
+                                        >
+                                          <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                                          />
+                                        </svg>
+                                      </div>
+
+                                      {isHoverFour && (
+                                        <>
+                                          <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[65px] z-[999px]">
+                                            <Link href="">
+                                              <li className="text-[14px] hover:font-bold font-normal hover:text-red">
+                                                Roofing Estimating
+                                              </li>
+                                            </Link>
+                                            <Link href="">
+                                              <li className="text-[14px] hover:font-bold font-normal hover:text-red">
+                                                Insulating Estimating
+                                              </li>
+                                            </Link>
+                                          </div>
+                                        </>
+                                      )}
+                                    </div>
+                                    <div
+                                      className="relative"
+                                      onMouseEnter={handleMouseEnterSix}
+                                      onMouseLeave={handleMouseLeaveSix}
+                                    >
+                                      <div className="flex justify-start gap-1 cursor-pointer">
+                                        <Link
+                                          href=""
+                                          className="fonty text-white hover:text-[15px] hover:font-semibold font-inter text-[14px] font-normal mt-4 hover:text-[#15A7AD] cursor-pointer"
+                                        >
+                                          <div className="text-white text-[16px] font-poppins font-medium">
+                                            Interior & Exterior Finishes
+                                          </div>
+                                        </Link>
+
+                                        <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          fill="none"
+                                          viewBox="0 0 24 24"
+                                          strokeWidth="1.5"
+                                          stroke="currentColor"
+                                          class="w-4 h-4 text-white mt-[20px]"
+                                        >
+                                          <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                                          />
+                                        </svg>
+                                      </div>
+
+                                      {isHoverSix && (
+                                        <>
+                                          <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[75px] z-[999px]">
+                                            <Link href="/">
+                                              <li className="text-[14px] hover:font-bold font-normal hover:text-red">
+                                                Drywall Estimating
+                                              </li>
+                                            </Link>
+                                            <Link href="">
+                                              <li className="text-[14px] hover:font-bold font-normal hover:text-red">
+                                                Flooring Estimating
+                                              </li>
+                                            </Link>
+                                          </div>
+                                        </>
+                                      )}
+                                    </div>
                                   </div>
+
                                   <div className="lg:pl-0 pl-6 border-b">
+                                    <div
+                                      className="relative"
+                                      onMouseEnter={handleMouseEnterFive}
+                                      onMouseLeave={handleMouseLeaveFive}
+                                    >
+                                      <div className="flex justify-start gap-1 cursor-pointer">
+                                        <Link
+                                          href=""
+                                          className="fonty text-white hover:text-[15px] hover:font-semibold font-inter text-[14px] font-normal mt-4 hover:text-[#15A7AD] cursor-pointer"
+                                        >
+                                          <div className="text-white text-[16px] font-poppins font-medium">
+                                            MEP
+                                          </div>
+                                        </Link>
+
+                                        <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          fill="none"
+                                          viewBox="0 0 24 24"
+                                          strokeWidth="1.5"
+                                          stroke="currentColor"
+                                          class="w-4 h-4 text-white mt-[20px]"
+                                        >
+                                          <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                                          />
+                                        </svg>
+                                      </div>
+
+                                      {isHoverFive && (
+                                        <>
+                                          <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[105px] z-[999px]">
+                                            <Link href="/">
+                                              <li className="text-[14px] hover:font-bold font-normal hover:text-red">
+                                                Plumbing Estimating
+                                              </li>
+                                            </Link>
+                                            <Link href="">
+                                              <li className="text-[14px] hover:font-bold font-normal hover:text-red">
+                                                Electrical Estimating
+                                              </li>
+                                            </Link>
+                                            <Link href="">
+                                              <li className="text-[14px] hover:font-bold font-normal hover:text-red">
+                                                Mechanical Estimating
+                                              </li>
+                                            </Link>
+                                            <Link href="">
+                                              <li className="text-[14px] hover:font-bold font-normal hover:text-red">
+                                                Gutter Estimating
+                                              </li>
+                                            </Link>
+                                          </div>
+                                        </>
+                                      )}
+                                    </div>
+
                                     <Link href="/services">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-2 cursor-pointer hover:text-black hover:font-bold">
-                                        Services
+                                        HVAC
                                       </h2>
                                     </Link>
                                     <Link href="/supply">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Electricity Supply
+                                        Commercial Estimating
                                       </h2>
                                     </Link>
                                     <Link href="/energy">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Energy Efficiency
+                                        Industrial Estimating
                                       </h2>
                                     </Link>
                                     <Link href="/gas">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Natural Gas Supplier
-                                      </h2>
-                                    </Link>
-                                    <Link href="/solar">
-                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Solar
-                                      </h2>
-                                    </Link>
-                                  </div>
-                                  <div className="lg:pl-0 pl-6 border-b">
-                                    <Link href="/services">
-                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-2 cursor-pointer hover:text-black hover:font-bold">
-                                        Services
-                                      </h2>
-                                    </Link>
-                                    <Link href="/supply">
-                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Electricity Supply
-                                      </h2>
-                                    </Link>
-                                    <Link href="/energy">
-                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Energy Efficiency
-                                      </h2>
-                                    </Link>
-                                    <Link href="/gas">
-                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Natural Gas Supplier
-                                      </h2>
-                                    </Link>
-                                    <Link href="/solar">
-                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Solar
-                                      </h2>
-                                    </Link>
-                                  </div>
-                                  <div className="lg:pl-0 pl-6 border-b">
-                                    <Link href="/services">
-                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-2 cursor-pointer hover:text-black hover:font-bold">
-                                        Services
-                                      </h2>
-                                    </Link>
-                                    <Link href="/supply">
-                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Electricity Supply
-                                      </h2>
-                                    </Link>
-                                    <Link href="/energy">
-                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Energy Efficiency
-                                      </h2>
-                                    </Link>
-                                    <Link href="/gas">
-                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Natural Gas Supplier
-                                      </h2>
-                                    </Link>
-                                    <Link href="/solar">
-                                      <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
-                                        Solar
+                                        Residential Estimating
                                       </h2>
                                     </Link>
                                   </div>
@@ -286,7 +495,7 @@ export default function Drawer({ open, setOpen }) {
                           <Link href="/about">
                             <div className="flex justify-start gap-1">
                               <h2 className="text-white font-poppins hover:text-red mt-3">
-                                {pathname === "/refferal" ? (
+                                {pathname === "/about" ? (
                                   <div className="border-b-2 text-red">
                                     About Us
                                   </div>
@@ -299,7 +508,7 @@ export default function Drawer({ open, setOpen }) {
 
                           <Link href="/payment">
                             <h2 className="text-white font-poppins hover:text-red mt-3">
-                              {pathname === "/contact" ? (
+                              {pathname === "/payment" ? (
                                 <div className="border-b-2 text-red">
                                   {" "}
                                   Payment
@@ -312,7 +521,7 @@ export default function Drawer({ open, setOpen }) {
 
                           <Link href="/testimonials">
                             <h2 className="text-white font-poppins hover:text-red mt-3">
-                              {pathname === "/contact" ? (
+                              {pathname === "/testimonials" ? (
                                 <div className="border-b-2 text-red">
                                   {" "}
                                   Testimonials
@@ -325,7 +534,7 @@ export default function Drawer({ open, setOpen }) {
 
                           <Link href="/estimation">
                             <h2 className="text-white font-poppins hover:text-red mt-3">
-                              {pathname === "/contact" ? (
+                              {pathname === "/estimation" ? (
                                 <div className="border-b-2 text-red">
                                   {" "}
                                   Estimation fee

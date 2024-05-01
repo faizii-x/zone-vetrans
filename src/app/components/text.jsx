@@ -4,10 +4,10 @@ function Text() {
   return (
     <>
       <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-10">
-        REBAR & STRUCTURAL STEEL ESTIMATING SERVICES
+        Rebar & Structural Steel Estimating Services
       </h2>
 
-      <p className="text-[22px] font-poppins font-normal w-[90%] mx-auto mt-3">
+      <p className="text-[22px] font-poppins font-normal w-[90%] mx-auto mt-2">
       In today's competitive construction industry, precise estimates are essential to avoid overbidding or underbidding on projects. At Veterans Estimators, we specialize in accurate rebar or reinforcing steel takeoffs. Our experienced team delivers comprehensive estimates for materials, accessories, and erection costs, tailored to various project types including bridges, residential, commercial, and industrial buildings. We utilize advanced 3D modeling technology for clear scope understanding and accurate cost analysis. Contact us for reliable rebar estimating solutions.
       </p>
       <li className="text-[22px] font-poppins font-normal mt-3 w-[90%] mx-auto">

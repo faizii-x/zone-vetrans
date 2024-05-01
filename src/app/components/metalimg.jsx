@@ -22,7 +22,7 @@ function MetalImg() {
         <Navbar />
         <div className="self-center">
           <p className="w-[100%]  text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
-            Metals Estimating
+            Metals Estimating Services
           </p>
         </div>
       </div>
@@ -30,7 +30,7 @@ function MetalImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        <span className="text-red ">Veterans Estimators</span> is your reliable partner for accurate and dependable metal estimates tailored to your construction projects. We understand the critical role of metals in ensuring structural integrity and aesthetic appeal. Count on our expertise and commitment to deliver precise projections that meet your specific requirements.
+        <span className="text-red ">Veterans Estimators</span> is your reliable partner for accurate and dependable metal estimating services tailored to your construction projects. We understand the critical role of metals in ensuring structural integrity and aesthetic appeal. Count on our expertise and commitment to deliver precise projections that meet your specific requirements.
       </p>
 
       <div

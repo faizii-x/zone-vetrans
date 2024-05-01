@@ -178,7 +178,7 @@ export const FILTER_ARRAY = [
   
   
   {
-    title: "Site Works",
+    title: "Siteworks",
     link: "/trades/sitework",
     subTrades: [
       {
@@ -695,11 +695,7 @@ export const METAL_CARDS = [
     heading: "Initial Consultation",
     para: "We start by understanding your project goals, design preferences, and budget constraints. This helps us grasp the scope and vision of your construction project. ",
   },
-  {
-    img: Metal2,
-    heading: "Site Assessment",
-    para: "If necessary, we conduct a thorough site inspection to consider specific factors affecting metal selection, such as environmental conditions or structural requirements. ",
-  },
+  
   {
     img: Metal3,
     heading: "Material Selection",
@@ -713,7 +709,7 @@ export const METAL_CARDS = [
   {
     img: Metal5,
     heading: "Presentation and Approval",
-    para: " We submit the estimate to you, clarifying each component and addressing any queries or concerns you might have. Upon approval, we proceed with procurement. ",
+    para: " We submit the estimate to you, clarifying each component and addressing any queries or concerns you might have. ",
   },
   {
     img: Metal6,

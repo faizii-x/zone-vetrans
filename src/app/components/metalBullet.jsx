@@ -6,7 +6,7 @@ function MetalBullet() {
   return (
     <>
       <h2 className="text-[24px] font-bold w-[90%] mx-auto">
-        Our steel estimating services include
+        Our Steel Estimating Services Include
       </h2>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 mx-auto w-[90%]">
@@ -15,28 +15,28 @@ function MetalBullet() {
             Detailed and accurate steel takeoffs and estimates ranging from
             budget, the order of magnitude, design, and bid estimate.
           </li>
-          <li className="text-[22px] font-poppins font-normal mt-3">
+          <li className="text-[22px] font-poppins font-normal mt-2">
           Precast estimation
           </li>
-          <li className="text-[22px] font-poppins font-normal mt-3">
+          <li className="text-[22px] font-poppins font-normal mt-2">
           Cold-form steel estimation
           </li>
-          <li className="text-[22px] font-poppins font-normal mt-3">
+          <li className="text-[22px] font-poppins font-normal mt-2">
           Steel frames takeoffs
           </li>
-          <li className="text-[22px] font-poppins font-normal mt-3">
+          <li className="text-[22px] font-poppins font-normal mt-2">
           Rebar estimation
           </li>
-          <li className="text-[22px] font-poppins font-normal mt-3">
+          <li className="text-[22px] font-poppins font-normal mt-2">
           Structural steel takeoffs
           </li>
-          <li className="text-[22px] font-poppins font-normal mt-3">
+          <li className="text-[22px] font-poppins font-normal mt-2">
           Bar bending schedules
           </li>
-          <li className="text-[22px] font-poppins font-normal mt-3">
+          <li className="text-[22px] font-poppins font-normal mt-2">
           Change order management
           </li>
-          <li className="text-[22px] font-poppins font-normal mt-3">
+          <li className="text-[22px] font-poppins font-normal mt-2">
           Rebar project management
           </li>
         </div>

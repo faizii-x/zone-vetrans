@@ -6,7 +6,7 @@ function BlackThree() {
   return (
     <>
      <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-6">
-     The Range of Concrete Estimating Service
+     The Range of Concrete Estimating Services
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-[120px] lg:w-[60%] w-[90%] container mx-auto">
         {SITE_CARDSss.map((x) => (
