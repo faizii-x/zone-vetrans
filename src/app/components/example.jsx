@@ -167,7 +167,7 @@ export default function Drawer({ open, setOpen }) {
                               <div className=" absolute bg-hover rounded-md shadow-lg p-8 mt-3">
                                 <div className="grid grid-cols-1 w-[190px]">
                                   <div className="border-b">
-                                    <Link href="/">
+                                    <Link href="/trades/general">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-2 cursor-pointer hover:text-black hover:font-bold">
                                         General Requirements
                                       </h2>
@@ -179,7 +179,7 @@ export default function Drawer({ open, setOpen }) {
                                     >
                                       <div className="flex justify-start gap-1 cursor-pointer">
                                         <Link
-                                          href=""
+                                          href="/trades/sitework"
                                           className="fonty text-white hover:text-[15px] hover:font-semibold font-inter text-[14px] font-normal mt-4 hover:text-[#15A7AD] cursor-pointer"
                                         >
                                           <div className="text-white text-[16px] font-poppins font-medium">
@@ -206,7 +206,7 @@ export default function Drawer({ open, setOpen }) {
                                       {isHoverTwo && (
                                         <>
                                           <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[45px] z-[999px]">
-                                            <Link href="">
+                                            <Link href="trades/sitework/landscape">
                                               <li className="text-[14px] hover:font-bold font-normal hover:text-red">
                                                 Landscaping Estimating
                                               </li>
@@ -215,12 +215,12 @@ export default function Drawer({ open, setOpen }) {
                                         </>
                                       )}
                                     </div>
-                                    <Link href="/">
+                                    <Link href="/trades/concrete">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
                                         Concrete
                                       </h2>
                                     </Link>
-                                    <Link href="/">
+                                    <Link href="/trades/masonry">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-2 cursor-pointer hover:text-black hover:font-bold">
                                         Masonry
                                       </h2>
@@ -233,7 +233,7 @@ export default function Drawer({ open, setOpen }) {
                                     >
                                       <div className="flex justify-start gap-1 cursor-pointer">
                                         <Link
-                                          href=""
+                                          href="/trades/metals"
                                           className="fonty text-white hover:text-[15px] hover:font-semibold font-inter text-[14px] font-normal mt-4 hover:text-[#15A7AD] cursor-pointer"
                                         >
                                           <div className="text-white text-[16px] font-poppins font-medium">
@@ -260,7 +260,7 @@ export default function Drawer({ open, setOpen }) {
                                       {isHoverThree && (
                                         <>
                                           <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[45px] z-[999px]">
-                                            <Link href="">
+                                            <Link href="trades/metals/rebar">
                                               <li className="text-[14px] hover:font-bold font-normal hover:text-red">
                                                 Rebar Estimating
                                               </li>
@@ -271,39 +271,39 @@ export default function Drawer({ open, setOpen }) {
                                     </div>
                                   </div>
                                   <div className="lg:pl-0 pl-6 border-b">
-                                    <Link href="/">
+                                    <Link href="/trades/lumber">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
                                         Lumber Estimating
                                       </h2>
                                     </Link>
-                                    <Link href="/">
+                                    <Link href="/trades/framing">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
                                         Framing
                                       </h2>
                                     </Link>
-                                    <Link href="/">
+                                    <Link href="/trades/specialties">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
                                         Specialties
                                       </h2>
                                     </Link>
-                                    <Link href="/">
+                                    <Link href="/trades/equipment">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
                                         Equipment
                                       </h2>
                                     </Link>
                                   </div>
                                   <div className="lg:pl-0 pl-6 border-b">
-                                    <Link href="/">
+                                    <Link href="/trades/furnishing">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-2 cursor-pointer hover:text-black hover:font-bold">
                                         Furnishings
                                       </h2>
                                     </Link>
-                                    <Link href="/">
+                                    <Link href="/trades/specialConstruction">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
                                         Special Construction
                                       </h2>
                                     </Link>
-                                    <Link href="/">
+                                    <Link href="/trades/convey">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
                                         Conveying Systems
                                       </h2>
@@ -315,7 +315,7 @@ export default function Drawer({ open, setOpen }) {
                                     >
                                       <div className="flex justify-start gap-1 cursor-pointer">
                                         <Link
-                                          href=""
+                                          href="/trades/thermal"
                                           className="fonty text-white hover:text-[15px] hover:font-semibold font-inter text-[14px] font-normal mt-4 hover:text-[#15A7AD] cursor-pointer"
                                         >
                                           <div className="text-white text-[16px] font-poppins font-medium">
@@ -342,12 +342,12 @@ export default function Drawer({ open, setOpen }) {
                                       {isHoverFour && (
                                         <>
                                           <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[65px] z-[999px]">
-                                            <Link href="">
+                                            <Link href="/trades/thermal/roofing">
                                               <li className="text-[14px] hover:font-bold font-normal hover:text-red">
                                                 Roofing Estimating
                                               </li>
                                             </Link>
-                                            <Link href="">
+                                            <Link href="/trades/thermal/insulating">
                                               <li className="text-[14px] hover:font-bold font-normal hover:text-red">
                                                 Insulating Estimating
                                               </li>
@@ -363,7 +363,7 @@ export default function Drawer({ open, setOpen }) {
                                     >
                                       <div className="flex justify-start gap-1 cursor-pointer">
                                         <Link
-                                          href=""
+                                          href="/trades/interior"
                                           className="fonty text-white hover:text-[15px] hover:font-semibold font-inter text-[14px] font-normal mt-4 hover:text-[#15A7AD] cursor-pointer"
                                         >
                                           <div className="text-white text-[16px] font-poppins font-medium">
@@ -390,12 +390,12 @@ export default function Drawer({ open, setOpen }) {
                                       {isHoverSix && (
                                         <>
                                           <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[75px] z-[999px]">
-                                            <Link href="/">
+                                            <Link href="/trades/interior/drywall">
                                               <li className="text-[14px] hover:font-bold font-normal hover:text-red">
                                                 Drywall Estimating
                                               </li>
                                             </Link>
-                                            <Link href="">
+                                            <Link href="/trades/interior/flooring">
                                               <li className="text-[14px] hover:font-bold font-normal hover:text-red">
                                                 Flooring Estimating
                                               </li>
@@ -414,7 +414,7 @@ export default function Drawer({ open, setOpen }) {
                                     >
                                       <div className="flex justify-start gap-1 cursor-pointer">
                                         <Link
-                                          href=""
+                                          href="/trades/mep"
                                           className="fonty text-white hover:text-[15px] hover:font-semibold font-inter text-[14px] font-normal mt-4 hover:text-[#15A7AD] cursor-pointer"
                                         >
                                           <div className="text-white text-[16px] font-poppins font-medium">
@@ -441,22 +441,22 @@ export default function Drawer({ open, setOpen }) {
                                       {isHoverFive && (
                                         <>
                                           <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[105px] z-[999px]">
-                                            <Link href="/">
+                                            <Link href="/trades/mep/plumbing">
                                               <li className="text-[14px] hover:font-bold font-normal hover:text-red">
                                                 Plumbing Estimating
                                               </li>
                                             </Link>
-                                            <Link href="">
+                                            <Link href="/trades/electrical">
                                               <li className="text-[14px] hover:font-bold font-normal hover:text-red">
                                                 Electrical Estimating
                                               </li>
                                             </Link>
-                                            <Link href="">
+                                            <Link href="/trades/mechanical">
                                               <li className="text-[14px] hover:font-bold font-normal hover:text-red">
                                                 Mechanical Estimating
                                               </li>
                                             </Link>
-                                            <Link href="">
+                                            <Link href="/trades/mep/gutter">
                                               <li className="text-[14px] hover:font-bold font-normal hover:text-red">
                                                 Gutter Estimating
                                               </li>
@@ -466,22 +466,22 @@ export default function Drawer({ open, setOpen }) {
                                       )}
                                     </div>
 
-                                    <Link href="/services">
+                                    <Link href="/trades/hvac">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-2 cursor-pointer hover:text-black hover:font-bold">
                                         HVAC
                                       </h2>
                                     </Link>
-                                    <Link href="/supply">
+                                    <Link href="/trades/commercial">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
                                         Commercial Estimating
                                       </h2>
                                     </Link>
-                                    <Link href="/energy">
+                                    <Link href="/trades/industrial">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
                                         Industrial Estimating
                                       </h2>
                                     </Link>
-                                    <Link href="/gas">
+                                    <Link href="/trades/residential">
                                       <h2 className="text-[17px] text-white font-medium font-poppins mt-3 cursor-pointer hover:text-black hover:font-bold">
                                         Residential Estimating
                                       </h2>
