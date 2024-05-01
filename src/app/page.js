@@ -17,6 +17,7 @@ import Link from "../../public/link.svg";
 import Homebig from "./components/homebig";
 import Chatbot from "./components/chatbot";
 import AccuracyComp from "./components/accuracyComp";
+import NewComp from "./components/newComp";
 
 export default function Home() {
   const [showPopup, setShowPopup] = useState(false);
@@ -136,6 +137,7 @@ export default function Home() {
       <ScrollCards />
       <Homebig />
       <AccuracyComp/>
+      <NewComp/>
       <Start />
       <Banner />
     

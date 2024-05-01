@@ -17,7 +17,7 @@ function Start() {
 
   return (
     <>
-      <h2 className="text-[30px] font-bold w-[75%] mx-auto mt-[290px]">
+      <h2 className="text-[30px] font-bold w-[75%] mx-auto mt-8">
         Way To Start
       </h2>
       <div className="w-[60%] mx-auto mt-8 ">

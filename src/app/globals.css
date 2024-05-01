@@ -35,6 +35,17 @@ html {
 }
 /* ......................... */
 
+
+.slideImg {
+  background-image: url("/png/resi.png");
+}
+.slideImg1 {
+  background-image: url("/png/comm.png");
+}
+.slideImg2 {
+  background-image: url("/png/ind.png");
+}
+
 .styleClass{
   margin-top: -260px;
   transition: 0.5s linear;

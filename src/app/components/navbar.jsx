@@ -118,13 +118,13 @@ function Navbar() {
                             <h2 className=" text-[14px] ml-3 text-black font-normal font-poppins mt-2 cursor-pointer hover:text-red hover:font-bold">
                               {x.title}
                             </h2>
-                            {x?.subTrades?.map((subX) => (
+                            {/* {x?.subTrades?.map((subX) => (
                               <Link href={subX.link}>
                                 <h2 className=" text-[12px] ml-3 text-black font-light font-poppins  cursor-pointer hover:text-red hover:font-bold">
                                   {subX.title}
                                 </h2>
                               </Link>
-                            ))}
+                            ))} */}
                           </Link>
                         </>
                       ))}

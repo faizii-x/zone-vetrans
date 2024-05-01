@@ -50,13 +50,7 @@ function TradeSlider() {
               </Link>
             </div>
             <p className="md:block hidden absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            Our general requirement provide a comprehensive overview, analyzing your project needs and ensuring compliance with regulations. We deliver detailed estimates for materials, labor, and equipment, allowing for informed decisions and smooth project execution. Trust us for clear communication and on-budget completion.
             </p>
           </div>
           <div className="relative">
@@ -85,13 +79,7 @@ function TradeSlider() {
               </Link>
             </div>
             <p className=" md:block hidden absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            At <span className="text-red font-semibold">Veterans Estimators</span>, we empower sitework contractors, landscapers, developers, general contractors, and site contractors by offering more than just estimates. Our team of estimators utilizes the latest and cost-effective software to analyze drawings and plans accurately, providing precise material and labor takeoffs (including manhours) within 24-48 hours.
             </p>
             <Link href="/trades/sitework/landscape">
               <div className="absolute top-[310px] left-6 bg-red flex justify-center rounded-md w-[220px] h-[55px]">
@@ -126,13 +114,8 @@ function TradeSlider() {
               </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            Our Concrete Estimating Services offer accurate and detailed estimates for all concrete aspects of your construction project. Using advanced software and expertise, we provide precise calculations for materials, labor, equipment, and more. Whether it's for foundations, slabs, walls, or other concrete structures, we ensure clear cost understanding. Trust Veterans Estimators for dependable concrete estimating services that help you plan and budget effectively.
+
             </p>
           </div>
           <div className="relative">
@@ -161,13 +144,7 @@ function TradeSlider() {
               </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            Choose <span className="text-red font-semibold">Veterans Estimators</span> for excellent masonry estimating solutions. With nationwide experience, we provide accurate and timely estimates. Our skilled masonry cost estimator focuses on Division 4, including brickwork, CMU walls, and diverse masonry styles. Using tools like OST, Planswift, and Bluebeam, our dedicated team ensures precise evaluations. Contact us at +1 917 300 1079 or email (Dave@procoreestimators.com) to begin."
             </p>
           </div>
 
@@ -197,13 +174,7 @@ function TradeSlider() {
               </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            At <span className="text-red font-semibold">Veterans Estimators</span>, we specialize in accurate metal estimating services for construction projects, understanding the crucial role of metals in structural integrity and aesthetics. Our tailored estimates guarantee precision, perfectly aligned with your project requirements.
             </p>
             <Link href="/trades/metals/rebar">
               <div className="absolute top-[310px] left-6 bg-red flex justify-center rounded-md w-[240px] h-[55px]">
@@ -240,13 +211,7 @@ function TradeSlider() {
               </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            We're experts in providing quality wood and plastic materials for construction projects. With our wide range and expert guidance, your projects get the best materials, natural or man-made.
             </p>
           </div>
 
@@ -276,13 +241,7 @@ function TradeSlider() {
               </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            At <span className="text-red font-semibold">Veterans Estimators</span>, we understand the importance of thermal and moisture protection in construction. Our expertise ensures your project is equipped to handle environmental challenges, safeguarding its durability. Let us help you plan effectively and choose the right materials for your project's needs.
             </p>
             <div className="flex justify-between gap-3 absolute top-[310px] left-6">
               <Link href="/trades/thermal/roofing">
@@ -328,13 +287,7 @@ function TradeSlider() {
               </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            Framing estimating services offer detailed cost breakdowns, aiding informed decisions and ensuring timely project completion for client satisfaction. Accurate estimates empower sound financial decisions, preventing budget and time constraints, and ensuring a successful construction experience.
             </p>
           </div>
 
@@ -364,13 +317,7 @@ function TradeSlider() {
               </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            Elevate Your Project with Premium Interior & Exterior Finishing Solutions. Our experienced team specializes in delivering high-quality finishes using top-grade materials, meticulously selected for their durability, aesthetic appeal, and longevity. Whether it's interior detailing or exterior cladding, trust us to enhance the beauty and functionality of your space with our expert craftsmanship.
             </p>
             <div className="flex justify-between gap-3 absolute top-[310px] left-6">
               <Link href="/trades/interior/drywall">
@@ -416,13 +363,7 @@ function TradeSlider() {
               </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            There are many construction estimating services in the market, but they provide a limited number of options for the constructors.Veterans Estimators services are special when compared to the rest of the companies due to the following specialties.Extensive range, Comprehensive and accurate Cost Estimating, Material takeoff, Construction Scheduling, etc
             </p>
           </div>
 
@@ -452,13 +393,7 @@ function TradeSlider() {
               </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            Estimating equipment costs is crucial for project planning. At <span className="text-red font-semibold">Veterans Estimators</span>, we provide accurate Equipment Estimating services tailored to your needs. Our assessments consider rental rates, fuel costs, and maintenance expenses, ensuring efficient project execution within budget.
             </p>
           </div>
           <div className="relative">
@@ -487,13 +422,7 @@ function TradeSlider() {
               </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            At <span className="text-red font-semibold">Veterans Estimators</span>, we offer Furnishings Estimating services tailored to your project requirements. Our expertise ensures accurate assessments of furnishings costs, including furniture, fixtures, and decorative items. Trust us to provide comprehensive estimates to enhance the aesthetic appeal and functionality of your space.
             </p>
           </div>
           <div className="relative">
@@ -522,13 +451,7 @@ function TradeSlider() {
               </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            <span className="text-red font-semibold">Veterans Estimators</span> offers Special Construction Estimating services tailored to your unique project needs. Whether it's special materials or complex designs, our team provides accurate estimates to ensure your project's success. Trust us for precise assessments that make your special construction projects a breeze.
             </p>
           </div>
 
@@ -558,13 +481,7 @@ function TradeSlider() {
               </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            Get accurate estimates for your conveying systems with <span className="text-red font-semibold">Veterans Estimators</span>. Our expert team ensures precise calculations for all your conveyor needs, helping you plan and budget effectively for your projects.
             </p>
           </div>
 
@@ -594,13 +511,7 @@ function TradeSlider() {
               </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            At <span className="text-red font-semibold">Veterans Estimators</span>, we specialize in precise evaluations for transportation systems across industries. Our dedicated team ensures optimal transport solutions for enhanced efficiency and productivity.
             </p>
             <div className="flex justify-between gap-3 absolute top-[260px] left-6">
               <Link href="/trades/mep/">
@@ -654,13 +565,7 @@ function TradeSlider() {
               </div>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            At <span className="text-red font-semibold">Veterans Estimators</span>, we excel in HVAC estimating, delivering precise evaluations for heating, ventilation, and air conditioning systems. Trust us for accurate estimates tailored to your project needs.
             </p>
           </div>
           <div className="relative">
@@ -687,13 +592,7 @@ function TradeSlider() {
               </div>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            At <span className="text-red font-semibold">Veterans Estimators</span>, we specialize in commercial estimating, providing detailed and accurate cost assessments for a wide range of commercial construction projects. Trust us for reliable estimates that meet your project requirements.
             </p>
           </div>
           <div className="relative">
@@ -720,13 +619,7 @@ function TradeSlider() {
               </div>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            At <span className="text-red font-semibold">Veterans Estimators</span>, we excel in industrial estimating, offering precise and comprehensive cost evaluations for diverse industrial projects. Rely on our expertise for accurate estimates tailored to your industrial construction needs.
             </p>
           </div>
 
@@ -736,14 +629,15 @@ function TradeSlider() {
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 Residential Estimating
               </h4>
-              <div className="border border-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+              <div className="border border-white hover:bg-red hover:text-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+               <Link href="/trades/residential">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6  text-white cursor-pointer"
+                  class="w-6 h-6  text-white cursor-pointer hover:bg-red"
                 >
                   <path
                     stroke-linecap="round"
@@ -751,16 +645,11 @@ function TradeSlider() {
                     d="m8.25 4.5 7.5 7.5-7.5 7.5"
                   />
                 </svg>
+                </Link>
               </div>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
-              Lörem ipsum egenanställningsföretag popona som pseudock i exobel
-              äga frågan, esam, om sehans niren syvis ekogam eurode reagon.
-              Voska safäde makroning oktig, Lasse Berghagen-vin av ponat desper
-              i higt om semidat fåde och kykrologi karriärcoach, Nesper bebåren
-              eftersom tet medan tågyl eller fånirar ira fast usk. Epiliga eng
-              multigon kad och plada ose spening kåsebel anana treska spertad i
-              nojoktig fast filoitet sende.{" "}
+            At <span className="text-red font-semibold">Veterans Estimators</span>, we specialize in residential estimating, providing detailed and accurate cost assessments for residential construction projects. Trust our experienced team to deliver precise estimates tailored to your specific residential needs.
             </p>
           </div>
         </Slider>
