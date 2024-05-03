@@ -16,16 +16,16 @@ function MetalBullet() {
             budget, the order of magnitude, design, and bid estimate.
           </li>
           <li className="text-[22px] font-poppins font-normal mt-2">
-          Precast estimation
+          Precast estimating
           </li>
           <li className="text-[22px] font-poppins font-normal mt-2">
-          Cold-form steel estimation
+          Cold-form steel estimating
           </li>
           <li className="text-[22px] font-poppins font-normal mt-2">
           Steel frames takeoffs
           </li>
           <li className="text-[22px] font-poppins font-normal mt-2">
-          Rebar estimation
+          Rebar estimating
           </li>
           <li className="text-[22px] font-poppins font-normal mt-2">
           Structural steel takeoffs

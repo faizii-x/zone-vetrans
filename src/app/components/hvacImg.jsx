@@ -47,10 +47,10 @@ function HvacImg() {
         <div className="col-span-2 self-center">
           <p className="text-[22px] font-poppins font-normal">
             Contractors in HVAC rely on <span className="text-red">Veterans Estimators</span> for precise HVAC
-            estimation. Our MEP estimators specialize in quantifying HVAC
+            estimating. Our MEP estimators specialize in quantifying HVAC
             components like ducts, hangers, fixtures, and units. With detailed
             plans and descriptions, our estimators ensure clarity for
-            fabricators and contractors. At Veterans Estimators, our experienced
+            fabricators and contractors. At <span className="text-red">Veterans Estimators</span>, our experienced
             team focuses on enhancing comprehension for contractors, design
             engineers, and fabricators, providing clear cost projections for
             bidding and planning.

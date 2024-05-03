@@ -59,10 +59,10 @@ function MechanicalText() {
       {/* ................................... */}
 
       <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-10">
-        Mechanical Piping Estimating
+        Mechanical Piping Estimating Services
       </h2>
       <p className="text-[22px] font-poppins font-normal w-[90%] mx-auto mt-3">
-        MEP Piping Estimation Services: As a leading team in MEP estimation, we
+        MEP Piping Estimating Services: As a leading team in MEP estimating, we
         specialize in providing highly accurate estimates for mechanical piping
         contractors. Our detailed estimations support bid submissions, budget
         planning, procurement, and project scheduling. With hands-on experience

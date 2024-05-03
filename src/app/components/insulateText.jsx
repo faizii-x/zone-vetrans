@@ -1,62 +1,74 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
 import Insulateimg from "../../../public/png/insulateimg.png";
 
 function InsulateText() {
   return (
     <>
-    
-    <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-10">
-        Our Range of Industrial Estimating
+      <h2 className="text-[26px] font-bold w-[90%] mx-auto mt-10">
+        Our Insulation Estimating Services
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] mx-auto mt-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] mx-auto mt-2">
         <div className="col-span-2 mb-3">
           <li className="text-[22px] font-poppins font-normal mt-1">
-            Comprehensive quantity takeoffs and cost estimates for all divisions
+            Residential & Commercial Insulation Estimation
           </li>
           <li className="text-[22px] font-poppins font-normal mt-1">
-            Estimates for quality assurance and quality control
+            Industrial Mechanical Insulation Estimation
           </li>
           <li className="text-[22px] font-poppins font-normal mt-1">
-            Expert eye witnesses
+            Thermal Insulation Estimation
           </li>
           <li className="text-[22px] font-poppins font-normal mt-1">
-            Cold eyes reviews
+            Fireproofing & Firestopping Estimation
           </li>
           <li className="text-[22px] font-poppins font-normal mt-1">
-            Bid Evaluation & Management
+            Roofing Estimation
           </li>
           <li className="text-[22px] font-poppins font-normal mt-1">
-            Procurement Services
+            Waterproofing & Dampproofing Estimation
           </li>
           <li className="text-[22px] font-poppins font-normal mt-1">
-            Change Order Preparation & Review
+            Acoustic & Sound Proofing Estimation
           </li>
           <li className="text-[22px] font-poppins font-normal mt-1">
-            Feasibility Studies
+            Estimation of Insulation for boilers, HVAC systems, ductwork,
+            pipeworks, valves, plumbing, equipment, etc.
           </li>
           <li className="text-[22px] font-poppins font-normal mt-1">
-            Risk Analysis
+            Material Takeoffs
           </li>
           <li className="text-[22px] font-poppins font-normal mt-1">
-            Productivity Analysis
+            Budget Estimates
           </li>
           <li className="text-[22px] font-poppins font-normal mt-1">
-            Project Scheduling
+            Bid Estimates
+          </li>
+          <li className="text-[22px] font-poppins font-normal mt-1">
+            Bidding Assistance
+          </li>
+          <li className="text-[22px] font-poppins font-normal mt-1">
+            Change Order Estimates
+          </li>
+          <li className="text-[22px] font-poppins font-normal mt-1">
+            Preliminary Estimates
+          </li>
+          <li className="text-[22px] font-poppins font-normal mt-1">
+            Pre-built Material Estimate
           </li>
           <li className="text-[22px] font-poppins font-normal mt-1">
             Project Cost Management
+          </li>
+          <li className="text-[22px] font-poppins font-normal mt-1">
+            Value Engineering
           </li>
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1 self-center">
           <Image className="mx-auto" src={Insulateimg} />
         </div>
       </div>
-    
-    
-    
     </>
-  )
+  );
 }
 
-export default InsulateText
+export default InsulateText;

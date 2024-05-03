@@ -8,7 +8,7 @@ function Text() {
       </h2>
 
       <p className="text-[22px] font-poppins font-normal w-[90%] mx-auto mt-2">
-      In today's competitive construction industry, precise estimates are essential to avoid overbidding or underbidding on projects. At Veterans Estimators, we specialize in accurate rebar or reinforcing steel takeoffs. Our experienced team delivers comprehensive estimates for materials, accessories, and erection costs, tailored to various project types including bridges, residential, commercial, and industrial buildings. We utilize advanced 3D modeling technology for clear scope understanding and accurate cost analysis. Contact us for reliable rebar estimating solutions.
+      In today's competitive construction industry, precise estimates are essential to avoid overbidding or underbidding on projects. At <span className="text-red font-semibold">Veterans Estimators</span>, we specialize in accurate rebar or reinforcing steel takeoffs. Our experienced team delivers comprehensive estimates for materials, accessories, and erection costs, tailored to various project types including bridges, residential, commercial, and industrial buildings. We utilize advanced 3D modeling technology for clear scope understanding and accurate cost analysis. Contact us for reliable rebar estimating solutions.
       </p>
       <li className="text-[22px] font-poppins font-normal mt-3 w-[90%] mx-auto">
       Contract plans & numbers

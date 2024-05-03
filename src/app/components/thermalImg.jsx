@@ -24,7 +24,7 @@ function ThermalImg() {
         <Navbar />
         <div className="self-center">
           <p className="w-[100%]  text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
-            Thermal and Moisture protection
+            Thermal and Moisture Protection Estimating Services
           </p>
         </div>
       </div>
@@ -52,7 +52,7 @@ function ThermalImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
 
       <h2 className="text-[20px] w-[90%] mx-auto mt-4 font-poppins font-bold">
-        Thermal Insulation Estimating
+        Thermal Insulation Estimating Services
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-2 gap-6 w-[90%] mx-auto">
         <div className="col-span-2">

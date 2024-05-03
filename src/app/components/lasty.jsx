@@ -9,7 +9,7 @@ function Lasty() {
         What We Estimate
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-6 gap-6 w-[90%] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-1 gap-6 w-[90%] mx-auto">
         <div className="col-span-2 self-center">
           <h4 className="text-[20px] font-bold mt-1">Specialized Materials</h4>
           <p className="text-[22px] font-poppins font-normal">

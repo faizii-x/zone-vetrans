@@ -24,7 +24,7 @@ function ResidentialImg() {
         <Navbar />
         <div className="self-center">
           <p className="w-[100%] text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
-            Residential Estimating
+            Residential Estimating Services
           </p>
         </div>
       </div>

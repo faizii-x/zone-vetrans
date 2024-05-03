@@ -33,7 +33,7 @@ function GutterImg() {
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
         Looking for reliable gutter estimating services for your construction
-        project? Look no further! Veterans Estimators offers professional gutter
+        project? Look no further! <span className="text-red">Veterans Estimators</span> offers professional gutter
         estimating services worldwide. Our expert team uses modern software to
         deliver accurate gutter estimates efficiently, complete with layouts and
         annotations. With just one click, we can generate detailed bills of

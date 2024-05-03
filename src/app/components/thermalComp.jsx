@@ -3,7 +3,7 @@ import React from "react";
 function ThermalComp() {
   return (
     <>
-      <h2 className="text-[20px] w-[90%] mx-auto mt-6 font-poppins font-bold">
+      {/* <h2 className="text-[20px] w-[90%] mx-auto mt-6 font-poppins font-bold">
         Thermal and Moisture protection takeoffs
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-5 w-[50%] mx-auto ">
@@ -77,7 +77,7 @@ function ThermalComp() {
             Vinyl Siding takeoffs
           </li>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

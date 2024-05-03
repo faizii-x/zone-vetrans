@@ -24,7 +24,7 @@ function FloorImg() {
         <Navbar />
         <div className="self-center">
           <p className="w-[100%]  text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
-            Flooring Estimating & Takeoff Services
+            Flooring Takeoff Services
           </p>
         </div>
       </div>

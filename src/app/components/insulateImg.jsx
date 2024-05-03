@@ -32,10 +32,17 @@ function InsulateImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-        Get our Industrial estimating services to save estimating costs and
-        improve accuracy and have your estimates and takeoffs audited and
-        analyzed by professional construction estimators within the fastest
-        turnaround times.
+       <span className="text-red ">Veterans Estimators</span> specializes in insulation estimating services,
+        ensuring accuracy and efficiency to meet your project deadlines and
+        secure bids. Whether it's a residential or industrial project, we
+        meticulously measure walls, floors, and ceilings using cutting-edge
+        technology, factoring in doors and windows for precise estimates. Our
+        comprehensive approach covers all forms of insulation, including liquid
+        foam, spray board, rolls, batts, loose-fill, and foam board. Contact
+        Veterans Estimators today at +1 917 300 1079 for a free consultation.<br/> We
+        always strive to provide quality services to our clients so that they
+        reach the exact figures in terms of their cost estimates and bid with
+        confidence.
       </p>
 
       <div
@@ -48,7 +55,6 @@ function InsulateImg() {
       </div>
 
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
-    
     </>
   );
 }

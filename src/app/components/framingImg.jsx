@@ -24,7 +24,7 @@ function FramingImg() {
         <Navbar />
         <div className="self-center">
           <p className="w-[100%]  text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
-            Framing Estimating
+            Framing Estimating Services
           </p>
         </div>
       </div>
@@ -43,9 +43,7 @@ function FramingImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
       {/* ...................................................... */}
 
-      <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-6">
-        Expertise and Experience
-      </h2>
+     
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-3 gap-6 w-[90%] mx-auto">
         <div className="col-span-2">
           <p className="text-[22px] font-poppins font-normal">
@@ -65,7 +63,7 @@ function FramingImg() {
       </div>
 
       <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-6">
-        Wood frame construction
+        Wood Frame Construction
       </h2>
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-2">
         Wood frame construction utilizes wood as the primary material for

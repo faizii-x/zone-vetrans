@@ -1,36 +1,75 @@
+import Link from "next/link";
 import React from "react";
+
 
 function MepStyle() {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 lg:w-[60%] w-[90%] mx-auto hide-large-screen">
-        <div className="bg-blacks rounded-lg p-4 hover:bg-red cursor-pointer">
-          <h5 className="text-white text-[18px] font-poppins font-bold text-center">
-            Electrical Estimating Services
-          </h5>
-          <p className="mt-2 text-white text-[16px] font-poppins font-light">
-            Get accurate flooring estimate with us. Our services cover material
-            takeoffs, bid estimate, and CAD drafting for seamless project
-            planning. Trust our experties for precise bids and successfull
-            project outcomes.
-          </p>
-          <div className="bg-red w-[140px] h-[40px] rounded-md mt-3 p-3 flex justify-center items-center">
-          <button className="text-[16px] text-white font-poppins">Read more</button>
+      <div className="grid grid-cols-1 lg:grid-cols-2 mx-auto lg:w-[70%] w-[90%] mt-8 gap-4">
+        <div
+          className=" max-w-full h-auto bg-cover bg-center rounded-2xl"
+          style={{ backgroundImage: `url(${"/png/pick1.png"})` }}
+        >
+          <div className="flex justify-between gap-2 p-6">
+            <h5 className="text-white text-[24px] font-poppins font-semibold">
+              Electrical Estimating Services
+            </h5>
+            <Link href="/trades/electrical">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-[36px] h-[36px] text-white hover:text-red cursor-pointer"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
+            </Link>
           </div>
+          <p className="p-6 text-white font-poppins font-light -mt-10">
+            We offer accurate estimating solutions for electric systems in
+            various projects. Our services include material takeoffs, bid
+            estimates, electrical cost per square foot, and CAD drafting. With
+            precise estimates and thorough bid preparations, we ensure
+            successful project planning and bids.
+          </p>
         </div>
-        <div className="bg-blacks rounded-lg p-4 hover:bg-red cursor-pointer mt-3">
-          <h5 className="text-white text-[18px] font-poppins font-bold text-center">
-         Plumbing Estimating Services
-          </h5>
-          <p className="mt-2 text-white text-[16px] font-poppins font-light">
-            Streamline your project with our precise drywall estimating. From
-            material takeoffs to bid estimates and CAD drafting , we ensure
-            accurate planning for your projects. Trust our expertise for
-            efficient project management and successful outcomes.
-          </p>
-          <div className="bg-red w-[140px] h-[40px] rounded-md mt-3 p-3 flex justify-center items-center">
-          <button className="text-[16px] text-white font-poppins">Read more</button>
+        <div
+          className=" max-w-full h-auto bg-cover bg-center rounded-2xl"
+          style={{ backgroundImage: `url(${"/png/pick2.png"})` }}
+        >
+          <div className="flex justify-between gap-2 p-6">
+            <h5 className="text-white text-[24px] font-poppins font-semibold">
+              Plumbing Estimating Services
+            </h5>
+            <Link href="/trades/mep/plumbing">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-[36px] h-[36px] text-white hover:text-red cursor-pointer"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
+            </Link>
           </div>
+          <p className="p-6 text-white font-poppins font-light -mt-10">
+            For plumbing projects, we cover everything from new installations to
+            repairs, catering to residential, commercial, and industrial needs.
+            Our estimates provide comprehensive details, allowing effective
+            bidding, profit margin setting, and material procurement.
+          </p>
         </div>
       </div>
     </>

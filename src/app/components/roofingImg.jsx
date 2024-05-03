@@ -24,7 +24,7 @@ function RoofingImg() {
         <Navbar />
         <div className="self-center">
           <p className="w-[100%]  text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
-            Roofing Estimating
+            Roofing Estimating Services
           </p>
         </div>
       </div>
@@ -37,8 +37,17 @@ function RoofingImg() {
         experienced roofing estimator ensures swift and accurate estimates for
         your roofing projects, facilitating a seamless process from start to
         finish. Contact us anytime for support via chat, email{" "}
-        <span className="text-red">af@veteransestimators.com</span> , or phone
-        at <span className="text-red">+1 917 300 1079</span> +1 917 300 1079.
+        <a
+          className=" hover:text-red"
+          href="mailto:af@veteransestimators.com"
+        >
+          <span className="text-red">af@veteransestimators.com</span>
+        </a>{" "}
+        , or phone at{" "}
+        <a className=" hover:text-red" href="tel:+1 917 300 1079">
+          {" "}
+          <span className="text-red">+1 917 300 1079</span>{" "}
+        </a>
       </p>
 
       <div

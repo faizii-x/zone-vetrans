@@ -10,7 +10,7 @@ function  RoofText() {
         Our Clients:
       </h2>
       <p className="text-[22px] font-poppins font-normal w-[90%] mx-auto mt-3">
-      Veterans Estimating is a professional platform to deliver Roofing Estimating Services from last 10 years with different clients. Few of them are as follows:
+      Veterans Estimators is a professional platform to deliver Roofing Estimating Services from last 10 years with different clients. Few of them are as follows:
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] mx-auto mt-2">

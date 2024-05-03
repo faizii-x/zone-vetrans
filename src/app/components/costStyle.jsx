@@ -14,22 +14,22 @@ function CostStyle() {
     dots: false,
     arrows: false,
     infinite: true,
-    autoplay: 1000,
+    autoplay: true,
     slidesPerRow: 1,
     slidesToShow: 1,
-    infinite: true,
     swipeToSlide: true,
     slidesToScroll: 1,
     lazyLoad: true,
   };
   return (
     <>
+
       <div className="w-[80%] mx-auto show-large-screen">
         <Slider {...settings}>
           <div className="md:flex grid justify-start mt-8 relative gap-4 p-4 mx-auto mb-16 ml-1">
             <div className="absolute left-4 lg:mt-[57px] mt-8 ">
               <Image className=" " src={Cost1} />
-              <p className="-mt-[300px] ml-6 text-white text-[22px] font-bold font-poppins">
+              <p className="-mt-[300px] ml-6 text-white text-[22px] font-bold font-poppins ">
                 General Contractors
               </p>
               <p className="w-[40%] mt-[20px] ml-6 text-white text-[20px] font-poppins font-light">
@@ -41,10 +41,10 @@ function CostStyle() {
 
             <div className="">
               <Image className="" src={Cost2} />
-              <p className="absolute right-[370px] mt-[100px] top-0 ml-6 text-white text-[22px] font-bold font-poppins">
+              <p className="absolute right-[370px] mt-[100px] top-0 ml-6 text-white text-[22px] font-bold font-poppins class-sett">
                 Developers
               </p>
-              <p className="absolute right-16 w-[40%] -mt-[270px] ml-6 text-white text-[20px] font-poppins font-light">
+              <p className="absolute right-[80px] w-[40%] -mt-[320px] ml-6 text-white text-[20px] font-poppins font-light class-sett-1">
                 Make smart decisions right from the beginning of your project.
                 Trust our accurate material takeoffs to provide reliable cost
                 estimates, ensuring you stay within budget and on track.
@@ -67,10 +67,10 @@ function CostStyle() {
 
             <div className="">
               <Image className="" src={Cost4} />
-              <p className="absolute right-[225px] mt-[100px] top-0 ml-6 text-white text-[22px] font-bold font-poppins">
+              <p className="absolute right-[225px] mt-[100px] top-0 ml-6 text-white text-[22px] font-bold font-poppins class-sett-11">
                 Homeowners & Builders
               </p>
-              <p className="absolute right-16 w-[40%] -mt-[270px] ml-6 text-white text-[20px] font-poppins font-light">
+              <p className="absolute right-16 w-[40%] -mt-[320px] ml-6 text-white text-[20px] font-poppins font-light class-sett-12">
                 Empowering you with detailed cost estimates for materials and
                 labor, enabling informed decisions prior to project initiation.
               </p>
@@ -93,17 +93,24 @@ function CostStyle() {
 
             <div className="">
               <Image className="" src={Cost6} />
-              <p className="absolute right-[225px] mt-[70px] top-0 ml-6 text-white text-[22px] font-bold font-poppins">
+              <p className="absolute right-[225px] mt-[70px] top-0 ml-6 text-white text-[22px] font-bold font-poppins class-sett-111">
                 Subcontractors
               </p>
-              <p className="absolute right-16 w-[40%] -mt-[270px] ml-6 text-white text-[20px] font-poppins font-light">
+              <p className="absolute right-16 w-[40%] -mt-[330px] ml-6 text-white text-[20px] font-poppins font-light class-sett-122">
                 Subcontractors, save time! Receive quick, precise quotes in 1-2
                 days and cut estimating costs by 60%.
               </p>
             </div>
           </div>
         </Slider>
+
       </div>
+      
+
+    
+
+
+
     </>
   );
 }

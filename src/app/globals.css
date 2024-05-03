@@ -34,7 +34,9 @@ html {
   transition: 0.2s ease-in !important;
 }
 /* ......................... */
-
+.slideCost {
+  background-image: url("/png/cost1.png");
+}
 
 .slideImg {
   background-image: url("/png/resi.png");
@@ -199,11 +201,261 @@ display: block;
   display: none;
 }
 
-@media (max-width: 1023px) {
-  .slider-flex-div {
-    display: grid !important;
-    justify-content: space-between !important;
+
+
+@media (max-width: 1680px) {
+  .class-sett{
+ right: 560px;
   }
+  .class-sett-11{
+    right: 420px;
+     }
+ .class-sett-1{
+  right: 150px;
+ }
+ .class-sett-12{
+  right: 150px;
+ }
+ .class-sett-111{
+  right: 490px;
+   }
+   .class-sett-122{
+    right: 150px;
+   }
+}
+
+@media (max-width: 1630px) {
+  .class-sett{
+ right: 520px;
+  }
+  .class-sett-11{
+    right: 380px;
+     }
+ .class-sett-1{
+  right: 130px;
+ }
+ .class-sett-12{
+  right: 130px;
+ }
+
+ .class-sett-111{
+  right: 500px;
+   }
+   .class-sett-122{
+    right: 150px;
+   }
+   .class-sett-111{
+    right: 490px;
+     }
+     .class-sett-122{
+      right: 150px;
+     }
+
+}
+
+@media (max-width: 1583px) {
+  .class-sett{
+ right: 484px;
+  }
+  .class-sett-11{
+    right: 340px;
+     }
+ .class-sett-1{
+  right: 110px;
+ }
+ .class-sett-12{
+  right: 110px;
+ }
+
+ .class-sett-111{
+  right: 450px;
+   }
+   .class-sett-122{
+    right: 130px;
+   }
+}
+
+@media (max-width: 1543px) {
+  .class-sett{
+ right: 430px;
+  }
+  .class-sett-11{
+    right: 320px;
+     }
+ .class-sett-1{
+  right: 90px;
+ }
+ .class-sett-12{
+  right: 90px;
+ }
+ .class-sett-111{
+  right: 420px;
+   }
+   .class-sett-122{
+    right: 110px;
+   }
+
+}
+@media (max-width: 1503px) {
+ 
+  .class-sett-11{
+    right: 302px;
+     }
+     .class-sett-111{
+      right: 400px;
+       }
+       .class-sett-122{
+        right: 100px;
+       }
+}
+
+@media (max-width: 1473px) {
+  .class-sett{
+ right: 425px;
+  }
+  .class-sett-11{
+    right: 292px;
+     }
+ .class-sett-1{
+  right: 90px;
+  margin-top: -300px;
+ }
+ .class-sett-12{
+  right: 90px;
+  margin-top: -310px;
+
+ }
+ .class-sett-111{
+  right: 370px;
+   }
+   .class-sett-122{
+    right: 80px;
+  margin-top: -330px;
+
+   }
+
+
+
+}
+
+@media (max-width: 1433px) {
+  .class-sett{
+ right: 410px;
+  }
+  .class-sett-11{
+    right: 275px;
+     }
+ .class-sett-1{
+  right: 90px;
+  margin-top: -300px;
+ }
+ .class-sett-12{
+  right: 90px;
+  margin-top: -300px;
+
+ }
+ .class-sett-111{
+  right: 350px;
+   }
+   .class-sett-122{
+    right: 70px;
+  margin-top: -330px;
+
+   }
+
+
+}
+@media (max-width: 1400px) {
+ 
+  .class-sett-11{
+    right: 265px;
+     }
+
+ .class-sett-12{
+  right: 90px;
+  margin-top: -280px;
+
+ }
+
+
+
+ .class-sett-111{
+  right: 320px;
+   }
+   .class-sett-122{
+    right: 60px;
+  margin-top: -320px;
+
+   }
+}
+
+@media (max-width: 1373px) {
+  .class-sett{
+ right: 390px;
+  }
+ .class-sett-1{
+  right: 90px;
+  margin-top: -270px;
+ }
+
+ .class-sett-11{
+  right: 245px;
+   }
+
+.class-sett-12{
+right: 80px;
+margin-top: -280px;
+
+}
+
+.class-sett-111{
+  right: 310px;
+   }
+   .class-sett-122{
+    right: 60px;
+  margin-top: -310px;
+
+   }
+
+
+}
+
+@media (max-width: 1323px) {
+  .class-sett{
+ right: 377px;
+  }
+ .class-sett-1{
+  right: 90px;
+  margin-top: -270px;
+ }
+ .class-sett-11{
+  right: 220px;
+   }
+
+.class-sett-12{
+right: 70px;
+margin-top: -260px;
+
+}
+
+.class-sett-111{
+  right: 310px;
+   }
+   .class-sett-122{
+    right: 60px;
+  margin-top: -290px;
+
+   }
+
+
+
+
+
+}
+
+
+@media (max-width: 1300px) {
+  
   .hide-large-screen{
     display: block;
   }
@@ -241,6 +493,20 @@ display: block;
     display: none;
   }
 }
+
+@media (max-width: 1023px) {
+  .slider-flex-div {
+    display: grid !important;
+    justify-content: space-between !important;
+  }
+  .hide-large-screen{
+    display: block;
+  }
+  .show-large-screen{
+    display: none;
+    }
+}
+
 @media (max-width: 767px) {
   .nav-fix {
     margin-left: 13px;
@@ -249,14 +515,15 @@ display: block;
     display: none;
   }
 }
-@media (max-width: 515px) {
-  .nav-fix {
-    margin-left: 9px;
-  }
-}
+
 
 @media (max-width: 370px) {
   .nav-fix {
     margin-left: 7px;
+  }
+}
+@media (max-width: 515px) {
+  .nav-fix {
+    margin-left: 9px;
   }
 }

@@ -94,14 +94,28 @@ export default function Home() {
                 <Image className="hover:border-y border-red" src={Num} />
               </a>
               <a className="" href="mailto:someone670@gmail.com">
-                <p className="text-white font-medium text-[20px] hover:border-y border-red">af@veteransestimators.com</p>
+                <p className="text-white font-medium text-[20px] hover:border-y border-red">
+                  af@veteransestimators.com
+                </p>
               </a>
             </div>
 
             <div className="flex justify-center gap-4 mt-3">
-              <Image className="" src={Face} />
-              <Image className="" src={Facebook} />
-              <Image className="" src={Link} />
+              <a
+                href="https://www.instagram.com/veterans.estimator/"
+                target="_blank"
+              >
+                <Image className="" src={Face} />
+              </a>
+              <a
+                href="https://www.facebook.com/VeteransEstimator"
+                target="_blank"
+              >
+                <Image className="" src={Facebook} />
+              </a>
+              <a href="linkedin.com/company/veteransestimators" target="_blank">
+                <Image className="" src={Link} />
+              </a>
             </div>
 
             <p className="text-[23px] text-center text-white font-bold p-3">
@@ -124,23 +138,21 @@ export default function Home() {
       )}
       {hello && <Modal closeModal={closeModal} />}
 
-      <div onClick={openChat} className=" fixed bottom-8 right-8">
+      {/* <div onClick={openChat} className=" fixed bottom-8 right-8">
         <Image className=" w-[40px] h-[40px] cursor-pointer" src={Buttonfix} />
       </div>
 
-      {bot && <Chatbot closeChat={closeChat} />}
+      {bot && <Chatbot closeChat={closeChat} />} */}
 
-     
       <Hero />
       <ParaSection />
       <HomeCard />
       <ScrollCards />
       <Homebig />
-      <AccuracyComp/>
-      <NewComp/>
+      <AccuracyComp />
+      <NewComp />
       <Start />
       <Banner />
-    
     </>
   );
 }

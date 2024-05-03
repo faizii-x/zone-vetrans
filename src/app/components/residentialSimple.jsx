@@ -9,7 +9,7 @@ function ResidentialSimple() {
      
 
       <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-10">
-        Why Choose Planhub Estimators
+        Why Choose Vetrans Estimators
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] container mx-auto mt-4">
         <div className="col-span-2 mb-3">

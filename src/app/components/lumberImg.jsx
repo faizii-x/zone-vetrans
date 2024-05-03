@@ -54,7 +54,7 @@ function LumberImg() {
       </h2>
 
       <p className="text-[22px] font-poppins font-normal  w-[90%] mx-auto">
-        Our lumber takeoffs cover timber/lumber, labor costs, labor-hours, and
+        Our lumber takeoffs services cover timber/lumber, labor costs, labor-hours, and
         transportation costs. Our detailed estimates help clients win bids and
         negotiate with suppliers. We provide accurate lumber cut lists, making
         it easier for woodworkers to minimize wastage and maximize timber usage.<br/>

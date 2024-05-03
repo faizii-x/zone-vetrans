@@ -32,7 +32,7 @@ function PlumbingImg() {
       {/* .............................. */}
 
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
-      At Veterans Estimating, we simplify plumbing estimates Services worldwide. With 10+ years of experience, we provide fast, accurate estimates using advanced software. From residential to commercial projects, count on us for precision and efficiency.
+      At <span className="text-red">Veterans Estimating</span>, we simplify plumbing estimating services worldwide. With 10+ years of experience, we provide fast, accurate estimates using advanced software. From residential to commercial projects, count on us for precision and efficiency.
       </p>
 
       <div

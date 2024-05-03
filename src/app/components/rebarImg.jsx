@@ -24,7 +24,7 @@ function RebarImg() {
         <Navbar />
         <div className="self-center">
           <p className="w-[100%]  text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
-            Rebar Estimating
+            Rebar Estimating Services
           </p>
         </div>
       </div>
@@ -55,7 +55,7 @@ function RebarImg() {
         Rebar Estimating Services
       </h2>
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-2">
-      Rebar estimating services require expertise. Veterans Estimators stands out with our skilled team. Rebar reinforces concrete. To price concrete jobs, we evaluate Rebar needs. Our quotes are quick and precise.
+      Rebar estimating services require expertise. <span className="text-red">Veterans Estimators</span> stands out with our skilled team. Rebar reinforces concrete. To price concrete jobs, we evaluate Rebar needs. Our quotes are quick and precise.
       </p>
     </>
   );

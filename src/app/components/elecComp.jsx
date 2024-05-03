@@ -7,7 +7,7 @@ function ElecComp() {
   return (
     <>
       <h2 className="text-[24px] font-bold mt-8 w-[90%] mx-auto">
-        Residential Electrical Estimating Service
+        Residential Electrical Estimating Services
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-1 gap-6 w-[90%] mx-auto">
         <div className="col-span-2 ">
@@ -15,7 +15,7 @@ function ElecComp() {
             If you're involved in home-based electrical projects, our services
             can provide valuable electrical projections for procurement and
             tendering. Our dedicated team specializes in residential electrical
-            estimation for various projects, including home enhancements, new
+            estimating for various projects, including home enhancements, new
             constructions, eco-friendly homes, smart houses, and more.
           </p>
         </div>
@@ -31,7 +31,7 @@ function ElecComp() {
         </div>
         <div className="col-span-2 ">
           <h2 className="text-[24px] font-bold mt-8 ">
-            Commercial Electrical Estimating
+            Commercial Electrical Estimating Services
           </h2>
           <p className="text-[22px] font-poppins font-normal">
             As a commercial electrical contractor, you face tight deadlines and

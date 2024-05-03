@@ -8,7 +8,7 @@ function BlackElectrical() {
 
 
 <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-10">
-The Items We Quantify In HVAC Estimating And Takeoffs
+The Items We Quantify In HVAC Estimating And Takeoff Services
       </h2>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-[160px] lg:w-[60%] w-[90%] container mx-auto">

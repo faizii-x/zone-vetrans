@@ -3,7 +3,7 @@ import React from "react";
 function ResponsiveComp() {
   return (
     <>
-      <div className="hide-large-screen grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 w-[90%] container mx-auto">
+      <div className="hide-large-screen grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 w-[90%] container mx-auto mt-4">
         <div className="bg-blacks rounded-lg p-5 mb-2">
           <h4 className="text-center text-white text-[18px] font-poppins font-semibold">
             General Contractors

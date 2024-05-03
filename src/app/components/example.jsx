@@ -2,7 +2,7 @@
 import { Fragment, useState } from "react";
 import Link from "next/link";
 import { Dialog, Transition } from "@headlessui/react";
-import Logo from "../../../public/logo.svg";
+import Logo from "../../../public/png/loggo.png";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import Modal from "./modal";
@@ -117,7 +117,7 @@ export default function Drawer({ open, setOpen }) {
                     <div className="p-5">
                       <Link href="/">
                         <Image
-                          className="cursor-pointer  h-[70px] lg:ml-0 ml-6"
+                          className="cursor-pointer w-[60%] h-[70px]  lg:ml-0 ml-6"
                           src={Logo}
                         />
                       </Link>

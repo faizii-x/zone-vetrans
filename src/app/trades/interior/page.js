@@ -5,7 +5,7 @@ import InteriorBlack from "@/app/components/interiorBlack";
 import InteriorImg from "@/app/components/interiorImg";
 import InteriorText from "@/app/components/interiorText";
 import SimpleComp from "@/app/components/simpleComp";
-import StyleScreen from "@/app/components/styleScreen";
+// import StyleScreen from "@/app/components/styleScreen";
 import React from "react";
 
 function Page() {
@@ -15,7 +15,7 @@ function Page() {
       <InteriorBlack/>
       <CallNow/>
       <InteriorText/>
-      <StyleScreen/>
+      {/* <StyleScreen/> */}
       <CompSlider/>
       <SimpleComp/>
       <Banner/>

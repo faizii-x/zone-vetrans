@@ -24,7 +24,7 @@ function FurnishImg() {
         <Navbar />
         <div className="self-center">
           <p className="w-[100%]  text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
-            Furnishings Estimating
+            Furnishings Estimating Services
           </p>
         </div>
       </div>
@@ -43,7 +43,7 @@ function FurnishImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
       {/* ...................................................... */}
       <p className="text-[22px] font-poppins font-normal w-[90%] mx-auto mt-6">
-      We're committed to providing reliable and affordable furnishing estimation services. Our skilled team uses cutting-edge tools to deliver precise estimates, ensuring informed decisions and budget adherence for both residential and commercial projects.
+      We're committed to providing reliable and affordable furnishing estimating services. Our skilled team uses cutting-edge tools to deliver precise estimates, ensuring informed decisions and budget adherence for both residential and commercial projects.
 Our digital estimating covers:
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-1 gap-6 w-[90%] mx-auto">

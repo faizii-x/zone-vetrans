@@ -54,25 +54,30 @@ function IndustrialImg() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-6 gap-6 w-[90%] mx-auto">
         <div className="col-span-2 self-center">
           <p className="text-[22px] font-poppins font-normal">
-           <span className="text-red">Veterans Estimators</span> is well-known for offering complete estimating
-            services to EPC contractors, owners, engineering firms, financial
-            backers, and collaborators in the North American industrial sector.
-            Our estimating services are particularly tailored to our clients'
-            specific needs, and range from project conceptualization and A to
-            construction. Our extensive methodology for accurate estimates,
-            supported by knowledge and the use of cutting-edge technology,
-            allows them to predict, orchestrate, and efficiently manage costs
-            over the project's entire lifecycle. Contact us via <span className="text-red">af@veteransestimators.com</span>
-             or <span className="text-red">+1 917 300 1079</span>
+            <span className="text-red">Veterans Estimators</span> is well-known
+            for offering complete estimating services to EPC contractors,
+            owners, engineering firms, financial backers, and collaborators in
+            the North American industrial sector. Our estimating services are
+            particularly tailored to our clients' specific needs, and range from
+            project conceptualization and A to construction. Our extensive
+            methodology for accurate estimates, supported by knowledge and the
+            use of cutting-edge technology, allows them to predict, orchestrate,
+            and efficiently manage costs over the project's entire lifecycle.
+            Contact us via{" "}
+            <a
+              className=" hover:text-red"
+              href="mailto:af@veteransestimators.com"
+            >
+              {" "}
+              <span className="text-red">af@veteransestimators.com</span>
+            </a>{" "}
+            {" "} or{" "}
+            <a className=" hover:text-red" href="tel:+1 917 300 1079">
+              {" "}
+              <span className="text-red">+1 917 300 1079</span>
+            </a>
           </p>
-          <li className="text-[22px] font-poppins font-normal mt-1">
-            Do you need consultancy with the estimation and scheduling of
-            commercial construction projects?
-          </li>
-          <li className="text-[22px] font-poppins font-normal mt-1">
-            Or you don’t have the expertise to perform bill of material for a
-            specific trade, size, or complexity?
-          </li>
+       
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1 self-center">
           <Image className="mx-auto" src={Indi} />

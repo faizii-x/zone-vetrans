@@ -1,7 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import Image from "next/image";
-import PicCard from "../../../public/png/picCard.png";
-import PicCard1 from "../../../public/png/picCard1.png";
 
 function Bullets() {
   return (
@@ -59,72 +57,76 @@ function Bullets() {
         </div>
       </div>
       {/* ............................... */}
-      <div className="w-[70%] mx-auto relative show-div-2">
-        <div className="flex justify-center mt-16 mb-24">
-          <Image className="absolute top-12" src={PicCard1} />
-          <Image className="" src={PicCard} />
-        </div>
-      </div>
-      <div className="w-[70%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3 mt-6 mx-auto hide-div-2">
-        <div className="bg-blacks p-5 mb-3 rounded-md">
-          <div className="flex justify-between gap-3">
-            <h4 className="text-white text-[18px] font-poppins font-semibold">
-              Quantities Takeoff
-            </h4>
-            <div className="hover:bg-red border border-white w-[34px] h-[34px] rounded-full flex justify-center items-center">
+    
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 mx-auto lg:w-[70%] w-[90%] mt-8 gap-4">
+        <div
+          className=" max-w-full h-auto bg-cover bg-center rounded-2xl"
+          style={{ backgroundImage: `url(${"/png/pick1.png"})` }}
+        >
+          <div className="flex justify-between gap-2 p-6">
+            <h5 className="text-white text-[24px] font-poppins font-semibold">
+              Quantity Takeoff
+            </h5>
+            <Link href="/takeoff/quantity">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-6 h-6 text-white"
+              class="w-[36px] h-[36px] text-white hover:text-red cursor-pointer"
             >
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
               />
             </svg>
-            </div>
+            </Link>
           </div>
-          <p className="text-white font-poppins font-light mt-3">
-            Our team provides high Quality Takeoff Services to many construction
-            companies. Our experienced team, equipped with the latest
-            technologies and tools, provides fast and accurate quantity takeoff
-            numbers for labor and material.
+          <p className="p-6 text-white font-poppins font-light -mt-10">
+            Our team specializes in delivering top-notch Quantity Takeoff
+            Services to construction firms. Using cutting-edge tools and
+            expertise, we ensure swift and precise quantification of labor and
+            materials. With our quick turnaround time, even urgent requests are
+            fulfilled within 24 hours.
           </p>
         </div>
-        <div className="bg-blacks p-5 mb-3 rounded-md">
-          <div className="flex justify-between gap-3">
-            <h4 className="text-white text-[18px] font-poppins font-semibold">
+        <div
+          className=" max-w-full h-auto bg-cover bg-center rounded-2xl"
+          style={{ backgroundImage: `url(${"/png/pick2.png"})` }}
+        >
+          <div className="flex justify-between gap-2 p-6">
+            <h5 className="text-white text-[24px] font-poppins font-semibold">
               Material Takeoff
-            </h4>
-            <div className="hover:bg-red border border-white w-[34px] h-[34px] rounded-full flex justify-center items-center">
+            </h5>
+            <Link href="/takeoff/material">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-6 h-6 text-white"
+              class="w-[36px] h-[36px] text-white hover:text-red cursor-pointer"
             >
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
               />
             </svg>
-            </div>
+            </Link>
           </div>
-          <p className="text-white font-poppins font-light mt-3">
-            Our team provides high Quality Takeoff Services to many construction
-            companies. Our experienced team, equipped with the latest
-            technologies and tools, provides fast and accurate quantity takeoff
-            numbers for labor and material.
+          <p className="p-6 text-white font-poppins font-light -mt-10">
+            Our Material Takeoff service provides detailed assessments of
+            required construction materials. With our skilled team and advanced
+            tools, we swiftly and accurately calculate material quantities,
+            ensuring efficient project planning and execution.
           </p>
         </div>
       </div>
+      
     </>
   );
 }

@@ -53,7 +53,7 @@ function RebarComp() {
       </div>
 
       <h2 className="text-[22px] font-bold w-[90%] mx-auto mt-6">
-        Distinctive Prospects Of Rebar Estimation
+        Distinctive Prospects Of Rebar Estimating
       </h2>
       <p className="text-[22px] font-poppins font-normal w-[90%] mx-auto mt-1">
         Our estimates give you all the data you need for rebar forecasting. We
@@ -78,10 +78,7 @@ function RebarComp() {
       </li>
       {/* ............................... */}
 
-      <h2 className="text-[22px] font-bold w-[90%] mx-auto mt-6">
-        Our Range Of Rebar Estimation
-      </h2>
-
+      
    
     </>
   );

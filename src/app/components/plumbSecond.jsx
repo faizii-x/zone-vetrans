@@ -12,7 +12,7 @@ function PlumbSecond() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] mx-auto mt-2">
         <div className="col-span-2">
           <p className="text-[22px] font-poppins font-normal ">
-          At Veterans Estimators, we specialize in swift and accurate commercial plumbing estimates. Understanding the complexity of commercial plumbing, we meticulously itemize all components for multi-floor systems, including pipes, fittings, fixtures, valves, and accessories.
+          At <span className="text-red">Veterans Estimators</span>, we specialize in swift and accurate commercial plumbing estimates. Understanding the complexity of commercial plumbing, we meticulously itemize all components for multi-floor systems, including pipes, fittings, fixtures, valves, and accessories.
 repair of the following systems but are not limited to:
           </p>
           <li className="text-[22px] font-poppins font-normal mt-1">

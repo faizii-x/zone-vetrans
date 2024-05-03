@@ -6,7 +6,7 @@ function SecondCommercial() {
   return (
     <>
       <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-10">
-        Our Range of Industrial Estimating
+        Our Range of Industrial Estimating Services
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] container mx-auto mt-4">
         <div className="col-span-2 mb-3">
@@ -55,11 +55,11 @@ function SecondCommercial() {
       {/* ........................... */}
 
       <h2 className="text-[30px] font-bold w-[90%] mx-auto mt-10">
-        Industrial Structural Steal Estimating
+        Industrial Structural Steel Estimating Services
       </h2>
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-6">
         Our <span className="text-red">Veteran estimators</span> specialize in
-        steel estimation for structural projects. We've served numerous
+        steel estimating for structural projects. We've served numerous
         contractors and design firms with accurate estimates, aiding in
         planning, bidding, and procurement while minimizing waste. Our detailed
         takeoffs cover all structural components, ensuring clarity in project

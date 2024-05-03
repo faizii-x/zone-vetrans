@@ -6,7 +6,7 @@ function PlumPara() {
   return (
     <>
       <h2 className="text-[24px] font-bold w-[90%] mx-auto mt-2">
-        Residential Estimating Services
+        Residential Plumbing Estimating Services
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] mx-auto ">
         <div className="col-span-2">

@@ -22,7 +22,7 @@ function EquipImg() {
         <Navbar />
         <div className="self-center">
           <p className="w-[100%]  text-white text-center text-[36px] font-poppins font-bold p-4 pt-[130px]">
-            Equipment Estimating
+            Equipment Estimating Services
           </p>
         </div>
       </div>
@@ -41,7 +41,7 @@ function EquipImg() {
       <CostModal serviceModal={serviceModal} setServiceModal={closeModal} />
 
       <p className="text-[22px] font-poppins font-normal w-[90%] mx-auto mt-6">
-      At <span className="text-red">Veterans Estimators</span>, we're your trusted source for thorough equipment evaluation services. Our goal is to provide precise and up-to-date information crucial for project planning and financial strategy. Our database spans across different industries, offering valuable insights into the equipment required for project success.
+      At <span className="text-red">Veterans Estimators</span>, we're your trusted source for thorough equipment estimating services. Our goal is to provide precise and up-to-date information crucial for project planning and financial strategy. Our database spans across different industries, offering valuable insights into the equipment required for project success.
       </p>
     </>
   );

@@ -4,7 +4,7 @@ import CompSlider from '@/app/components/compSlider'
 import SimpleComp from '@/app/components/simpleComp'
 import ThermalComp from '@/app/components/thermalComp'
 import ThermalImg from '@/app/components/thermalImg'
-import ThermalStyle from '@/app/components/thermalStyle'
+// import ThermalStyle from '@/app/components/thermalStyle'
 import Thermo from '@/app/components/thermo'
 import Therone from '@/app/components/therone'
 import React from 'react'
@@ -18,7 +18,7 @@ function Page() {
     <ThermalComp/>
     <Thermo/>
     <Therone/>
-    <ThermalStyle/>
+    {/* <ThermalStyle/> */}
     <CompSlider/>
     <SimpleComp/>
     <Banner/>

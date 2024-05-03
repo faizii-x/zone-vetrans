@@ -220,7 +220,7 @@ export const FILTER_ARRAY = [
     link: "/trades/masonry",
   },
   {
-    title: "Lumber Estimating",
+    title: "Lumber Takeoff Services",
     link: "/trades/lumber",
   },
   
@@ -785,16 +785,7 @@ export const LUMBER_CARDS = [
 ];
 
 export const FRAMING_CARDS = [
-  {
-    img: Metal1,
-    heading: "Wood frame Construction",
-    para: "Wood frame construction is gaining popularity globally for being eco-friendly and renewable. Countries like the USA are adopting it swiftly for its advantages. When planning wood framing for a project, consider various factors carefully.",
-  },
-  {
-    img: Metal2,
-    heading: "Metal frame construction",
-    para: "Metal frame construction uses steel pillars and beams to create strong structures resistant to earthquakes and tsunamis. Estimating services ensure accurate planning for robust buildings.",
-  },
+  
   {
     img: Metal3,
     heading: "Wood framing Estimating Services",
@@ -892,11 +883,7 @@ export const CONVEY_CARDS = [
     heading: "Initial Consultation",
     para: "The Initial Consultation involves an in-depth discussion to understand your needs and project requirements thoroughly",
   },
-  {
-    img: Convey2,
-    heading: "Site Assessment",
-    para: "Site Assessment entails a comprehensive analysis to evaluate the conditions and factors influencing the construction site.",
-  },
+  
   {
     img: Convey3,
     heading: "Conveyor System Selection",
@@ -1247,11 +1234,7 @@ export const LAST_CARD = [
     heading: "Initial Consultation",
     para: "We discuss your project goals, design preferences, and budget to understand your needs.",
   },
-  {
-    img: Last2,
-    heading: "Site Evaluation",
-    para: "We conduct detailed site assessments to identify construction factors and optimize project planning.",
-  },
+ ,
   {
     img: Last3,
     heading: "Material and Equipment Suggestions",
@@ -1265,7 +1248,7 @@ export const LAST_CARD = [
   {
     img: Last5,
     heading: "Presentation and Approval",
-    para: "We present the estimate, clarify any queries, and proceed upon mutual agreement.",
+    para: "We present the estimate, clarify any queries.",
   },
   {
     img: Last6,

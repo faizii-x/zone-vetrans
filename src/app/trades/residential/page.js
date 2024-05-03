@@ -12,7 +12,7 @@ function Page() {
       <ResidentialImg />
       <CallNow />
       <ResidentialSimple />
-      <CallNow />
+      {/* <CallNow /> */}
       <CompSlider />
       <SimpleComp />
       <Banner />
