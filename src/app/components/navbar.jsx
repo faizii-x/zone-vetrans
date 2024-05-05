@@ -88,7 +88,7 @@ function Navbar() {
           <div className="hidden lg:block div-hide">
             <div className="flex justify-center gap-6 mt-6 ">
               <Link href="/">
-                <h2 className="text-[16px] text-white font-poppins font-normal ">
+                <h2 className="text-[16px] text-white font-poppins font-normal hover:text-red">
                   {pathname === "/" ? (
                     <div className=" text-red ">Home</div>
                   ) : (
@@ -98,7 +98,7 @@ function Navbar() {
               </Link>
 
               <Link href="/services">
-                <h2 className="text-[16px] text-white font-poppins font-normal">
+                <h2 className="text-[16px] text-white font-poppins font-normal hover:text-red">
                   {pathname === "/services" ? (
                     <div className=" text-red">Services</div>
                   ) : (
@@ -114,8 +114,8 @@ function Navbar() {
               >
                 <div className="flex justify-start gap-1 cursor-pointer">
                   <Link href="/our-trades">
-                    <h2 className="text-[16px] text-white font-poppins font-normal ">
-                      {pathname === "/our-trades" ? (
+                    <h2 className="text-[16px] text-white font-poppins font-normal hover:text-red">
+                      {pathname === "/Trades" ? (
                         <div className=" text-red">Trades</div>
                       ) : (
                         "Trades"
@@ -516,7 +516,7 @@ function Navbar() {
               </div>
               <Link href="/about-us">
                 <div className="flex justify-start gap-1">
-                  <h2 className="text-[16px] text-white font-poppins font-normal ">
+                  <h2 className="text-[16px] text-white font-poppins font-normal hover:text-red">
                     {pathname === "/about-us" ? (
                       <div className=" text-red">About Us</div>
                     ) : (
@@ -527,7 +527,7 @@ function Navbar() {
               </Link>
 
               <Link href="/payment">
-                <h2 className="text-[16px] text-white font-poppins font-normal  ">
+                <h2 className="text-[16px] text-white font-poppins font-normal hover:text-red ">
                   {pathname === "/payment" ? (
                     <div className=" text-red"> Payment</div>
                   ) : (
@@ -537,7 +537,7 @@ function Navbar() {
               </Link>
 
               <Link href="/testimonials">
-                <h2 className="text-[16px] text-white font-poppins font-normal ">
+                <h2 className="text-[16px] text-white font-poppins font-normal hover:text-red">
                   {pathname === "/testimonials" ? (
                     <div className=" text-red"> Testimonials</div>
                   ) : (
@@ -547,7 +547,7 @@ function Navbar() {
               </Link>
 
               <Link href="/estimating-fee">
-                <h2 className="text-[16px] text-white font-poppins font-normal ">
+                <h2 className="text-[16px] text-white font-poppins font-normal hover:text-red">
                   {pathname === "/estimating-fee" ? (
                     <div className=" text-red"> Estimating fee</div>
                   ) : (
@@ -557,7 +557,7 @@ function Navbar() {
               </Link>
 
               <Link href="/contact-us">
-                <h2 className="text-[16px] text-white font-poppins font-normal ">
+                <h2 className="text-[16px] text-white font-poppins font-normal hover:text-red">
                   {pathname === "/contact-us" ? (
                     <div className=" text-red"> Contact Us</div>
                   ) : (
