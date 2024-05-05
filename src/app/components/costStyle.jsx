@@ -78,7 +78,7 @@ function CostStyle() {
           </div>
           {/* ......................................... */}
 
-          <div className="md:flex grid justify-start mt-16 relative  p-4 mx-auto">
+          <div className="md:flex grid justify-start mt-[100px] relative  p-4 mx-auto">
             <div className="absolute left-0 -top-[42px] lg:mt-[57px] mt-6">
               <Image className=" -mt-16" src={Cost5} />
               <p className="-mt-[220px] ml-12 text-white text-[22px] font-bold font-poppins">
