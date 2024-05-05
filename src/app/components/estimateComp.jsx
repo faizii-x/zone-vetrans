@@ -1,4 +1,3 @@
-
 "use client";
 import React from "react";
 import Slider from "react-slick";
@@ -50,12 +49,12 @@ function EstimateComp() {
 
   return (
     <>
-      <div className="lg:w-[90%] w-[94%] mx-auto mt-[160px] ">
+      <div className="lg:w-[90%] w-[94%] mx-auto mt-[40px] z-10">
         <h1 className="text-[30px] font-bold ">Estimating fee</h1>
         <Slider {...settings}>
           <div className="w-full bg-blacks rounded-lg lg:p-16 p-6 mt-6">
             <h2 className="text-white text-[22px] font-bold">Our Process</h2>
-<h4 className="text-white mt-2">Project</h4>
+            <h4 className="text-white mt-2">Project</h4>
             <div className="slider-flex-div mt-2">
               <p className="text-white text-[18px] mt-2 mb-3">
                 Avail yourself of the option to either upload your plans

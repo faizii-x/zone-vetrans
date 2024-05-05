@@ -1,6 +1,8 @@
 import Banner from "@/app/components/banner";
 import CallNow from "@/app/components/callNow";
 import CompSlider from "@/app/components/compSlider";
+import EstimateComp from "@/app/components/estimateComp";
+import EstimateTwo from "@/app/components/estimateTwo";
 import ResidentialImg from "@/app/components/residentialImg";
 import ResidentialSimple from "@/app/components/residentialSimple";
 import SimpleComp from "@/app/components/simpleComp";
@@ -12,6 +14,8 @@ function Page() {
       <ResidentialImg />
       <CallNow />
       <ResidentialSimple />
+      <EstimateComp/>
+      <EstimateTwo/>
       {/* <CallNow /> */}
       <CompSlider />
       <SimpleComp />

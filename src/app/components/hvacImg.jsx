@@ -33,7 +33,7 @@ function HvacImg() {
 
       <div
         onClick={openModal}
-        className="fixed right-0 top-[390px] z-[1000px] shadow-lg bg-red rounded-lg overflow-hidden cursor-pointer w-[120px] h-[50px] flex justify-center items-center"
+        className="fixed right-0 top-[390px] z-50 shadow-lg bg-red rounded-lg overflow-hidden cursor-pointer w-[120px] h-[50px] flex justify-center items-center"
       >
         <button className="text-white text-[18px] font-semibold blink-text">
           Services

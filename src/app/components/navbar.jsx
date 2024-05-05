@@ -109,7 +109,7 @@ function Navbar() {
 
               <div
                 className="relative"
-                onMouseEnter={handleMouseEnter}
+                onClick={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
               >
                 <div className="flex justify-start gap-1 cursor-pointer">
@@ -123,6 +123,9 @@ function Navbar() {
                     </h2>
                   </Link>
                   <svg
+
+
+
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -322,12 +325,12 @@ function Navbar() {
                           {isHoverFive && (
                             <>
                               <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[65px] z-[999px]">
-                                <Link href="/our-trades/roofing-estimating-services/">
+                                <Link href="/our-trades/thermal-moisture-protection-estimating-services/roofing-estimating-services/">
                                   <li className="text-[14px] hover:font-bold font-normal hover:text-red">
                                     Roofing
                                   </li>
                                 </Link>
-                                <Link href="/our-trades/insulation-estimating-services/">
+                                <Link href="/our-trades/thermal-moisture-protection-estimating-services/Insulation-estimating-services/">
                                   <li className="text-[14px] hover:font-bold font-normal mt-1 hover:text-red">
                                     Insulation
                                   </li>
