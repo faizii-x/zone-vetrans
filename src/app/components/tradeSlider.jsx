@@ -12,8 +12,8 @@ function TradeSlider() {
   var settings = {
     dots: false,
     arrows: false,
-    infinite: true,
-    autoplay: true,
+    infinite: false,
+    autoplay: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -30,8 +30,8 @@ function TradeSlider() {
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 General Requirements
               </h4>
-              <Link href="/trades/general">
-                <div className="border border-white hover:bg-red hover:text-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+              <Link href="/our-trades/general-requirements">
+                <div className="border border-white hover:bg-red mr-4 hover:text-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -49,7 +49,7 @@ function TradeSlider() {
                 </div>
               </Link>
             </div>
-            <p className="md:block hidden absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
+            <p className="mt-4 absolute top-24 left-6 w-[80%] lg:text-[14px] text-[12px] font-poppins font-light text-white">
               Our general requirement provide a comprehensive overview,
               analyzing your project needs and ensuring compliance with
               regulations. We deliver detailed estimates for materials, labor,
@@ -59,13 +59,13 @@ function TradeSlider() {
             </p>
           </div>
           <div className="relative">
-            <Image className="lg:w-[90%] w-full h-[390px]" src={Trade2} />
+            <Image className="lg:w-[90%] w-full h-[390px] " src={Trade2} />
             <div className="flex justify-between gap-16 absolute top-10 left-6">
-              <h4 className=" text-[20px] text-white font-poppins font-semibold">
+              <h4 className="text-[20px] text-white font-poppins font-semibold">
                 Sitework Estimating
               </h4>
-              <Link href="/trades/sitework">
-                <div className="border border-white hover:bg-red rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+              <Link href="/our-trades/sitework-estimating-services">
+                <div className="border border-white hover:bg-red mr-4 rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -83,7 +83,7 @@ function TradeSlider() {
                 </div>
               </Link>
             </div>
-            <p className=" md:block hidden absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
+            <p className=" mt-4 absolute top-24 left-6 w-[80%] lg:text-[14px] text-[12px] font-poppins font-light text-white">
               At{" "}
               <span className="text-red font-semibold">
                 Veterans Estimators
@@ -95,8 +95,8 @@ function TradeSlider() {
               providing precise material and labor takeoffs (including manhours)
               within 24-48 hours.
             </p>
-            <Link href="/trades/sitework/landscape">
-              <div className="absolute top-[310px] left-6 bg-red flex justify-center rounded-md w-[220px] h-[55px]">
+            <Link href="/our-trades/sitework-estimating-services/landscape-estimating-services">
+              <div className="absolute top-[320px] left-6 bg-red flex justify-center rounded-md w-[220px] h-[55px]">
                 <button className="text-white">Landscaping Estimating</button>
               </div>
             </Link>
@@ -108,8 +108,8 @@ function TradeSlider() {
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 Concrete Estimating
               </h4>
-              <Link href="/trades/concrete">
-                <div className="border border-white hover:bg-red rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+              <Link href="/our-trades/concrete-estimating-services">
+                <div className="border border-white hover:bg-red mr-4 rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -127,7 +127,7 @@ function TradeSlider() {
                 </div>
               </Link>
             </div>
-            <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
+            <p className="absolute top-24 left-6 w-[80%] lg:text-[14px] text-[12px] font-poppins font-light text-white">
               Our Concrete Estimating Services offer accurate and detailed
               estimates for all concrete aspects of your construction project.
               Using advanced software and expertise, we provide precise
@@ -147,8 +147,8 @@ function TradeSlider() {
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 Masonry Estimating
               </h4>
-              <Link href="/trades/masonry">
-                <div className="border border-white hover:bg-red rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+              <Link href="/our-trades/masonry-estimating-services">
+                <div className="border border-white hover:bg-red mr-4 rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -166,7 +166,7 @@ function TradeSlider() {
                 </div>
               </Link>
             </div>
-            <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
+            <p className="absolute top-24 left-6 w-[80%] lg:text-[14px] text-[12px] font-poppins font-light text-white">
               Choose{" "}
               <span className="text-red font-semibold">
                 Veterans Estimators
@@ -202,8 +202,8 @@ function TradeSlider() {
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 Metals Estimating
               </h4>
-              <Link href="/trades/metals">
-                <div className="border border-white hover:bg-red rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+              <Link href="/our-trades/metals-estimating-services">
+                <div className="border border-white hover:bg-red mr-4 rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -221,7 +221,7 @@ function TradeSlider() {
                 </div>
               </Link>
             </div>
-            <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
+            <p className="absolute top-24 left-6 w-[80%] lg:text-[14px] text-[12px] font-poppins font-light text-white">
               At{" "}
               <span className="text-red font-semibold">
                 Veterans Estimators
@@ -232,7 +232,7 @@ function TradeSlider() {
               guarantee precision, perfectly aligned with your project
               requirements.
             </p>
-            <Link href="/trades/metals/rebar">
+            <Link href="/our-trades/metals-estimating-services/rebar-estimating-services">
               <div className="absolute top-[310px] left-6 bg-red flex justify-center rounded-md w-[240px] h-[55px]">
                 <button className="text-white">
                   Rebar Estimating Services
@@ -247,8 +247,8 @@ function TradeSlider() {
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 Lumber Takeoff
               </h4>
-              <Link href="/trades/lumber">
-                <div className="border hover:bg-red border-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+              <Link href="/our-trades/lumber-takeoff-services">
+                <div className="border hover:bg-red border-white mr-4 rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -266,7 +266,7 @@ function TradeSlider() {
                 </div>
               </Link>
             </div>
-            <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
+            <p className="absolute top-24 left-6 w-[80%] lg:text-[14px] text-[12px] font-poppins font-light text-white">
               We're experts in providing quality wood and plastic materials for
               construction projects. With our wide range and expert guidance,
               your projects get the best materials, natural or man-made.
@@ -274,13 +274,13 @@ function TradeSlider() {
           </div>
 
           <div className="relative">
-            <Image className="lg:w-[90%] w-full h-[390px]" src={Trade2} />
+            <Image className="lg:w-[90%] w-full lg:h-[390px] h-[470px]" src={Trade2} />
             <div className="flex justify-between gap-6 absolute top-10 left-6">
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 Thermal & Moist Protection Estimating
               </h4>
-              <Link href="/trades/thermal">
-                <div className="border hover:bg-red border-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+              <Link href="/our-trades/thermal-moisture-protection-estimating-services/">
+                <div className="border hover:bg-red border-white mr-4 rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -298,7 +298,7 @@ function TradeSlider() {
                 </div>
               </Link>
             </div>
-            <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
+            <p className="absolute top-24 left-6 w-[80%] lg:text-[14px] text-[12px] mt-10 font-poppins font-light text-white">
               At{" "}
               <span className="text-red font-semibold">
                 Veterans Estimators
@@ -309,16 +309,16 @@ function TradeSlider() {
               us help you plan effectively and choose the right materials for
               your project's needs.
             </p>
-            <div className="flex justify-between gap-3 absolute top-[310px] left-6">
-              <Link href="/trades/thermal/roofing">
+            <div className="md:flex grid justify-between gap-3 absolute top-[310px] left-6">
+              <Link href="/our-trades/thermal-moisture-protection-estimating-services/roofing-estimating-services">
                 <div className=" bg-red flex justify-center rounded-md w-[240px] h-[55px] p-2 cursor-pointer">
                   <button className="text-white">
                     Roofing Estimating Services
                   </button>
                 </div>
               </Link>
-              <Link href="/trades/thermal/insulating">
-                <div className=" bg-red flex justify-center rounded-md w-[240px] h-[55px] p-2 cursor-pointer">
+              <Link href="/our-trades/thermal-moisture-protection-estimating-services/insulation-estimating-services">
+                <div className=" bg-red mt-2 flex justify-center rounded-md w-[240px] h-[55px] p-2 cursor-pointer">
                   <button className="text-white">
                     Insulation Estimating Services
                   </button>
@@ -333,8 +333,8 @@ function TradeSlider() {
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 Framing Estimating
               </h4>
-              <Link href="/trades/framing">
-                <div className="border hover:bg-red border-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+              <Link href="/our-trades/framing-estimating-services">
+                <div className="border hover:bg-red border-white mr-4 rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -362,13 +362,13 @@ function TradeSlider() {
           </div>
 
           <div className="relative">
-            <Image className="lg:w-[90%] w-full h-[390px]" src={Trade2} />
+            <Image className="lg:w-[90%] w-full md:h-[390px] h-[460px]" src={Trade2} />
             <div className="flex justify-between gap-16 absolute top-10 left-6">
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 Interior & Exterior Finishes
               </h4>
-              <Link href="/trades/interior">
-                <div className="border hover:bg-red border-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+              <Link href="/our-trades/interior-exterior-finishes">
+                <div className="border hover:bg-red border-white mr-4 rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -395,15 +395,15 @@ function TradeSlider() {
               enhance the beauty and functionality of your space with our expert
               craftsmanship.
             </p>
-            <div className="flex justify-between gap-3 absolute top-[310px] left-6">
-              <Link href="/trades/interior/drywall">
+            <div className="md:flex grid justify-between gap-3 absolute top-[310px] left-6">
+              <Link href="/our-trades/interior-exterior-finishes/drywall-estimating-services">
                 <div className=" bg-red flex justify-center rounded-md w-[240px] h-[55px]">
                   <button className="text-white">
                     Drywall Estimating Services
                   </button>
                 </div>
               </Link>
-              <Link href="/trades/interior/flooring">
+              <Link href="/our-trades/interior-exterior-finishes/flooring-takeoff-services">
                 <div className=" bg-red flex justify-center rounded-md w-[240px] h-[55px]">
                   <button className="text-white">
                     Flooring Estimating Services
@@ -419,8 +419,8 @@ function TradeSlider() {
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 Specialties
               </h4>
-              <Link href="/trades/specialties">
-                <div className="border hover:bg-red border-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+              <Link href="/our-trades/specialties">
+                <div className="border hover:bg-red border-white mr-4 rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -440,11 +440,14 @@ function TradeSlider() {
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
               There are many construction estimating services in the market, but
-              they provide a limited number of options for the
-              constructors. <span className="text-red font-semibold">Veterans Estimators</span> services are special when
-              compared to the rest of the companies due to the following
-              specialties Extensive range, Comprehensive and accurate Cost
-              Estimating, Material takeoff, Construction Scheduling, etc
+              they provide a limited number of options for the constructors.{" "}
+              <span className="text-red font-semibold">
+                Veterans Estimators
+              </span>{" "}
+              services are special when compared to the rest of the companies
+              due to the following specialties Extensive range, Comprehensive
+              and accurate Cost Estimating, Material takeoff, Construction
+              Scheduling, etc
             </p>
           </div>
 
@@ -454,8 +457,8 @@ function TradeSlider() {
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 Equipment Estimating
               </h4>
-              <Link href="/trades/equipment">
-                <div className="border hover:bg-red border-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+              <Link href="/our-trades/equipment-estimating-services">
+                <div className="border hover:bg-red border-white mr-4 rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -490,8 +493,8 @@ function TradeSlider() {
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 Furnishing Estimating
               </h4>
-              <Link href="/trades/furnishing">
-                <div className="border hover:bg-red border-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+              <Link href="/our-trades/furnishing-estimating-services">
+                <div className="border hover:bg-red border-white mr-4 rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -527,8 +530,8 @@ function TradeSlider() {
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 Special Construction Estimating
               </h4>
-              <Link href="/trades/specialConstruction">
-                <div className="border hover:bg-red border-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+              <Link href="/our-trades/special-construction-estimating-services">
+                <div className="border hover:bg-red border-white mr-4 rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -564,8 +567,8 @@ function TradeSlider() {
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 Conveying System Estimating
               </h4>
-              <Link href="/trades/convey">
-                <div className="border hover:bg-red border-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+              <Link href="/our-trades/conveying-systems">
+                <div className="border hover:bg-red border-white mr-4 rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -595,13 +598,13 @@ function TradeSlider() {
           </div>
 
           <div className="relative">
-            <Image className="lg:w-[90%] w-full h-[390px]" src={Trade2} />
+            <Image className="lg:w-[90%] w-full md:h-[390px] h-[490px]" src={Trade2} />
             <div className="flex justify-between gap-16 absolute top-10 left-6">
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 MEP Estimating
               </h4>
-              <Link href="/trades/mep">
-                <div className="border hover:bg-red border-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+              <Link href="/our-trades/mep-estimating-services">
+                <div className="border hover:bg-red border-white mr-4 rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -628,31 +631,37 @@ function TradeSlider() {
               across industries. Our dedicated team ensures optimal transport
               solutions for enhanced efficiency and productivity.
             </p>
-            <div className="flex justify-between gap-3 absolute top-[260px] left-6">
-              <Link href="/trades/mep/">
+            <div className="md:flex grid justify-between gap-3 absolute top-[260px] left-6">
+              <Link href="/our-trades/mechanical-estimating-services">
                 <div className=" bg-red flex justify-center rounded-md w-[240px] h-[55px] p-2">
                   <button className="text-white">
                     Mechanical Estimating Services
                   </button>
                 </div>
               </Link>
-              <div className=" bg-red flex justify-center rounded-md w-[240px] h-[55px] p-2">
-                <button className="text-white">
-                  Electrical Estimating Services
-                </button>
-              </div>
+              <Link href="/our-trades/electrical-estimating-services">
+                <div className=" bg-red flex justify-center rounded-md w-[240px] h-[55px] p-2">
+                  <button className="text-white">
+                    Electrical Estimating Services
+                  </button>
+                </div>
+              </Link>
             </div>
-            <div className="flex justify-between gap-3 absolute top-[320px] left-6">
-              <div className=" bg-red flex justify-center rounded-md w-[240px] h-[55px] p-2">
-                <button className="text-white">
-                  Plumbing Estimating Services
-                </button>
-              </div>
-              <div className=" bg-red flex justify-center rounded-md w-[240px] h-[55px] p-2">
-                <button className="text-white">
-                  Gutter Estimating Services
-                </button>
-              </div>
+            <div className="md:flex grid justify-between gap-3 absolute top-[320px] left-6">
+              <Link href="/our-trades/mep-estimating-services/plumbing-estimating-services">
+                <div className=" bg-red flex justify-center rounded-md w-[240px] h-[55px] p-2">
+                  <button className="text-white">
+                    Plumbing Estimating Services
+                  </button>
+                </div>
+              </Link>
+              <Link href="/our-trades/mep-estimating-services/gutter-estimating-services">
+                <div className=" bg-red flex justify-center rounded-md w-[240px] h-[55px] p-2">
+                  <button className="text-white">
+                    Gutter Estimating Services
+                  </button>
+                </div>
+              </Link>
             </div>
           </div>
 
@@ -662,31 +671,34 @@ function TradeSlider() {
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 HVAC Estimating
               </h4>
-              <div className="border border-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="w-6 h-6  text-white cursor-pointer"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                  />
-                </svg>
-              </div>
+              <Link href="/our-trades/hvac-estimating-services">
+                <div className="border border-white rounded-full mr-4 flex justify-center items-center w-[40px] h-[40px] -mt-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6  text-white cursor-pointer"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                    />
+                  </svg>
+                </div>
+              </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
               At{" "}
               <span className="text-red font-semibold">
                 Veterans Estimators
               </span>
-              , we excel in HVAC estimating services, delivering precise evaluations for
-              heating, ventilation, and air conditioning systems. Trust us for
-              accurate estimates tailored to your project needs.
+              , we excel in HVAC estimating services, delivering precise
+              evaluations for heating, ventilation, and air conditioning
+              systems. Trust us for accurate estimates tailored to your project
+              needs.
             </p>
           </div>
           <div className="relative">
@@ -695,32 +707,34 @@ function TradeSlider() {
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 Commercial Estimating
               </h4>
-              <div className="border border-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="w-6 h-6  text-white cursor-pointer"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                  />
-                </svg>
-              </div>
+              <Link href="/our-trades/commercial-estimating-services">
+                <div className="border border-white mr-4 rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6  text-white cursor-pointer"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                    />
+                  </svg>
+                </div>
+              </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
               At{" "}
               <span className="text-red font-semibold">
                 Veterans Estimators
               </span>
-              , we specialize in commercial estimating services, providing detailed and
-              accurate cost assessments for a wide range of commercial
-              construction projects. Trust us for reliable estimates that meet
-              your project requirements.
+              , we specialize in commercial estimating services, providing
+              detailed and accurate cost assessments for a wide range of
+              commercial construction projects. Trust us for reliable estimates
+              that meet your project requirements.
             </p>
           </div>
           <div className="relative">
@@ -729,22 +743,24 @@ function TradeSlider() {
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 Industrial Estimating
               </h4>
-              <div className="border border-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="w-6 h-6  text-white cursor-pointer"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                  />
-                </svg>
-              </div>
+              <Link href="/our-trades/industrial-estimating-services">
+                <div className="border border-white mr-4 rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6  text-white cursor-pointer"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                    />
+                  </svg>
+                </div>
+              </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
               At{" "}
@@ -764,8 +780,8 @@ function TradeSlider() {
               <h4 className=" text-[20px] text-white font-poppins font-semibold">
                 Residential Estimating
               </h4>
-              <div className="border border-white hover:bg-red hover:text-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
-                <Link href="/trades/residential">
+                <Link href="/our-trades/residential-estimating-services">
+              <div className="border border-white mr-4 hover:bg-red hover:text-white rounded-full flex justify-center items-center w-[40px] h-[40px] -mt-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -780,18 +796,18 @@ function TradeSlider() {
                       d="m8.25 4.5 7.5 7.5-7.5 7.5"
                     />
                   </svg>
-                </Link>
               </div>
+                </Link>
             </div>
             <p className="absolute top-24 left-6 w-[80%] text-[14px] font-poppins font-light text-white">
               At{" "}
               <span className="text-red font-semibold">
                 Veterans Estimators
               </span>
-              , we specialize in residential estimating services, providing detailed and
-              accurate cost assessments for residential construction projects.
-              Trust our experienced team to deliver precise estimates tailored
-              to your specific residential needs.
+              , we specialize in residential estimating services, providing
+              detailed and accurate cost assessments for residential
+              construction projects. Trust our experienced team to deliver
+              precise estimates tailored to your specific residential needs.
             </p>
           </div>
         </Slider>

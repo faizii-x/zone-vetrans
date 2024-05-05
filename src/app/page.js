@@ -113,7 +113,7 @@ export default function Home() {
               >
                 <Image className="" src={Facebook} />
               </a>
-              <a href="linkedin.com/company/veteransestimators" target="_blank">
+              <a href="https://www.linkedin.com/company/veteransestimators/" target="_blank">
                 <Image className="" src={Link} />
               </a>
             </div>

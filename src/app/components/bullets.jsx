@@ -68,7 +68,7 @@ function Bullets() {
             <h5 className="text-white text-[24px] font-poppins font-semibold">
               Quantity Takeoff
             </h5>
-            <Link href="/takeoff/quantity">
+            <Link href="/construction-takeoff-services/quantity-takeoff-services">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -101,7 +101,7 @@ function Bullets() {
             <h5 className="text-white text-[24px] font-poppins font-semibold">
               Material Takeoff
             </h5>
-            <Link href="/takeoff/material">
+            <Link href="/construction-takeoff-services/material-takeoff-services">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

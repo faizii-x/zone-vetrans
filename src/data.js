@@ -173,139 +173,139 @@ import Last6 from "../public/last6.svg";
 export const FILTER_ARRAY = [
   {
     title: "General Requirements",
-    link: "/trades/general",
+    link: "/our-trades/general-requirements",
   },
   
   
   {
     title: "Siteworks",
-    link: "/trades/sitework",
+    link: "/our-trades/sitework-estimating-services",
     subTrades: [
       {
         para: "Landscaping Estimating",
-        link: "/trades/sitework/landscape",
+        link: "/our-trades/sitework-estimating-services/landscape-estimating-services",
       },
     ],
   },
   {
     title: "Metals",
-    link: "/trades/metals",
+    link: "/our-trades/metals-estimating-services",
     subTrades: [
       {
         para: "Rebar Estimating Services",
-        link: "/trades/metals/rebar",
+        link: "/our-trades/metals-estimating-services/rebar-estimating-services",
       },
     ],
   },
   {
     title: "Thermal and Moisture",
-    link: "/trades/thermal",
+    link: "/our-trades/thermal-moisture-protection-estimating-services/",
     subTrades: [
       {
         para: "Roofing Estimating",
-        link: "/trades/thermal/roofing",
+        link: "/our-trades/thermal-moisture-protection-estimating-services/roofing-estimating-services",
       },
       {
         para: "Insulating Estimating",
-        link: "/trades/thermal/insulating",
+        link: "/our-trades/thermal-moisture-protection-estimating-services/insulation-estimating-services",
       },
     ],
   },
   {
     title: "Concrete",
-    link: "/trades/concrete",
+    link: "/our-trades/concrete-estimating-services",
   },
   {
     title: "Masonry",
-    link: "/trades/masonry",
+    link: "/our-trades/masonry-estimating-services",
   },
   {
     title: "Lumber Takeoff Services",
-    link: "/trades/lumber",
+    link: "/our-trades/lumber-takeoff-services",
   },
   
   {
     title: "Framing",
-    link: "/trades/framing",
+    link: "/our-trades/framing-estimating-services",
   },
   
 
   {
     title: "Specialties",
-    link: "/trades/specialties",
+    link: "/our-trades/specialties",
   },
   {
     title: "Equipment",
-    link: "/trades/equipment",
+    link: "/our-trades/equipment-estimating-services",
   },
   {
     title: "Furnishings",
-    link: "/trades/furnishing",
+    link: "/our-trades/furnishing-estimating-services",
   },
 
   {
     title: "Special Construction",
-    link: "/trades/specialConstruction",
+    link: "/our-trades/special-construction-estimating-services",
   },
 
   {
     title: "Conveying Systems",
-    link: "/trades/convey",
+    link: "/our-trades/conveying-systems",
   },
   
   {
     title: "MEP",
-    link: "/trades/mep",
+    link: "/our-trades/mep-estimating-services",
     subTrades: [
       {
         para: "Mechanical Estimating Services",
-        link: "/trades/mechanical",
+        link: "/our-trades/mechanical-estimating-services",
       },
       {
         para: "Plumbing Estimating Services",
-        link: "/trades/mep/plumbing",
+        link: "/our-trades/mep-estimating-services/plumbing-estimating-services",
       },
       {
         para: "Electrical Estimating Services",
-        link: "/trades/electrical",
+        link: "/our-trades/electrical-estimating-services",
       },
       {
         para: "Gutter Estimating Services",
-        link: "/trades/mep/gutter",
+        link: "/our-trades/mep-estimating-services/gutter-estimating-services",
       },
     ],
   },
   {
     title: "Interior & Exterior Finishes",
-    link: "/trades/interior",
+    link: "/our-trades/interior-exterior-finishes",
     subTrades: [
       {
         para: "Drywall Estimating Services",
-        link: "/trades/interior/drywall",
+        link: "/our-trades/interior-exterior-finishes/drywall-estimating-services",
       },
       {
         para: "Flooring Estimating Services",
-        link: "/trades/interior/flooring",
+        link: "/our-trades/interior-exterior-finishes/flooring-takeoff-services",
       },
     ],
   },
   {
     title: "Commercial Estimating",
-    link: "/trades/commercial",
+    link: "/our-trades/commercial-estimating-services",
   },
   
   {
     title: "HVAC",
-    link: "/trades/hvac",
+    link: "/our-trades/hvac-estimating-services",
   },
   {
     title: "Industrial Estimating",
-    link: "/trades/industrial",
+    link: "/our-trades/industrial-estimating-services",
   },
 
   {
     title: "Residential Estimating",
-    link: "/trades/residential",
+    link: "/our-trades/residential-estimating-services",
   },
   
 ];
@@ -316,21 +316,21 @@ export const SLIDER_CARDS = [
     para: "Construction cost estimating services are essential for understanding project requirements and duration, albeit they can be laborious and time-consuming.",
     btn: "Read more",
     img: Service1,
-    link: "/cost",
+    link: "/cost-estimating-services",
   },
   {
     heading: "Construction Takeoff Services  ",
     para: "Our Construction Takeoff Services offer detailed material breakdowns, aiding informed decisions from foundation to finish. With detailed Material Takeoff and Quantity Takeoff, we ensure efficient project execution and minimize waste.",
     btn: "Read more",
     img: Service2,
-    link: "/takeoff",
+    link: "/construction-takeoff-services",
   },
   {
     heading: "CPM Scheduling",
     para: "Building a project on time and within budget requires a clear roadmap.  Our team of scheduling experts creates detailed, realistic schedules for your construction project, keeping everything on track from start to finish.",
     btn: "Read more",
     img: Service3,
-    link: "/scheduling",
+    link: "/cost-scheduling",
   },
   {
     heading: "Planning",
@@ -396,17 +396,17 @@ export const TRADES_MAP = [
     heading: "General Requirements",
     img: Trade1,
     title: "General",
-    text: "Trades is a trade",
+    // text: "Trades is a trade",
   },
   {
     heading: "Sitework Estimating",
     img: Trade2,
-    text: "fully is",
+    // text: "fully is",
   },
   {
     heading: "Concrete Estimating",
     img: Trade3,
-    text: "fully",
+    // text: "fully",
   },
   {
     heading: "Masonry Estimating",

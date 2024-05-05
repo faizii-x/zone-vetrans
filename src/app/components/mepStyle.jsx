@@ -14,7 +14,7 @@ function MepStyle() {
             <h5 className="text-white text-[24px] font-poppins font-semibold">
               Electrical Estimating Services
             </h5>
-            <Link href="/trades/electrical">
+            <Link href="/our-trades/electrical-estimating-services">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -47,7 +47,7 @@ function MepStyle() {
             <h5 className="text-white text-[24px] font-poppins font-semibold">
               Plumbing Estimating Services
             </h5>
-            <Link href="/trades/mep/plumbing">
+            <Link href="/our-trades/mep-estimating-services/plumbing-estimating-services">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

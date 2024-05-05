@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Log from "../../../public/png/plann.png";
 import On from "../../../public/png/on.png";
-import Bluee from "../../../public/png/bluee.png";
+import Bluee from "../../../public/png/bluelog.png";
 
 function CompSlider() {
   const [customSlider, setCustomSlider] = useState("left-16 linear-class");
@@ -67,7 +67,7 @@ function CompSlider() {
                 </div>
                 {/* ............... */}
                 <div
-                  className={`bg-white shadow-lg rounded-lg p-2 h-auto w-[80%] absolute -top-2 ${secondCall}`}
+                  className={`bg-white shadow-lg rounded-lg p-2 h-auto w-[80%] absolute -top-4 ${secondCall}`}
                 >
                   <div className="">
                     <div>
@@ -80,7 +80,7 @@ function CompSlider() {
                       </p>
                     </div>
                     <Image
-                      className="mx-auto w-[100px] h-[100px] self-center"
+                      className="mx-auto w-[270px] h-[100px] self-center"
                       src={Bluee}
                     />
                   </div>

@@ -51,27 +51,27 @@ export default function CostModal({ serviceModal, setServiceModal }) {
                   </Transition.Child>
                   <div className="flex z-[1000px] h-[260px] rounded-lg flex-col mt-[125px] overflow-y-hidden mr-2 bg-black py-6 shadow-xl">
                     <div className="container grid grid-cols-1 p-3 -mt-4">
-                      <Link href="/cost">
+                      <Link href="/cost-estimating-services">
                         <p className="hover:text-red text-[16px]  font-poppins hover:font-bold font-medium text-white ">
                           COST ESTIMATING Services
                         </p>
                       </Link>
-                      <Link href="/takeoff">
+                      <Link href="/construction-takeoff-services">
                         <p className="hover:text-red text-[16px] font-poppins hover:font-bold font-medium text-white pt-4">
                           CONSTRUCTION TAKEOFF SERVICES
                         </p>
                       </Link>
-                      <Link href="/takeoff/quantity">
+                      <Link href="/construction-takeoff-services/quantity-takeoff-services">
                         <p className="hover:text-red text-[12px]  font-poppins hover:font-bold font-medium text-white pt-2">
                           QUANTITY TAKEOFF
                         </p>
                       </Link>
-                      <Link href="/takeoff/material">
+                      <Link href="/construction-takeoff-services/material-takeoff-services">
                         <p className="hover:text-red text-[12px]  font-poppins hover:font-bold font-medium text-white pt-2">
                           MATERIAL TAKEOFF
                         </p>
                       </Link>
-                      <Link href="/scheduling">
+                      <Link href="/cost-scheduling">
                         <p className="hover:text-red text-[16px]  font-poppins hover:font-bold font-medium text-white pt-4">
                           CPM SCHEDULING
                         </p>

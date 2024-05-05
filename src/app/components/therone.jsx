@@ -13,7 +13,7 @@ function Therone() {
             <h5 className="text-white text-[24px] font-poppins font-semibold">
               Roofing Estimating Services
             </h5>
-            <Link href="/trades/thermal/roofing">
+            <Link href="/our-trades/thermal-moisture-protection-estimating-services/roofing-estimating-services">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -45,7 +45,7 @@ function Therone() {
             <h5 className="text-white text-[24px] font-poppins font-semibold">
               Insulation Estimating Services
             </h5>
-            <Link href="/trades/thermal/insulating">
+            <Link href="/our-trades/thermal-moisture-protection-estimating-services/insulation-estimating-services">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

@@ -21,101 +21,101 @@ function TradeMap() {
   return (
     <div className="w-[90%] mx-auto mt-[160px]">
       <h1 className="text-[24px] font-bold font-poppins">Our Trades</h1>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 container mx-auto mt-5">
+      <div className="grid grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 class-grid-slider gap-3 container mx-auto mt-5">
         <div className="col-span-1">
           <div className={`h-[470px] overflow-y-hidden`}>
             <div className={`${isPadding}`}>
-              <Link href="/trades/general">
+              <Link href="/our-trades/general-requirements">
                 <p className="border rounded-3xl p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   General Requirements
                 </p>
               </Link>
-              <Link href="/trades/sitework">
+              <Link href="/our-trades/sitework-estimating-services">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   Sitework Estimating
                 </p>
               </Link>
-              <Link href="/trades/concrete">
+              <Link href="/our-trades/concrete-estimating-services">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   Concrete Estimating
                 </p>
               </Link>
-              <Link href="/trades/masonry">
+              <Link href="/our-trades/masonry-estimating-services">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   Masonry Estimating
                 </p>
               </Link>
-              <Link href="/trades/metals">
+              <Link href="/our-trades/metals-estimating-services">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   Metals Estimating
                 </p>
               </Link>
-              <Link href="/trades/lumber">
+              <Link href="/our-trades/lumber-takeoff-services">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   Lumber Takeoff
                 </p>
               </Link>
-              <Link href="/trades/thermal">
+              <Link href="/our-trades/thermal-moisture-protection-estimating-services/">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[70%]">
                   Thermal & Moist protection Estimating
                 </p>
               </Link>
-              <Link href="/trades/framing">
+              <Link href="/our-trades/framing-estimating-services">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   Framing Estimating
                 </p>
               </Link>
-              <Link href="/trades/interior">
+              <Link href="/our-trades/interior-exterior-finishes">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   Interior & Exterior finishes
                 </p>
               </Link>
-              <Link href="/trades/specialties">
+              <Link href="/our-trades/specialties">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   Specialties
                 </p>
               </Link>
-              <Link href="/trades/equipment">
+              <Link href="/our-trades/equipment-estimating-services">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   Equipment Estimating
                 </p>
               </Link>
-              <Link href="/trades/furnishing">
+              <Link href="/our-trades/furnishing-estimating-services">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   Furnishing Estimating
                 </p>
               </Link>
-              <Link href="/trades/specialConstruction">
+              <Link href="/our-trades/special-construction-estimating-services">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   Special Construction Estimating
                 </p>
               </Link>
-              <Link href="/trades/convey">
+              <Link href="/our-trades/conveying-systems">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   Conveying System Estimating
                 </p>
               </Link>
-              <Link href="/trades/mep">
+              <Link href="/our-trades/mep-estimating-services">
                 <p className="border rounded-3xl mt-2 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   MEP Estimating
                 </p>
               </Link>
-              <Link href="/trades/hvac">
+              <Link href="/our-trades/hvac-estimating-services">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   HVAC Estimating
                 </p>
               </Link>
-              <Link href="/trades/commercial">
+              <Link href="/our-trades/commercial-estimating-services">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   Commercial Estimating
                 </p>
               </Link>
-              <Link href="/trades/industrial">
+              <Link href="/our-trades/industrial-estimating-services">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   Industrial Estimating
                 </p>
               </Link>
-              <Link href="/trades/residential">
+              <Link href="/our-trades/residential-estimating-services">
                 <p className="border rounded-3xl mt-1 p-1 hover:bg-red text-center hover:text-white cursor-pointer text-[16px] font-poppins font-semibold w-[50%]">
                   Residential Estimating
                 </p>
@@ -164,7 +164,7 @@ function TradeMap() {
             </div>
           </div>
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1  ">
           <TradeSlider />
         </div>
       </div>

@@ -27,7 +27,7 @@ function LandText() {
         Our Range Of Landscaping Takeoff Services
       </h2>
       <p className="w-[90%] mx-auto text-[22px] font-poppins font-normal mt-3">
-      <span className=" text-red">Veterans Estimators</span> estimating is a professional platform with the
+      <span className=" text-red">Veterans Estimators</span> is a professional platform with the
         appropriate tools to deliver the following range of Landscaping takeoff
         services.
       </p>

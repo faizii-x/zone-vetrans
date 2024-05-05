@@ -56,7 +56,7 @@ function Footer() {
                 {" "}
                 <p className="text-[14px]">+1 917 300 1079</p>
               </a>
-            </div>
+            </div>     
             <div className="flex justify-start gap-2 mt-5">
               <Image className=" w-[15px] h-[15px] mt-[2px]" src={Message} />
               <a
@@ -81,7 +81,7 @@ function Footer() {
               >
                 <Image className="w-[20px] h-[20px]" src={Faceboook} />
               </a>
-              <a href="linkedin.com/company/veteransestimators" target="_blank">
+              <a href="https://www.linkedin.com/company/veteransestimators/" target="_blank">
                 <Image className="w-[20px] h-[20px]" src={Linked} />
               </a>
             </div>

@@ -13,7 +13,7 @@ function InteriorText() {
             <h5 className="text-white text-[24px] font-poppins font-semibold">
               Flooring Takeoff Services
             </h5>
-            <Link href="/trades/interior/flooring">
+            <Link href="/our-trades/interior-exterior-finishes/flooring-takeoff-services">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -42,7 +42,7 @@ function InteriorText() {
             <h5 className="text-white text-[24px] font-poppins font-semibold">
               Drywall Takeoff Services
             </h5>
-            <Link href="/trades/interior/drywall">
+            <Link href="/our-trades/interior-exterior-finishes/drywall-estimating-services">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

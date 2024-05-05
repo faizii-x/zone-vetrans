@@ -5,7 +5,7 @@ import { useState } from "react";
 import Example from "./example";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { FILTER_ARRAY } from "@/data";
+// import { FILTER_ARRAY } from "@/data";
 
 function Navbar() {
   const pathname = usePathname();
@@ -14,6 +14,11 @@ function Navbar() {
   const handleOnClose = () => setOpen(false);
 
   const [isHovered, setIsHovered] = useState(false);
+  const [isHoverTwo, setIsHoverTwo] = useState(false);
+  const [isHoverThree, setIsHoverThree] = useState(false);
+  const [isHoverFour, setIsHoverFour] = useState(false);
+  const [isHoverFive, setIsHoverFive] = useState(false);
+  const [isHoverSix, setIsHoverSix] = useState(false);
   const [isShow, setIsShow] = useState(false);
   const [input, setInput] = useState("");
 
@@ -30,20 +35,46 @@ function Navbar() {
   const handleLeave = () => {
     setIsShow(false);
   };
+  const handleMouseEnterTwo = () => {
+    setIsHoverTwo(true);
+  };
+  const handleMouseLeaveTwo = () => {
+    setIsHoverTwo(false);
+  };
+  const handleMouseEnterThree = () => {
+    setIsHoverThree(true);
+  };
+  const handleMouseLeaveThree = () => {
+    setIsHoverThree(false);
+  };
 
+  const handleMouseEnterFour = () => {
+    setIsHoverFour(true);
+  };
+  const handleMouseLeaveFour = () => {
+    setIsHoverFour(false);
+  };
+  const handleMouseEnterFive = () => {
+    setIsHoverFive(true);
+  };
+  const handleMouseLeaveFive = () => {
+    setIsHoverFive(false);
+  };
+  const handleMouseEnterSix = () => {
+    setIsHoverSix(true);
+  };
+  const handleMouseLeaveSix = () => {
+    setIsHoverSix(false);
+  };
+
+
+ 
   // const filterLinks = () => {
   //   const filterArray = FILTER_ARRAY.filter((x) =>
   //     x.title.toLowerCase().includes(input.toLowerCase())
   //   );
-  //   return filterArray;
+  //   return filterArray.flatMap((x) => [...(x.subTrades || []), x]);
   // };
-
-  const filterLinks = () => {
-    const filterArray = FILTER_ARRAY.filter((x) =>
-      x.title.toLowerCase().includes(input.toLowerCase())
-    );
-    return filterArray.flatMap((x) => [...(x.subTrades || []), x]);
-  };
 
   return (
     <>
@@ -84,9 +115,9 @@ function Navbar() {
                 onMouseLeave={handleMouseLeave}
               >
                 <div className="flex justify-start gap-1 cursor-pointer">
-                  <Link href="/trades">
+                  <Link href="/our-trades">
                     <h2 className="text-[16px] text-white font-poppins font-normal ">
-                      {pathname === "/trades" ? (
+                      {pathname === "/our-trades" ? (
                         <div className=" text-red">Trades</div>
                       ) : (
                         "Trades"
@@ -109,7 +140,7 @@ function Navbar() {
                   </svg>
                 </div>
 
-                {isHovered && (
+                {/* {isHovered && (
                   <div className=" absolute bg-gray-200 rounded-md shadow-lg p-6 mt-2">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[690px] ">
                       {filterLinks().map((x) => (
@@ -130,12 +161,375 @@ function Navbar() {
                       ))}
                     </div>
                   </div>
-                )}
+                )} */}
+
+{isHovered && (
+                        <div className="absolute bg-[#212121] rounded-md shadow-lg p-8 w-[910px] mt-1 z-10">
+                          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 divide-x ">
+                            <div className="col-span-1 ">
+                              <Link href="/our-trades/general-requirements/">
+                                <h2 className="text-[14px] text-white font-normal cursor-pointer hover:text-[15px] hover:font-semibold hover:text-[#15A7AD]">
+                                  General Requirements
+                                </h2>
+                              </Link>
+
+                              <div
+                                className="relative"
+                                onMouseEnter={handleMouseEnterTwo}
+                                onMouseLeave={handleMouseLeaveTwo}
+                              >
+                                <div className="flex justify-start gap-1 cursor-pointer">
+                                  <Link
+                                    href="/our-trades/sitework-estimating-services/"
+                                    className="fonty text-white hover:text-[15px] hover:font-semibold font-inter text-[14px] font-normal mt-4 hover:text-[#15A7AD] cursor-pointer"
+                                  >
+                                    {pathname ===
+                                    "/our-trades/sitework-estimating-services/" ? (
+                                      <div className="text-[#15A7AD]">
+                                        Sitework
+                                      </div>
+                                    ) : (
+                                      "Sitework"
+                                    )}
+                                  </Link>
+
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    strokeWidth="1.5"
+                                    stroke="currentColor"
+                                    class="w-4 h-4 text-white mt-[20px]"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                                    />
+                                  </svg>
+                                </div>
+
+                                {isHoverTwo && (
+                                  <>
+                                    <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[45px] z-[999px]">
+                                      <Link href="/our-trades/landscape-estimating-services/">
+                                        <li className="text-[14px] hover:font-bold font-normal hover:text-[#15A7AD]">
+                                          Landscaping Estimating
+                                        </li>
+                                      </Link>
+                                    </div>
+                                  </>
+                                )}
+                              </div>
+
+                              <Link href="/our-trades/concrete-estimating-services/">
+                                <h2 className="text-[14px] text-white font-normal hover:text-[15px] hover:font-semibold mt-3 cursor-pointer hover:text-[#15A7AD]">
+                                  Concrete
+                                </h2>
+                              </Link>
+                              <Link href="/our-trades/masonry-estimating-services/">
+                                <h2 className="text-[14px] text-white font-normal hover:text-[15px] hover:font-semibold mt-3 cursor-pointer hover:text-[#15A7AD]">
+                                  Masonry
+                                </h2>
+                              </Link>
+                            </div>
+                            <div className="col-span-1 pl-6">
+                              <div
+                                className="relative"
+                                onMouseEnter={handleMouseEnterThree}
+                                onMouseLeave={handleMouseLeaveThree}
+                              >
+                                <div className="flex justify-start gap-1 cursor-pointer">
+                                  <Link
+                                    href="/our-trades/metals-estimating-services/"
+                                    className="fonty hover:text-[15px] hover:font-semibold text-white font-inter text-[14px] font-normal hover:text-[#15A7AD] cursor-pointer"
+                                  >
+                                    {pathname ===
+                                    "/our-trades/metals-estimating-services/" ? (
+                                      <div className="text-[#15A7AD]">
+                                        Metals
+                                      </div>
+                                    ) : (
+                                      "Metals"
+                                    )}
+                                  </Link>
+
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    strokeWidth="1.5"
+                                    stroke="currentColor"
+                                    class="w-4 h-4 text-white mt-[4px]"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                                    />
+                                  </svg>
+                                </div>
+
+                                {isHoverThree && (
+                                  <>
+                                    <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[45px] z-[999px]">
+                                      <Link href="/our-trades/rebar-estimating-services/">
+                                        <li className="text-[14px] hover:font-bold font-normal hover:text-[#15A7AD]">
+                                          Rebar Estimating Services
+                                        </li>
+                                      </Link>
+                                    </div>
+                                  </>
+                                )}
+                              </div>
+
+                              <Link href="/our-trades/lumber-takeoff-services/">
+                                <h2 className="text-[14px] text-white font-normal hover:text-[15px] hover:font-semibold mt-3 cursor-pointer hover:text-[#15A7AD]">
+                                  Lumber Takeoff
+                                </h2>
+                              </Link>
+
+                              <div
+                                className="relative"
+                                onMouseEnter={handleMouseEnterFive}
+                                onMouseLeave={handleMouseLeaveFive}
+                              >
+                                <div className="grid justify-start gap-0 cursor-pointer">
+                                  <Link
+                                    href="/our-trades/thermal-moisture-protection-estimating-services/"
+                                    className="fonty hover:text-[15px] hover:font-semibold text-white font-inter text-[14px] mt-3 font-normal hover:text-[#15A7AD] cursor-pointer"
+                                  >
+                                    {pathname ===
+                                    "/our-trades/thermal-moisture-protection-estimating-services/" ? (
+                                      <div className="text-[#15A7AD]">
+                                        Thermal and Moisture Protection
+                                      </div>
+                                    ) : (
+                                      "Thermal and Moisture Protection"
+                                    )}
+                                  </Link>
+
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    strokeWidth="1.5"
+                                    stroke="currentColor"
+                                    class="w-4 h-4 text-white mx-auto"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                                    />
+                                  </svg>
+                                </div>
+
+                                {isHoverFive && (
+                                  <>
+                                    <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[65px] z-[999px]">
+                                      <Link href="/our-trades/roofing-estimating-services/">
+                                        <li className="text-[14px] hover:font-bold font-normal hover:text-[#15A7AD]">
+                                          Roofing
+                                        </li>
+                                      </Link>
+                                      <Link href="/our-trades/insulation-estimating-services/">
+                                        <li className="text-[14px] hover:font-bold font-normal mt-1 hover:text-[#15A7AD]">
+                                          Insulation
+                                        </li>
+                                      </Link>
+                                    </div>
+                                  </>
+                                )}
+                              </div>
+
+                              <Link href="/our-trades/framing-estimating-services/">
+                                <h2 className="text-[14px] text-white font-normal hover:text-[15px] hover:font-semibold mt-3 cursor-pointer hover:text-[#15A7AD]">
+                                  Framing
+                                </h2>
+                              </Link>
+                            </div>
+                            <div className="col-span-1 pl-6">
+                              <div
+                                className="relative"
+                                onMouseEnter={handleMouseEnterFour}
+                                onMouseLeave={handleMouseLeaveFour}
+                              >
+                                <div className="flex justify-start gap-1 cursor-pointer">
+                                  <Link
+                                    href="/our-trades/interior-exterior-finishes/"
+                                    className="fonty hover:text-[15px] hover:font-semibold text-white font-inter text-[14px] font-normal hover:text-[#15A7AD] cursor-pointer"
+                                  >
+                                    {pathname ===
+                                    "/our-trades/interior-exterior-finishes/" ? (
+                                      <div className="text-[#15A7AD]">
+                                        Finishes
+                                      </div>
+                                    ) : (
+                                      "Finishes"
+                                    )}
+                                  </Link>
+
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    strokeWidth="1.5"
+                                    stroke="currentColor"
+                                    class="w-4 h-4 text-white mt-[4px]"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                                    />
+                                  </svg>
+                                </div>
+
+                                {isHoverFour && (
+                                  <>
+                                    <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[65px] z-[999px]">
+                                      <Link href="/our-trades/drywall-estimating-services/">
+                                        <li className="text-[14px] hover:font-bold font-normal hover:text-[#15A7AD]">
+                                          Drywall Estimating
+                                        </li>
+                                      </Link>
+                                      <Link href="/our-trades/flooring-estimating-services/">
+                                        <li className="text-[14px] hover:font-bold mt-1 font-normal hover:text-[#15A7AD]">
+                                          Flooring Estimating
+                                        </li>
+                                      </Link>
+                                    </div>
+                                  </>
+                                )}
+                              </div>
+
+                              <Link href="/our-trades/specialties/">
+                                <h2 className="text-[14px] text-white font-normal hover:text-[15px] hover:font-semibold mt-3 cursor-pointer hover:text-[#15A7AD]">
+                                  Specialties
+                                </h2>
+                              </Link>
+                              <Link href="/our-trades/equipment-estimating-services/">
+                                <h2 className="text-[14px] text-white font-normal hover:text-[15px] hover:font-semibold mt-3 cursor-pointer hover:text-[#15A7AD]">
+                                  Equipment
+                                </h2>
+                              </Link>
+                              <Link href="/our-trades/furnishing-estimating-services/">
+                                <h2 className="text-[14px] text-white font-normal hover:text-[15px] hover:font-semibold mt-3 cursor-pointer hover:text-[#15A7AD]">
+                                  Furnishing
+                                </h2>
+                              </Link>
+                            </div>
+                            <div className="col-span-1 pl-6">
+                              <Link href="/our-trades/special-construction-estimating-services/">
+                                <h2 className="text-[14px] text-white font-normal hover:text-[15px] hover:font-semibold cursor-pointer hover:text-[#15A7AD]">
+                                  Special Construction
+                                </h2>
+                              </Link>
+                              <Link href="/our-trades/conveying-system/">
+                                <h2 className="text-[14px] text-white font-normal hover:text-[15px] hover:font-semibold mt-3 cursor-pointer hover:text-[#15A7AD]">
+                                  Conveying Systems
+                                </h2>
+                              </Link>
+
+                              <div
+                                className="relative"
+                                onMouseEnter={handleMouseEnterSix}
+                                onMouseLeave={handleMouseLeaveSix}
+                              >
+                                <div className="flex justify-start gap-1 cursor-pointer">
+                                  <Link
+                                    href=""
+                                    className="fonty hover:text-[15px] mt-3 hover:font-semibold text-white font-inter text-[14px] font-normal hover:text-[#15A7AD] cursor-pointer"
+                                  >
+                                    {pathname === "" ? (
+                                      <div className="text-[#15A7AD]">MEP</div>
+                                    ) : (
+                                      "MEP"
+                                    )}
+                                  </Link>
+
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    strokeWidth="1.5"
+                                    stroke="currentColor"
+                                    class="w-4 h-4 text-white mt-[15px]"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                                    />
+                                  </svg>
+                                </div>
+
+                                {isHoverSix && (
+                                  <>
+                                    <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[135px] z-[999px]">
+                                      <Link href="/our-trades/mechanical-estimating-services/">
+                                        <li className="text-[14px] hover:font-bold font-normal hover:text-[#15A7AD]">
+                                          Mechanical
+                                        </li>
+                                      </Link>
+
+                                      <Link href="/our-trades/electrical-estimating-services/">
+                                        <li className="text-[14px] hover:font-bold mt-2 font-normal hover:text-[#15A7AD]">
+                                          Electrical
+                                        </li>
+                                      </Link>
+
+                                      <Link href="/our-trades/mep-estimating-services/plumbing-estimating-services/">
+                                        <li className="text-[14px] hover:font-bold mt-2 font-normal hover:text-[#15A7AD]">
+                                          Plumbing
+                                        </li>
+                                      </Link>
+
+                                      <Link href="/our-trades/mep-estimating-services/gutter-estimating-services/">
+                                        <li className="text-[14px] hover:font-bold mt-2 font-normal hover:text-[#15A7AD]">
+                                          Gutter
+                                        </li>
+                                      </Link>
+                                    </div>
+                                  </>
+                                )}
+                              </div>
+                            </div>
+                            <div className="col-span-1 pl-6">
+                              <Link href="/our-trades/hvac-estimating-services/">
+                                <h2 className="text-[14px] text-white font-normal hover:text-[15px] hover:font-semibold cursor-pointer hover:text-[#15A7AD]">
+                                  HVAC
+                                </h2>
+                              </Link>
+                              <Link href="/our-trades/commercial-estimating-services/">
+                                <h2 className="text-[14px] text-white font-normal hover:text-[15px] hover:font-semibold mt-3 cursor-pointer hover:text-[#15A7AD]">
+                                  Commercial Estimating
+                                </h2>
+                              </Link>
+                              <Link href="/our-trades/industrial-estimating-services/">
+                                <h2 className="text-[14px] text-white font-normal hover:text-[15px] hover:font-semibold mt-3 cursor-pointer hover:text-[#15A7AD]">
+                                  Industrial Estimating
+                                </h2>
+                              </Link>
+                              <Link href="/our-trades/residential-estimating-services/">
+                                <h2 className="text-[14px] text-white font-normal hover:text-[15px] hover:font-semibold mt-3 cursor-pointer hover:text-[#15A7AD]">
+                                  Residential Estimating
+                                </h2>
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+
+
+
+
               </div>
-              <Link href="/about">
+              <Link href="/about-us">
                 <div className="flex justify-start gap-1">
                   <h2 className="text-[16px] text-white font-poppins font-normal ">
-                    {pathname === "/about" ? (
+                    {pathname === "/about-us" ? (
                       <div className=" text-red">About Us</div>
                     ) : (
                       "About Us"
@@ -164,9 +558,9 @@ function Navbar() {
                 </h2>
               </Link>
 
-              <Link href="/estimation">
+              <Link href="/estimating-fee">
                 <h2 className="text-[16px] text-white font-poppins font-normal ">
-                  {pathname === "/estimation" ? (
+                  {pathname === "/estimating-fee" ? (
                     <div className=" text-red"> Estimating fee</div>
                   ) : (
                     " Estimating fee"
@@ -174,9 +568,9 @@ function Navbar() {
                 </h2>
               </Link>
 
-              <Link href="/contact">
+              <Link href="/contact-us">
                 <h2 className="text-[16px] text-white font-poppins font-normal ">
-                  {pathname === "/contact" ? (
+                  {pathname === "/contact-us" ? (
                     <div className=" text-red"> Contact Us</div>
                   ) : (
                     " Contact Us"

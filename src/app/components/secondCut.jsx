@@ -13,7 +13,7 @@ function SecondCut() {
             <h5 className="text-white text-[24px] font-poppins font-semibold">
               Mechanical Estimating Services
             </h5>
-            <Link href="/trades/mechanical">
+            <Link href="/our-trades/mechanical-estimating-services">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -42,7 +42,7 @@ function SecondCut() {
             <h5 className="text-white text-[24px] font-poppins font-semibold">
               Gutter Estimating Services
             </h5>
-            <Link href="/trades/mep/gutter">
+            <Link href="/our-trades/mep-estimating-services/gutter-estimating-services">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
