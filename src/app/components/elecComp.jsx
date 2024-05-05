@@ -19,14 +19,14 @@ function ElecComp() {
             constructions, eco-friendly homes, smart houses, and more.
           </p>
         </div>
-        <div className="col-span-1 md:col-span-2 lg:col-span-1 mx-auto">
+        <div className="col-span-1 md:col-span-2 lg:col-span-1 mx-auto self-center">
           <Image className="mx-auto" src={Elec2} />
         </div>
       </div>
       {/* ...................................... */}
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-6 gap-6 w-[90%] mx-auto">
-        <div className="col-span-1 md:col-span-2 lg:col-span-1 mx-auto">
+        <div className="col-span-1 md:col-span-2 lg:col-span-1 mx-auto self-center">
           <Image className="mx-auto" src={Elec3} />
         </div>
         <div className="col-span-2 ">
