@@ -211,7 +211,7 @@ function Navbar() {
                           {isHoverTwo && (
                             <>
                               <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[45px] z-[999px]">
-                                <Link href="/our-trades/landscape-estimating-services/">
+                                <Link href="/our-trades/sitework-estimating-services/landscape-estimating-services/">
                                   <li className="text-[14px] hover:font-bold font-normal hover:text-red">
                                     Landscaping Estimating
                                   </li>
@@ -269,8 +269,8 @@ function Navbar() {
 
                           {isHoverThree && (
                             <>
-                              <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[45px] z-[999px]">
-                                <Link href="/our-trades/rebar-estimating-services/">
+                              <div className="bg-white p-3 mt-3 rounded-md w-[260px] h-[45px] z-[999px]">
+                                <Link href="/our-trades/metals-estimating-services/rebar-estimating-services/">
                                   <li className="text-[14px] hover:font-bold font-normal hover:text-red">
                                     Rebar Estimating Services
                                   </li>
@@ -384,12 +384,12 @@ function Navbar() {
                           {isHoverFour && (
                             <>
                               <div className="bg-white p-3 mt-3 rounded-md w-[220px] h-[65px] z-[999px]">
-                                <Link href="/our-trades/drywall-estimating-services/">
+                                <Link href="/our-trades/interior-exterior-finishes/drywall-estimating-services/">
                                   <li className="text-[14px] hover:font-bold font-normal hover:text-red">
                                     Drywall Estimating
                                   </li>
                                 </Link>
-                                <Link href="/our-trades/flooring-estimating-services/">
+                                <Link href="/our-trades/interior-exterior-finishes/flooring-estimating-services/">
                                   <li className="text-[14px] hover:font-bold mt-1 font-normal hover:text-red">
                                     Flooring Estimating
                                   </li>
@@ -421,7 +421,7 @@ function Navbar() {
                             Special Construction
                           </h2>
                         </Link>
-                        <Link href="/our-trades/conveying-system/">
+                        <Link href="/our-trades/conveying-systems/">
                           <h2 className="text-[14px] text-white font-normal hover:text-[15px] hover:font-semibold mt-3 cursor-pointer hover:text-red">
                             Conveying Systems
                           </h2>
@@ -434,7 +434,7 @@ function Navbar() {
                         >
                           <div className="flex justify-start gap-1 cursor-pointer">
                             <Link
-                              href=""
+                              href="/our-trades/mep-estimating-services"
                               className="fonty hover:text-[15px] mt-3 hover:font-semibold text-white font-inter text-[14px] font-normal hover:text-red cursor-pointer"
                             >
                               {pathname === "" ? (
